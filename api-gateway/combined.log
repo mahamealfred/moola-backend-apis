@@ -7271,3 +7271,6 @@
 {"level":"info","message":"Received GET request to /v1/auth/find/Tcptest1","service":"api-gateway","timestamp":"2025-08-17T10:29:01.863Z"}
 {"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-08-17T10:29:01.864Z"}
 {"level":"info","message":"Response received from Identity service: 400","service":"api-gateway","timestamp":"2025-08-17T10:29:03.616Z"}
+{"level":"info","message":"Received POST request to /v1/auth/agents/register","service":"api-gateway","timestamp":"2025-08-17T10:31:11.202Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-08-17T10:31:11.203Z"}
+{"level":"info","message":"Response received from Identity service: 400","service":"api-gateway","timestamp":"2025-08-17T10:31:11.981Z"}
