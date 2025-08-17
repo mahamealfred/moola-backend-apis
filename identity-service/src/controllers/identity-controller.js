@@ -1,8 +1,8 @@
 import axios from "axios";
 import logger from "../utils/logger.js";
 import generateTokens from "../utils/generateToken.js";
-import { validatelogin, validateRegistration } from "../utils/validation.js";
-import { registerService } from "../services/register-service.js";
+import { validateAgentRegistration, validatelogin, validateRegistration } from "../utils/validation.js";
+import { agentRegistrationService, clientRegistrationService} from "../services/register-service.js";
 import { loginService } from "../services/login-service.js";
 import RefreshToken from "../models/RefreshToken.js";
 import jwt from "jsonwebtoken";
@@ -25,11 +25,38 @@ const resgiterUser = async (req, res) => {
         }
         const { email, password, username, firstName, lastName, identity, phoneNumber } = req.body;
 
-        await registerService(req, res, email, password, username, firstName, lastName, identity, phoneNumber)
+        await clientRegistrationService(req, res, email, password, username, firstName, lastName, identity, phoneNumber)
 
 
     } catch (e) {
         logger.error("Registration error occured", e);
+        res.status(500).json({
+            success: false,
+            message: "Internal server error",
+        });
+    }
+};
+
+//user registration
+const registerAgent = async (req, res) => {
+    logger.info("Registration endpoint hit...");
+    try {
+        //validate the schema
+        const { error } = validateAgentRegistration(req.body);
+        if (error) {
+            logger.warn("Validation error", error.details[0].message);
+            return res.status(400).json({
+                success: false,
+                message: error.details[0].message,
+            });
+        }
+        const { email,password,username,firstName,lastName,phoneNumber,area,district,sector,cell,agentCategory } = req.body;
+
+        await agentRegistrationService(req,res,email,password,username,firstName,lastName,phoneNumber,area,district,sector,cell,agentCategory)
+
+
+    } catch (e) {
+        logger.error("Registration error occured:", e);
         res.status(500).json({
             success: false,
             message: "Internal server error",
@@ -253,4 +280,4 @@ const logoutUser = async (req, res) => {
     }
 };
 
-export { resgiterUser, loginUser, refreshTokenUser, logoutUser, findUser }
+export { resgiterUser, loginUser, refreshTokenUser, logoutUser, findUser,registerAgent }

@@ -19,3 +19,8 @@
 {"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-08-03T20:22:00.506Z"}
 {"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-08-03T20:22:48.340Z"}
 {"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-08-05T09:25:03.430Z"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-08-17T09:32:09.856Z"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-08-17T09:32:09.864Z"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-08-17T09:38:39.451Z"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-08-17T09:38:39.455Z"}
+{"level":"error","message":"Proxy error: read ECONNRESET","service":"api-gateway","timestamp":"2025-08-17T09:39:39.332Z"}

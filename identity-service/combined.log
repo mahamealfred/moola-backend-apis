@@ -3820,3 +3820,249 @@
 {"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-14T00:05:53.521Z"}
 {"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-08-14T00:05:53.528Z"}
 {"level":"warn","message":"Successfully logged","service":"identity-service","timestamp":"2025-08-14T00:05:54.275Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-14T00:42:28.176Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-14T10:36:02.500Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-14T10:43:40.190Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-14T10:50:58.037Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-14T11:19:38.381Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T07:15:54.568Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:01:08.849Z"}
+{"level":"info","message":"Received POST request to /api/auth/login","service":"identity-service","timestamp":"2025-08-17T08:17:20.263Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T08:17:20.265Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-08-17T08:17:20.537Z"}
+{"level":"warn","message":"Successfully logged","service":"identity-service","timestamp":"2025-08-17T08:17:21.449Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:30:55.233Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:31:08.256Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:31:16.110Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:31:19.913Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:36:57.494Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:38:00.087Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:38:01.450Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:39:26.767Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:39:37.562Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:39:45.729Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:45:23.059Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:45:25.240Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:45:38.659Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:45:39.670Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:45:57.172Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:46:01.663Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:46:06.361Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:46:53.586Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:47:09.175Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:47:13.035Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:47:14.230Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:47:18.533Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:47:21.411Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:47:22.928Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:47:26.679Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:47:29.849Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:47:31.551Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:48:04.599Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:49:20.958Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:49:33.806Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:49:52.651Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:50:39.117Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:50:42.634Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:50:50.121Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:50:55.685Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:50:58.086Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:50:59.835Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:51:02.769Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:51:21.365Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:51:35.736Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:51:41.928Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:51:44.158Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:51:45.309Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:51:57.549Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:52:13.734Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:52:16.470Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:53:41.469Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T08:53:52.779Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:02:10.459Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:02:12.058Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:07:54.503Z"}
+{"level":"info","message":"Received POST request to /api/auth/agent/registe","service":"identity-service","timestamp":"2025-08-17T09:08:43.709Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T09:08:43.710Z"}
+{"level":"info","message":"Received POST request to /api/auth/agent/register","service":"identity-service","timestamp":"2025-08-17T09:08:49.828Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T09:08:49.830Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:09:50.026Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:09:52.602Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:10:22.930Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:10:26.518Z"}
+{"level":"info","message":"Received POST request to /api/auth/agent/register","service":"identity-service","timestamp":"2025-08-17T09:10:52.209Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T09:10:52.210Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:12:29.231Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:12:42.689Z"}
+{"level":"info","message":"Received POST request to /api/auth/agent/register","service":"identity-service","timestamp":"2025-08-17T09:12:48.146Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T09:12:48.147Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:13:05.378Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:13:35.263Z"}
+{"level":"info","message":"Received POST request to /api/auth/agent/register","service":"identity-service","timestamp":"2025-08-17T09:13:39.245Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T09:13:39.246Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-17T09:13:39.249Z"}
+{"0":"P","1":"h","10":"e","11":"r","12":" ","13":"m","14":"u","15":"s","16":"t","17":" ","18":"b","19":"e","2":"o","20":" ","21":"e","22":"x","23":"a","24":"c","25":"t","26":"l","27":"y","28":" ","29":"1","3":"n","30":"2","31":" ","32":"d","33":"i","34":"g","35":"i","36":"t","37":"s","4":"e","5":" ","6":"n","7":"u","8":"m","9":"b","level":"warn","message":"Validation error","service":"identity-service","timestamp":"2025-08-17T09:13:39.292Z"}
+{"level":"info","message":"Received POST request to /api/auth/agent/register","service":"identity-service","timestamp":"2025-08-17T09:13:49.332Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T09:13:49.334Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-17T09:13:49.338Z"}
+{"level":"error","message":"Error while saving in Cyclos:","service":"identity-service","timestamp":"2025-08-17T09:13:50.208Z"}
+{"level":"error","message":"Failed to parse SOAP error response: res.status is not a function","service":"identity-service","stack":"TypeError: res.status is not a function\n    at agentRegistrationService (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/services/register-service.js:161:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async registerAgent (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/controllers/identity-controller.js:55:9)","timestamp":"2025-08-17T09:13:50.211Z"}
+{"level":"error","message":"Registration error occured res.status is not a function","service":"identity-service","stack":"TypeError: res.status is not a function\n    at agentRegistrationService (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/services/register-service.js:167:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async registerAgent (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/controllers/identity-controller.js:55:9)","timestamp":"2025-08-17T09:13:50.213Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:27:27.372Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:28:42.841Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:29:15.609Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:29:28.717Z"}
+{"level":"info","message":"Received POST request to /api/auth/agent/register","service":"identity-service","timestamp":"2025-08-17T09:29:51.668Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T09:29:51.669Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-17T09:29:51.673Z"}
+{"level":"info","message":"Received POST request to /api/auth/agent/register","service":"identity-service","timestamp":"2025-08-17T09:31:31.448Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T09:31:31.448Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-17T09:31:31.450Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:32:11.055Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:32:19.632Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:32:22.518Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:32:31.191Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:32:36.531Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:32:41.330Z"}
+{"level":"info","message":"Received POST request to /api/auth/agent/register","service":"identity-service","timestamp":"2025-08-17T09:32:46.121Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T09:32:46.122Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-17T09:32:46.124Z"}
+{"level":"info","message":"Received POST request to /api/auth/agent/register","service":"identity-service","timestamp":"2025-08-17T09:36:39.110Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T09:36:39.111Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-17T09:36:39.113Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:38:52.983Z"}
+{"level":"info","message":"Received POST request to /api/auth/agent/register","service":"identity-service","timestamp":"2025-08-17T09:39:18.673Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T09:39:18.675Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-17T09:39:18.686Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:39:40.561Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:39:49.084Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:39:53.783Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:39:54.910Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:39:57.105Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:39:59.969Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:40:19.860Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:40:29.154Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:40:38.809Z"}
+{"level":"info","message":"Received POST request to /api/auth/agent/register","service":"identity-service","timestamp":"2025-08-17T09:40:43.644Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T09:40:43.645Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-17T09:40:43.650Z"}
+{"level":"error","message":"Error while saving in Cyclos:","service":"identity-service","timestamp":"2025-08-17T09:40:44.445Z"}
+{"level":"error","message":"Failed to parse SOAP error response: res.status is not a function","service":"identity-service","stack":"TypeError: res.status is not a function\n    at agentRegistrationService (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/services/register-service.js:98:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async registerAgent (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/controllers/identity-controller.js:55:9)","timestamp":"2025-08-17T09:40:44.447Z"}
+{"level":"error","message":"Registration error occured res.status is not a function","service":"identity-service","stack":"TypeError: res.status is not a function\n    at agentRegistrationService (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/services/register-service.js:104:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async registerAgent (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/controllers/identity-controller.js:55:9)","timestamp":"2025-08-17T09:40:44.448Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-17T09:42:24.756Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T09:42:24.758Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-17T09:42:24.764Z"}
+{"0":"\"","1":"i","10":" ","11":"i","12":"s","13":" ","14":"r","15":"e","16":"q","17":"u","18":"i","19":"r","2":"d","20":"e","21":"d","3":"e","4":"n","5":"t","6":"i","7":"t","8":"y","9":"\"","level":"warn","message":"Validation error","service":"identity-service","timestamp":"2025-08-17T09:42:24.771Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-17T09:42:41.129Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T09:42:41.130Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-17T09:42:41.134Z"}
+{"0":"\"","1":"a","10":"n","11":"o","12":"t","13":" ","14":"a","15":"l","16":"l","17":"o","18":"w","19":"e","2":"r","20":"d","3":"e","4":"a","5":"\"","6":" ","7":"i","8":"s","9":" ","level":"warn","message":"Validation error","service":"identity-service","timestamp":"2025-08-17T09:42:41.140Z"}
+{"level":"info","message":"Received POST request to /api/auth/agent/register","service":"identity-service","timestamp":"2025-08-17T09:43:11.926Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T09:43:11.927Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-17T09:43:11.930Z"}
+{"level":"error","message":"Error while saving in Cyclos:","service":"identity-service","timestamp":"2025-08-17T09:43:12.609Z"}
+{"level":"error","message":"Failed to parse SOAP error response: res.status is not a function","service":"identity-service","stack":"TypeError: res.status is not a function\n    at agentRegistrationService (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/services/register-service.js:98:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async registerAgent (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/controllers/identity-controller.js:55:9)","timestamp":"2025-08-17T09:43:12.610Z"}
+{"level":"error","message":"Registration error occured res.status is not a function","service":"identity-service","stack":"TypeError: res.status is not a function\n    at agentRegistrationService (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/services/register-service.js:104:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async registerAgent (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/controllers/identity-controller.js:55:9)","timestamp":"2025-08-17T09:43:12.612Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:43:44.040Z"}
+{"level":"info","message":"Received POST request to /api/auth/agent/register","service":"identity-service","timestamp":"2025-08-17T09:43:46.950Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T09:43:46.951Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-17T09:43:46.954Z"}
+{"level":"error","message":"Error while saving in Cyclos:","service":"identity-service","timestamp":"2025-08-17T09:43:47.765Z"}
+{"level":"error","message":"Failed to parse SOAP error response: res.status is not a function","service":"identity-service","stack":"TypeError: res.status is not a function\n    at agentRegistrationService (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/services/register-service.js:98:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async registerAgent (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/controllers/identity-controller.js:55:9)","timestamp":"2025-08-17T09:43:47.767Z"}
+{"level":"error","message":"Registration error occured","service":"identity-service","timestamp":"2025-08-17T09:43:47.769Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:44:19.249Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:44:20.613Z"}
+{"level":"info","message":"Received POST request to /api/auth/agent/register","service":"identity-service","timestamp":"2025-08-17T09:44:23.734Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T09:44:23.735Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-17T09:44:23.739Z"}
+{"level":"error","message":"Error while saving in Cyclos:","service":"identity-service","timestamp":"2025-08-17T09:44:24.507Z"}
+{"level":"error","message":"Failed to parse SOAP error response: res.status is not a function","service":"identity-service","stack":"TypeError: res.status is not a function\n    at agentRegistrationService (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/services/register-service.js:98:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async registerAgent (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/controllers/identity-controller.js:55:9)","timestamp":"2025-08-17T09:44:24.509Z"}
+{"level":"error","message":"TypeError: Cannot read properties of undefined (reading 'message')\n    at registerAgent (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/controllers/identity-controller.js:59:63)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","service":"identity-service","timestamp":"2025-08-17T09:44:24.513Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:44:36.478Z"}
+{"level":"info","message":"Received POST request to /api/auth/agent/register","service":"identity-service","timestamp":"2025-08-17T09:44:39.263Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T09:44:39.264Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-17T09:44:39.268Z"}
+{"level":"error","message":"Error while saving in Cyclos:","service":"identity-service","timestamp":"2025-08-17T09:44:40.069Z"}
+{"level":"error","message":"Failed to parse SOAP error response: res.status is not a function","service":"identity-service","stack":"TypeError: res.status is not a function\n    at agentRegistrationService (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/services/register-service.js:98:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async registerAgent (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/controllers/identity-controller.js:55:9)","timestamp":"2025-08-17T09:44:40.071Z"}
+{"level":"error","message":"TypeError: Cannot read properties of undefined (reading 'data')\n    at registerAgent (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/controllers/identity-controller.js:59:63)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","service":"identity-service","timestamp":"2025-08-17T09:44:40.073Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:44:49.628Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:44:53.953Z"}
+{"level":"info","message":"Received POST request to /api/auth/agent/register","service":"identity-service","timestamp":"2025-08-17T09:44:58.719Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T09:44:58.720Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-17T09:44:58.724Z"}
+{"level":"error","message":"Error while saving in Cyclos:","service":"identity-service","timestamp":"2025-08-17T09:44:59.549Z"}
+{"level":"error","message":"Failed to parse SOAP error response: res.status is not a function","service":"identity-service","stack":"TypeError: res.status is not a function\n    at agentRegistrationService (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/services/register-service.js:98:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async registerAgent (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/controllers/identity-controller.js:55:9)","timestamp":"2025-08-17T09:44:59.551Z"}
+{"level":"error","message":"Registration error occured:","service":"identity-service","timestamp":"2025-08-17T09:44:59.553Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:45:16.450Z"}
+{"level":"info","message":"Received POST request to /api/auth/agent/register","service":"identity-service","timestamp":"2025-08-17T09:45:18.476Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T09:45:18.477Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-17T09:45:18.484Z"}
+{"level":"error","message":"Error while saving in Cyclos:","service":"identity-service","timestamp":"2025-08-17T09:45:19.290Z"}
+{"level":"error","message":"Failed to parse SOAP error response: res.status is not a function","service":"identity-service","stack":"TypeError: res.status is not a function\n    at agentRegistrationService (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/services/register-service.js:98:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async registerAgent (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/controllers/identity-controller.js:55:9)","timestamp":"2025-08-17T09:45:19.293Z"}
+{"level":"error","message":"Registration error occured: res.status is not a function","service":"identity-service","stack":"TypeError: res.status is not a function\n    at agentRegistrationService (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/services/register-service.js:104:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async registerAgent (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/controllers/identity-controller.js:55:9)","timestamp":"2025-08-17T09:45:19.295Z"}
+{"level":"info","message":"Received POST request to /api/auth/agent/register","service":"identity-service","timestamp":"2025-08-17T09:54:56.768Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T09:54:56.768Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-17T09:54:56.770Z"}
+{"level":"error","message":"Error while saving in Cyclos:","service":"identity-service","timestamp":"2025-08-17T09:54:57.549Z"}
+{"level":"error","message":"Failed to parse SOAP error response: res.status is not a function","service":"identity-service","stack":"TypeError: res.status is not a function\n    at agentRegistrationService (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/services/register-service.js:98:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async registerAgent (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/controllers/identity-controller.js:55:9)","timestamp":"2025-08-17T09:54:57.550Z"}
+{"level":"error","message":"Registration error occured: res.status is not a function","service":"identity-service","stack":"TypeError: res.status is not a function\n    at agentRegistrationService (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/services/register-service.js:104:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async registerAgent (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/controllers/identity-controller.js:55:9)","timestamp":"2025-08-17T09:54:57.551Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-17T09:56:05.228Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T09:56:05.229Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-17T09:56:05.233Z"}
+{"level":"error","message":"Error while saving in Cyclos:","service":"identity-service","timestamp":"2025-08-17T09:56:05.943Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T09:57:42.281Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T10:03:39.923Z"}
+{"level":"info","message":"Received POST request to /api/auth/register","service":"identity-service","timestamp":"2025-08-17T10:04:56.619Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T10:04:56.620Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-17T10:04:56.627Z"}
+{"level":"error","message":"Error while saving in Cyclos:","service":"identity-service","timestamp":"2025-08-17T10:04:57.432Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T10:05:51.274Z"}
+{"level":"info","message":"Received POST request to /api/auth/agent/register","service":"identity-service","timestamp":"2025-08-17T10:06:04.707Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T10:06:04.707Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-17T10:06:04.712Z"}
+{"level":"error","message":"Error while saving in Cyclos:","service":"identity-service","timestamp":"2025-08-17T10:06:05.530Z"}
+{"level":"error","message":"Failed to parse SOAP error response: res.status is not a function","service":"identity-service","stack":"TypeError: res.status is not a function\n    at agentRegistrationService (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/services/register-service.js:98:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async registerAgent (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/controllers/identity-controller.js:55:9)","timestamp":"2025-08-17T10:06:05.532Z"}
+{"level":"error","message":"Registration error occured: res.status is not a function","service":"identity-service","stack":"TypeError: res.status is not a function\n    at agentRegistrationService (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/services/register-service.js:104:18)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async registerAgent (file:///C:/Users/Bwiza%20Leathitia/OneDrive/Documents/ddin-projects/2025-projects/client-app-micro-service/identity-service/src/controllers/identity-controller.js:55:9)","timestamp":"2025-08-17T10:06:05.534Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T10:06:42.548Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T10:06:46.665Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T10:06:48.297Z"}
+{"level":"info","message":"Received POST request to /api/auth/agent/register","service":"identity-service","timestamp":"2025-08-17T10:07:04.168Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T10:07:04.169Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-17T10:07:04.173Z"}
+{"level":"error","message":"Error while saving in Cyclos:","service":"identity-service","timestamp":"2025-08-17T10:07:05.015Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T10:07:28.658Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T10:07:30.749Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T10:07:33.746Z"}
+{"level":"info","message":"Received POST request to /api/auth/agent/register","service":"identity-service","timestamp":"2025-08-17T10:07:48.277Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T10:07:48.278Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-17T10:07:48.281Z"}
+{"level":"error","message":"Error while saving in Cyclos:","service":"identity-service","timestamp":"2025-08-17T10:07:49.043Z"}
+{"level":"info","message":"Received POST request to /api/auth/agent/register","service":"identity-service","timestamp":"2025-08-17T10:08:17.189Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T10:08:17.190Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-17T10:08:17.193Z"}
+{"level":"error","message":"Error while saving in Cyclos:","service":"identity-service","timestamp":"2025-08-17T10:08:17.908Z"}
+{"level":"info","message":"Received POST request to /api/auth/agent/register","service":"identity-service","timestamp":"2025-08-17T10:08:54.231Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T10:08:54.232Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-17T10:08:54.235Z"}
+{"level":"error","message":"Error while saving in Cyclos:","service":"identity-service","timestamp":"2025-08-17T10:08:54.975Z"}
+{"level":"info","message":"Received POST request to /api/auth/agent/register","service":"identity-service","timestamp":"2025-08-17T10:09:03.840Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T10:09:03.842Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-17T10:09:03.844Z"}
+{"level":"warn","message":"Successfully registered","service":"identity-service","timestamp":"2025-08-17T10:09:04.713Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-08-17T10:18:29.187Z"}
+{"level":"info","message":"Received GET request to /api/auth/find/AlfredMahame","service":"identity-service","timestamp":"2025-08-17T10:19:55.330Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T10:19:55.331Z"}
+{"level":"info","message":"FindUser endpoint hit...","service":"identity-service","timestamp":"2025-08-17T10:19:55.340Z"}
+{"level":"warn","message":"Successfully logged","service":"identity-service","timestamp":"2025-08-17T10:19:56.185Z"}
+{"level":"info","message":"Received GET request to /api/auth/find/Tcptest1","service":"identity-service","timestamp":"2025-08-17T10:20:35.717Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T10:20:35.718Z"}
+{"level":"info","message":"FindUser endpoint hit...","service":"identity-service","timestamp":"2025-08-17T10:20:35.721Z"}
+{"level":"error","message":"Error while saving in Cyclos:","service":"identity-service","timestamp":"2025-08-17T10:20:36.428Z"}
+{"level":"info","message":"Received GET request to /api/auth/find/Tcptest1","service":"identity-service","timestamp":"2025-08-17T10:29:01.869Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T10:29:01.870Z"}
+{"level":"info","message":"FindUser endpoint hit...","service":"identity-service","timestamp":"2025-08-17T10:29:01.874Z"}
+{"level":"error","message":"Error while saving in Cyclos:","service":"identity-service","timestamp":"2025-08-17T10:29:03.612Z"}
+{"level":"info","message":"Received POST request to /api/auth/agents/register","service":"identity-service","timestamp":"2025-08-17T10:31:11.205Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-08-17T10:31:11.206Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"identity-service","timestamp":"2025-08-17T10:31:11.208Z"}
+{"level":"error","message":"Error while saving in Cyclos:","service":"identity-service","timestamp":"2025-08-17T10:31:11.977Z"}

@@ -2794,3 +2794,6 @@
 {"level":"info","message":"Received POST request to /api/agencytest/thirdpartyagency/services/execute/bill-payment","service":"agency-service","timestamp":"2025-08-14T00:06:22.061Z"}
 {"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-08-14T00:06:22.063Z"}
 {"data":{"id":2350,"pending":true},"level":"info","message":"Biller payment response from core system","service":"agency-service","status":200,"timestamp":"2025-08-14T00:06:22.887Z"}
+{"level":"info","message":"Agency Test service running on port 4003","service":"agency-service","timestamp":"2025-08-14T00:42:27.851Z"}
+{"level":"info","message":"Agency Test service running on port 4003","service":"agency-service","timestamp":"2025-08-17T08:01:43.398Z"}
+{"level":"info","message":"Agency Test service running on port 4003","service":"agency-service","timestamp":"2025-08-17T09:35:53.738Z"}
