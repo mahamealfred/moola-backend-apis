@@ -406,6 +406,127 @@ await fdiBillPayamentService(req,
   }
 };
 
+//Get billers
+export const getBillerList = async (req, res) => {
+  try {
+    const { category } = req.query;
+
+    let billers = [];
+
+    if (category) {
+      if (billercategories[category]) {
+        billers = billercategories[category];
+      } else {
+        return res.status(404).json({
+          success: false,
+          message: `Category "${category}" not found`,
+        });
+      }
+    } else {
+      // Flatten all billers into one array
+      for (const key in billercategories) {
+        billers = billers.concat(billercategories[key]);
+      }
+    }
+
+    return res.status(200).json({
+      success: true,
+      message: 'Biller list retrieved successfully',
+      data: billers,
+    });
+  } catch (error) {
+    logger.error('Failed to fetch biller list', {
+      error: error?.message,
+    });
+
+    return res.status(500).json({
+      success: false,
+      message: 'Internal server error',
+      error: error?.message,
+    });
+  }
+};
+
+
+//transaction by Id
+ export const getTransactionsById = async (req, res) => {
+  const {id}=req.params
+  try {
+    const result=await selectTransactionById(id);
+    if(!result){
+      return res.status(404).json({
+        success: false,
+        message: 'Transaction not found. Please verify transaction ID details.',
+      });
+    }
+     return res.status(200).json({
+        success: true,
+        message: 'Transaction Details',
+        data: result
+      });
+    
+    
+  } catch (error) {
+     return res.status(500).json({
+      success: false,
+      message: "We're unable to complete the transaction right now. Please try again later.",
+      error: coreError || error.message,
+    });
+  }
+}
+//GET TRNASACTIONS
+//transaction by Id
+ export const getAllAgentTransactions = async (req, res) => {
+
+  try {
+     const authHeader = req.headers["authorization"];
+        const token = authHeader && authHeader.split(" ")[1];
+        const userTokenDetails = await new Promise((resolve, reject) => {
+            jwt.verify(token, process.env.JWT_SECRET, (err, user) => {
+                if (err) {
+                    logger.warn("Invalid token!");
+                    return reject("Invalid token");
+                }
+                resolve(user);
+            });
+        });
+
+        const id = userTokenDetails.id;
+       
+    const result=await selectAllLogs(id);
+    if(result.length<1){
+      return res.status(404).json({
+        success: false,
+        message: 'Transaction not found. Please verify transaction ID details.',
+      });
+    }
+     return res.status(200).json({
+        success: true,
+        message: 'Transaction Details',
+        data: result
+      });
+    
+    
+  } catch (error) {
+     return res.status(500).json({
+      success: false,
+      message: "We're unable to complete the transaction right now. Please try again later.",
+      error: coreError || error.message,
+    });
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Get Biller Details
 export const getBillerDetails = async (req, res) => {
