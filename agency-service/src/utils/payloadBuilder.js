@@ -6,21 +6,27 @@ export const buildAirtimePayload = ({   amount,
   clientPhone
  }) => ({
   amount,
-  toMemberId: '34',
-  transferTypeId: '54',
+  toMemberId: '18',
+  transferTypeId: '66',
   currencySymbol: ccy,
   description: 'Airtime Purchase',
   customValues: [
     {
-      internalName: 'trans_id',
-      fieldId: '118',
-      value: requestId,
-    },
-    {
-      internalName: 'net_amount',
-      fieldId: '119',
-      value: amount,
-    },
+          internalName: "trans_id",
+          fieldId: "85",
+          value: requestId
+        },
+        {
+          internalName: "net_amount",
+          fieldId: "87",
+          value: amount
+        },
+        {
+          internalName : "clientphone",
+          fieldId : "90",
+          value : customerId
+        },
+    
   ],
 });
 //Electricity
@@ -32,27 +38,33 @@ export const buildElecticityPayload = ({
   clientPhone
 }) => ({
   
-    toMemberId: "34",
+    toMemberId: "18",
     amount: amount,
-    transferTypeId: "52",
+    transferTypeId: "70",
     currencySymbol: ccy,
     description: "Electricity Payment",
     customValues: [
-    {
-    internalName : "meterNumber",
-    fieldId : "117",
-    value :customerId
-    },
-     {
-    internalName : "trans_id",
-    fieldId : "118",
-    value :requestId
-    },
-             {
-    internalName : "net_amount",
-    fieldId : "119",
-    value : amount
-    }
+      {
+      internalName : "meterNumber",
+      fieldId : "86",
+      value :customerId
+       },
+      {
+     internalName : "trans_id",
+     fieldId : "85",
+     value : requestId
+      },
+      {
+        internalName : "net_amount",
+        fieldId : "87",
+        value : amount
+      },
+      {
+        internalName : "clientphone",
+        fieldId : "90",
+        value : clientPhone
+      }
+    
     ]
 });
 
@@ -65,11 +77,28 @@ export const buildStartimePayload = ({
   clientPhone
 }) => ({
   
-    toMemberId: "34",
+    toMemberId: "18",
     amount: amount,
-    transferTypeId: "53",
+    transferTypeId: "74",
     currencySymbol: "Rwf",
-    description: "Startimes Subscription"
+    description: "Startimes Subscription",
+     customValues:[{
+      internalName : "trans_id",
+        fieldId : "85",
+        value : requestId
+         },
+         {
+          internalName : "net_amount",
+          fieldId : "87",
+          value : amount
+          },
+          {
+            internalName : "clientphone",
+            fieldId : "90",
+            value : clientPhone
+          }
+        
+        ]
 
 });
 
@@ -82,9 +111,9 @@ export const buildBulkSMSPindoPayload = ({
   clientPhone
 }) => ({
   
-    toMemberId: "35",
+    toMemberId: "3",
     amount: amount,
-    transferTypeId: "51",
+    transferTypeId: "31",
     currencySymbol: "Rwf",
     description: "Bulk SMS"
 
@@ -101,9 +130,9 @@ export const buildRRABillerPayload = ({
   billerCode,
 }) => ({
 
-     toMemberId: "34",
+     toMemberId: "18",
       amount: amount,
-      transferTypeId:"85",
+      transferTypeId:"82",
       currencySymbol: ccy,
       description: "RRA Payment",
       customValues: [
