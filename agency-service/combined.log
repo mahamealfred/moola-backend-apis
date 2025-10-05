@@ -4449,3 +4449,206 @@
 {"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-03T19:13:32.552Z"}
 {"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-03T19:13:32.569Z"}
 {"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-03T19:13:32.569Z"}
+{"level":"info","message":"Agency service running on port 4001","service":"agency-service","timestamp":"2025-10-04T07:37:25.868Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-04T08:28:28.145Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T08:28:28.150Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-04T08:28:28.287Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T08:28:28.292Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/transactions/history","service":"agency-service","timestamp":"2025-10-04T08:28:28.316Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T08:28:28.318Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/transactions/history","service":"agency-service","timestamp":"2025-10-04T08:28:28.432Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T08:28:28.439Z"}
+{"level":"info","message":"Received GET request to /api/agency/transactions/history","service":"agency-service","timestamp":"2025-10-04T08:28:28.456Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T08:28:28.462Z"}
+{"level":"info","message":"Received GET request to /api/agency/transactions/history","service":"agency-service","timestamp":"2025-10-04T08:28:28.517Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T08:28:28.525Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:23:49.336Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:23:49.340Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:23:49.383Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:23:49.383Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:23:49.402Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:23:49.403Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:23:49.435Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:23:49.436Z"}
+{"level":"info","message":"Received GET request to /api/agency/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:23:49.439Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:23:49.439Z"}
+{"level":"info","message":"Received GET request to /api/agency/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:23:49.463Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:23:49.464Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:25:38.908Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:25:38.909Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:25:38.949Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:25:38.950Z"}
+{"level":"info","message":"Received GET request to /api/agency/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:25:38.975Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:25:38.976Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:26:13.955Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:26:13.956Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:26:13.979Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:26:13.980Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:26:13.988Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:26:13.990Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:26:14.014Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:26:14.015Z"}
+{"level":"info","message":"Received GET request to /api/agency/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:26:14.017Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:26:14.018Z"}
+{"level":"info","message":"Received GET request to /api/agency/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:26:14.044Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:26:14.045Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:29:00.504Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:29:00.505Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:29:00.525Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:29:00.526Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:29:00.538Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:29:00.539Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:29:00.549Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:29:00.550Z"}
+{"level":"info","message":"Received GET request to /api/agency/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:29:00.562Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:29:00.563Z"}
+{"level":"info","message":"Received GET request to /api/agency/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:29:00.576Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:29:00.577Z"}
+{"level":"info","message":"Received POST request to /api/agency/profile/change-password","service":"agency-service","timestamp":"2025-10-04T09:29:27.320Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:29:27.321Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:30:02.120Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:30:02.125Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:30:02.198Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:30:02.199Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:30:02.215Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:30:02.217Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:30:02.236Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:30:02.237Z"}
+{"level":"info","message":"Received GET request to /api/agency/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:30:02.256Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:30:02.259Z"}
+{"level":"info","message":"Received GET request to /api/agency/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:30:02.284Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:30:02.285Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:31:16.037Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:31:16.038Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:31:16.105Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:31:16.105Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:32:20.125Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:32:20.126Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:32:20.149Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:32:20.150Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:33:11.463Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:33:11.464Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:33:11.511Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:33:11.512Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:43:35.684Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:43:35.684Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:43:35.707Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:43:35.708Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:44:22.210Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:44:22.211Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:44:22.227Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:44:22.227Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:44:22.236Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:44:22.236Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:44:22.245Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:44:22.246Z"}
+{"level":"info","message":"Received GET request to /api/agency/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:44:22.251Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:44:22.251Z"}
+{"level":"info","message":"Received GET request to /api/agency/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:44:22.258Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:44:22.259Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:45:21.202Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:45:21.203Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-04T09:45:21.219Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T09:45:21.219Z"}
+{"level":"info","message":"Received PUT request to /api/agency/profile/update","service":"agency-service","timestamp":"2025-10-04T17:58:32.784Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T17:58:32.791Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-04T18:00:11.097Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T18:00:11.098Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-04T18:00:11.128Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T18:00:11.129Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/transactions/history","service":"agency-service","timestamp":"2025-10-04T18:00:11.144Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T18:00:11.144Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/transactions/history","service":"agency-service","timestamp":"2025-10-04T18:00:11.154Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T18:00:11.155Z"}
+{"level":"info","message":"Received GET request to /api/agency/transactions/history","service":"agency-service","timestamp":"2025-10-04T18:00:11.163Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T18:00:11.164Z"}
+{"level":"info","message":"Received GET request to /api/agency/transactions/history","service":"agency-service","timestamp":"2025-10-04T18:00:11.171Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-04T18:00:11.172Z"}
+{"level":"info","message":"Agency service running on port 4001","service":"agency-service","timestamp":"2025-10-04T18:30:57.191Z"}
+{"level":"info","message":"Agency service running on port 4001","service":"agency-service","timestamp":"2025-10-05T06:51:14.193Z"}
+{"level":"info","message":"Received POST request to /api/agency/thirdpartyagency/services/validate/biller","service":"agency-service","timestamp":"2025-10-05T07:33:18.430Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T07:33:18.433Z"}
+{"level":"info","message":" validation response","responseData":{"data":{"availTrxBalance":1481007.8599999999,"customerAccountName":"","deliveryMethods":[{"id":"direct_topup","name":"Direct Topup"}],"extraInfo":null,"localStockMgt":null,"pdtId":"airtime-mtn-rw","pdtName":"MTN Rwanda Airtime","pdtStatusId":"active","selectAmount":null,"stock":null,"stockedPdts":null,"svcProviderName":"MTN Rwanda","trxId":"f0e215dd-5612-4455-b30e-deede88c8a44","trxResult":"direct_topup","vendMax":250000,"vendMin":100,"vendUnitId":"flexible","verticalId":"airtime"}},"service":"agency-service","timestamp":"2025-10-05T07:33:19.232Z"}
+{"level":"info","message":"Received POST request to /api/agency/thirdpartyagency/services/execute/bill-payment","service":"agency-service","timestamp":"2025-10-05T07:37:34.045Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T07:37:34.046Z"}
+{"error":"jwt expired","level":"warn","message":"Invalid token","service":"agency-service","timestamp":"2025-10-05T07:37:34.060Z"}
+{"level":"info","message":"Received POST request to /api/agency/thirdpartyagency/services/execute/bill-payment","service":"agency-service","timestamp":"2025-10-05T07:38:17.743Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T07:38:17.744Z"}
+{"data":{"id":184704,"pending":false},"level":"info","message":"Biller payment response from core system","service":"agency-service","status":200,"timestamp":"2025-10-05T07:38:18.853Z"}
+{"level":"info","message":"Received POST request to /api/agency/thirdpartyagency/services/validate/biller","service":"agency-service","timestamp":"2025-10-05T07:50:52.492Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T07:50:52.494Z"}
+{"level":"info","message":" validation response","responseData":{"data":{"availTrxBalance":1480907.8599999999,"customerAccountName":"","deliveryMethods":[{"id":"direct_topup","name":"Direct Topup"}],"extraInfo":null,"localStockMgt":null,"pdtId":"airtime-mtn-rw","pdtName":"MTN Rwanda Airtime","pdtStatusId":"active","selectAmount":null,"stock":null,"stockedPdts":null,"svcProviderName":"MTN Rwanda","trxId":"e76f329e-a1da-4105-85bb-eb6d079fde63","trxResult":"direct_topup","vendMax":250000,"vendMin":100,"vendUnitId":"flexible","verticalId":"airtime"}},"service":"agency-service","timestamp":"2025-10-05T07:50:52.998Z"}
+{"level":"info","message":"Received POST request to /api/agency/thirdpartyagency/services/validate/biller","service":"agency-service","timestamp":"2025-10-05T07:56:05.654Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T07:56:05.655Z"}
+{"level":"info","message":" validation response","responseData":{"data":{"availTrxBalance":1480907.8599999999,"customerAccountName":"","deliveryMethods":[{"id":"direct_topup","name":"Direct Topup"}],"extraInfo":null,"localStockMgt":null,"pdtId":"airtime-mtn-rw","pdtName":"MTN Rwanda Airtime","pdtStatusId":"active","selectAmount":null,"stock":null,"stockedPdts":null,"svcProviderName":"MTN Rwanda","trxId":"acf46c0b-7338-4636-bd83-3b2523280c05","trxResult":"direct_topup","vendMax":250000,"vendMin":100,"vendUnitId":"flexible","verticalId":"airtime"}},"service":"agency-service","timestamp":"2025-10-05T07:56:06.582Z"}
+{"level":"info","message":"Received POST request to /api/agency/thirdpartyagency/services/execute/bill-payment","service":"agency-service","timestamp":"2025-10-05T07:56:16.402Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T07:56:16.404Z"}
+{"data":{"id":184721,"pending":false},"level":"info","message":"Biller payment response from core system","service":"agency-service","status":200,"timestamp":"2025-10-05T07:56:17.457Z"}
+{"level":"info","message":"Received POST request to /api/agency/thirdpartyagency/services/validate/biller","service":"agency-service","timestamp":"2025-10-05T07:59:04.459Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T07:59:04.461Z"}
+{"level":"info","message":" validation response","responseData":{"data":{"availTrxBalance":1480807.8599999999,"customerAccountName":"","deliveryMethods":[{"id":"direct_topup","name":"Direct Topup"}],"extraInfo":null,"localStockMgt":null,"pdtId":"airtime-mtn-rw","pdtName":"MTN Rwanda Airtime","pdtStatusId":"active","selectAmount":null,"stock":null,"stockedPdts":null,"svcProviderName":"MTN Rwanda","trxId":"e24461c9-2179-4ad3-8f49-b970ab0ef463","trxResult":"direct_topup","vendMax":250000,"vendMin":100,"vendUnitId":"flexible","verticalId":"airtime"}},"service":"agency-service","timestamp":"2025-10-05T07:59:05.017Z"}
+{"level":"info","message":"Received POST request to /api/agency/thirdpartyagency/services/validate/biller","service":"agency-service","timestamp":"2025-10-05T08:32:41.692Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T08:32:41.695Z"}
+{"level":"info","message":" validation response","responseData":{"data":{"availTrxBalance":1477257.8599999999,"customerAccountName":"","deliveryMethods":[{"id":"direct_topup","name":"Direct Topup"}],"extraInfo":null,"localStockMgt":null,"pdtId":"airtime-mtn-rw","pdtName":"MTN Rwanda Airtime","pdtStatusId":"active","selectAmount":null,"stock":null,"stockedPdts":null,"svcProviderName":"MTN Rwanda","trxId":"86bd3189-9a7f-4ef5-aa0e-56501bc58fa3","trxResult":"direct_topup","vendMax":250000,"vendMin":100,"vendUnitId":"flexible","verticalId":"airtime"}},"service":"agency-service","timestamp":"2025-10-05T08:33:11.027Z"}
+{"level":"info","message":"Agency service running on port 4001","service":"agency-service","timestamp":"2025-10-05T10:02:39.799Z"}
+{"level":"info","message":"Agency service running on port 4001","service":"agency-service","timestamp":"2025-10-05T11:37:53.671Z"}
+{"level":"info","message":"Received POST request to /api/agency/thirdpartyagency/services/validate/biller","service":"agency-service","timestamp":"2025-10-05T12:31:29.466Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T12:31:29.473Z"}
+{"level":"info","message":" validation response","responseData":{"data":{"availTrxBalance":1475807.8599999999,"customerAccountName":"","deliveryMethods":[{"id":"direct_topup","name":"Direct Topup"}],"extraInfo":null,"localStockMgt":null,"pdtId":"airtime-mtn-rw","pdtName":"MTN Rwanda Airtime","pdtStatusId":"active","selectAmount":null,"stock":null,"stockedPdts":null,"svcProviderName":"MTN Rwanda","trxId":"325f5048-07c4-4d3f-b7ee-732501089ae9","trxResult":"direct_topup","vendMax":250000,"vendMin":100,"vendUnitId":"flexible","verticalId":"airtime"}},"service":"agency-service","timestamp":"2025-10-05T12:32:16.223Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-05T13:13:46.941Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T13:13:46.949Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-05T13:13:47.073Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T13:13:47.073Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-05T13:14:02.005Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T13:14:02.006Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-05T13:14:02.025Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T13:14:02.026Z"}
+{"level":"info","message":"Agency service running on port 4001","service":"agency-service","timestamp":"2025-10-05T14:38:10.260Z"}
+{"level":"info","message":"Agency service running on port 4001","service":"agency-service","timestamp":"2025-10-05T15:03:46.701Z"}
+{"level":"info","message":"Received POST request to /api/agency/thirdpartyagency/services/validate/biller","service":"agency-service","timestamp":"2025-10-05T15:16:51.217Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T15:16:51.219Z"}
+{"level":"info","message":" validation response","responseData":{"data":{"availTrxBalance":1463407.8599999999,"customerAccountName":"","deliveryMethods":[{"id":"direct_topup","name":"Direct Topup"}],"extraInfo":null,"localStockMgt":null,"pdtId":"airtime-mtn-rw","pdtName":"MTN Rwanda Airtime","pdtStatusId":"active","selectAmount":null,"stock":null,"stockedPdts":null,"svcProviderName":"MTN Rwanda","trxId":"4bf7865b-e266-4eb7-a9e8-6c2c43a1fdf0","trxResult":"direct_topup","vendMax":250000,"vendMin":100,"vendUnitId":"flexible","verticalId":"airtime"}},"service":"agency-service","timestamp":"2025-10-05T15:16:52.085Z"}
+{"level":"info","message":"Received POST request to /api/agency/thirdpartyagency/services/validate/biller","service":"agency-service","timestamp":"2025-10-05T15:29:56.874Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T15:29:56.877Z"}
+{"error":{"msg":"Meter not found: meter number 26353674748 does not exist or is not connected."},"level":"error","message":"Phone number validation failed","service":"agency-service","status":400,"timestamp":"2025-10-05T15:29:58.993Z"}
+{"level":"info","message":"Received POST request to /api/agency/thirdpartyagency/services/validate/biller","service":"agency-service","timestamp":"2025-10-05T15:31:12.943Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T15:31:12.944Z"}
+{"error":{"msg":"Meter not found: meter number 26353674748 does not exist or is not connected."},"level":"error","message":"Phone number validation failed","service":"agency-service","status":400,"timestamp":"2025-10-05T15:31:15.141Z"}
+{"level":"info","message":"Received POST request to /api/agency/thirdpartyagency/services/validate/biller","service":"agency-service","timestamp":"2025-10-05T15:31:33.294Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T15:31:33.295Z"}
+{"error":{"msg":"Meter not found: meter number 26353674748 does not exist or is not connected."},"level":"error","message":"Phone number validation failed","service":"agency-service","status":400,"timestamp":"2025-10-05T15:31:35.411Z"}
+{"level":"info","message":"Received POST request to /api/agency/thirdpartyagency/services/validate/biller","service":"agency-service","timestamp":"2025-10-05T15:33:16.819Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T15:33:16.821Z"}
+{"error":{"msg":"Meter not found: meter number 26353674748 does not exist or is not connected."},"level":"error","message":"Phone number validation failed","service":"agency-service","status":400,"timestamp":"2025-10-05T15:33:18.836Z"}
+{"level":"info","message":"Received POST request to /api/agency/thirdpartyagency/services/validate/biller","service":"agency-service","timestamp":"2025-10-05T15:42:13.151Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T15:42:13.152Z"}
+{"error":{"msg":"Meter not found: meter number 26353674748 does not exist or is not connected."},"level":"error","message":"Phone number validation failed","service":"agency-service","status":400,"timestamp":"2025-10-05T15:42:15.615Z"}
+{"level":"info","message":"Received POST request to /api/agency/thirdpartyagency/services/validate/biller","service":"agency-service","timestamp":"2025-10-05T15:44:07.654Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T15:44:07.655Z"}
+{"level":"info","message":" validation response","responseData":{"data":{"availTrxBalance":1462007.8599999999,"customerAccountName":"UZAMUKUNDA PRINCESSE","deliveryMethods":[{"id":"direct_topup","name":"Direct Topup"},{"id":"sms","name":"SMS"}],"extraInfo":{"tin":""},"localStockMgt":null,"pdtId":"electricity-eucl-rw","pdtName":"EUCL Prepaid Electricity","pdtStatusId":"active","selectAmount":null,"stock":null,"stockedPdts":null,"svcProviderName":"EUCL","trxId":"d243d95b-1c22-4b7c-b178-857d73e5153e","trxResult":"voucher","vendMax":5000000,"vendMin":100,"vendUnitId":"flexible","verticalId":"electricity"}},"service":"agency-service","timestamp":"2025-10-05T15:44:12.550Z"}
+{"level":"info","message":"Received POST request to /api/agency/thirdpartyagency/services/validate/biller","service":"agency-service","timestamp":"2025-10-05T15:56:24.654Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T15:56:24.655Z"}
+{"0":"s","1":"t","2":"a","3":"r","4":"t","5":"i","6":"m","7":"e","level":"error","message":"Validation routing failed: Bill cord not found","service":"agency-service","timestamp":"2025-10-05T15:56:24.658Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-05T16:00:55.011Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T16:00:55.012Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-05T16:00:55.107Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T16:00:55.108Z"}
+{"level":"info","message":"Received POST request to /api/agency/thirdpartyagency/services/validate/biller","service":"agency-service","timestamp":"2025-10-05T16:06:21.005Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T16:06:21.011Z"}
+{"error":{"msg":"Failed to validate/invalid payment reference"},"level":"error","message":"Phone number validation failed","service":"agency-service","status":400,"timestamp":"2025-10-05T16:06:24.199Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-05T16:13:38.018Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T16:13:38.049Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-05T16:13:38.093Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T16:13:38.094Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-05T16:32:38.547Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T16:32:38.549Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-05T16:32:38.592Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T16:32:38.593Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-05T16:33:46.265Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T16:33:46.265Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-05T16:33:46.291Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T16:33:46.292Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-05T16:48:25.422Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T16:48:25.422Z"}
+{"level":"info","message":"Received GET request to /api/agency/thirdpartyagency/services/transactions/history","service":"agency-service","timestamp":"2025-10-05T16:48:25.450Z"}
+{"level":"info","message":"Request body, [object Object]","service":"agency-service","timestamp":"2025-10-05T16:48:25.450Z"}

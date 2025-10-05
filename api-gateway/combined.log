@@ -10018,3 +10018,599 @@
 {"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-03T20:13:16.800Z"}
 {"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-03T20:13:16.804Z"}
 {"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-03T20:13:17.587Z"}
+{"level":"info","message":"API Gateway is running on port 4000","service":"api-gateway","timestamp":"2025-10-04T07:35:58.987Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:4004","service":"api-gateway","timestamp":"2025-10-04T07:35:58.995Z"}
+{"level":"info","message":"Account service is running on port http://localhost:4002","service":"api-gateway","timestamp":"2025-10-04T07:35:58.996Z"}
+{"level":"info","message":"Agency service is running on port http://localhost:4001","service":"api-gateway","timestamp":"2025-10-04T07:35:58.997Z"}
+{"level":"info","message":"Client service is running on port http://localhost:4012","service":"api-gateway","timestamp":"2025-10-04T07:35:58.997Z"}
+{"level":"info","message":"Test service is running on port http://localhost:40030","service":"api-gateway","timestamp":"2025-10-04T07:35:58.998Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"api-gateway","timestamp":"2025-10-04T07:35:58.998Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-04T07:40:15.871Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-04T07:40:15.873Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-04T07:40:17.342Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-04T08:21:25.213Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-04T08:21:25.217Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-04T08:21:26.212Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-04T08:22:05.435Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-04T08:22:05.436Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-04T08:22:06.180Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-04T08:23:51.307Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-04T08:23:51.308Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-04T08:23:51.988Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-04T08:28:27.848Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T08:28:27.849Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T08:28:28.242Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-04T08:28:28.260Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T08:28:28.262Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T08:28:28.275Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T08:28:28.280Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T08:28:28.328Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T08:28:28.338Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T08:28:28.412Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T08:28:28.416Z"}
+{"level":"info","message":"Received GET request to /v1/agency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T08:28:28.441Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T08:28:28.444Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T08:28:28.455Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T08:28:28.482Z"}
+{"level":"info","message":"Received GET request to /v1/agency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T08:28:28.499Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T08:28:28.502Z"}
+{"level":"info","message":"Received GET request to /v1/transactions/history","service":"api-gateway","timestamp":"2025-10-04T08:28:28.532Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T08:28:28.538Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T08:28:28.559Z"}
+{"level":"info","message":"Received GET request to /v1/transactions/history","service":"api-gateway","timestamp":"2025-10-04T08:28:28.708Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T08:28:28.708Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-04T08:34:08.478Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-04T08:34:08.479Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-04T08:34:09.327Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-04T09:12:26.667Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:12:26.667Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-04T09:12:27.715Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:12:27.716Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-04T09:13:29.532Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-04T09:13:29.533Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-04T09:13:30.511Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-04T09:14:11.963Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-04T09:14:11.964Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-04T09:14:12.588Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-04T09:20:53.926Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-04T09:20:53.927Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-04T09:20:54.890Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-04T09:23:13.982Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:23:13.983Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-04T09:23:14.747Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-04T09:23:14.772Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:23:14.773Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:23:49.312Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:23:49.313Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:23:49.376Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:23:49.379Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:23:49.379Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:23:49.393Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:23:49.394Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:23:49.397Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:23:49.409Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:23:49.425Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:23:49.426Z"}
+{"level":"info","message":"Received GET request to /v1/agency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:23:49.428Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:23:49.429Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:23:49.447Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:23:49.451Z"}
+{"level":"info","message":"Received GET request to /v1/agency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:23:49.454Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:23:49.455Z"}
+{"level":"info","message":"Received GET request to /v1/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:23:49.463Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:23:49.463Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:23:49.470Z"}
+{"level":"info","message":"Received GET request to /v1/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:23:49.577Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:23:49.577Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:25:38.901Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:25:38.901Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:25:38.933Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:25:38.943Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:25:38.944Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:25:38.954Z"}
+{"level":"info","message":"Received GET request to /v1/agency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:25:38.967Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:25:38.968Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:25:38.979Z"}
+{"level":"info","message":"Received GET request to /v1/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:25:38.989Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:25:38.989Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-04T09:25:53.776Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:25:53.777Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-04T09:25:54.615Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:25:54.615Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:26:13.949Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:26:13.950Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:26:13.970Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:26:13.973Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:26:13.974Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:26:13.979Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:26:13.981Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:26:13.993Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:26:13.997Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:26:14.007Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:26:14.008Z"}
+{"level":"info","message":"Received GET request to /v1/agency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:26:14.009Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:26:14.010Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:26:14.021Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:26:14.025Z"}
+{"level":"info","message":"Received GET request to /v1/agency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:26:14.037Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:26:14.037Z"}
+{"level":"info","message":"Received GET request to /v1/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:26:14.040Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:26:14.040Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:26:14.047Z"}
+{"level":"info","message":"Received GET request to /v1/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:26:14.054Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:26:14.054Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-04T09:26:22.720Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:26:22.722Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-04T09:26:23.383Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:26:23.383Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:29:00.499Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:29:00.500Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:29:00.515Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:29:00.519Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:29:00.519Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:29:00.531Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:29:00.532Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:29:00.534Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:29:00.542Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:29:00.545Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:29:00.546Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:29:00.555Z"}
+{"level":"info","message":"Received GET request to /v1/agency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:29:00.558Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:29:00.559Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:29:00.565Z"}
+{"level":"info","message":"Received GET request to /v1/agency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:29:00.570Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:29:00.570Z"}
+{"level":"info","message":"Received GET request to /v1/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:29:00.579Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:29:00.579Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:29:00.581Z"}
+{"level":"info","message":"Received GET request to /v1/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:29:00.588Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:29:00.590Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-04T09:29:04.119Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:29:04.120Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-04T09:29:04.854Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:29:04.854Z"}
+{"level":"info","message":"Received POST request to /v1/agency/profile/change-password","service":"api-gateway","timestamp":"2025-10-04T09:29:27.311Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-04T09:29:27.312Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:29:27.325Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-04T09:29:58.973Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:29:58.974Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-04T09:29:59.610Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:29:59.611Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:30:02.113Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:30:02.115Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:30:02.181Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:30:02.192Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:30:02.193Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:30:02.209Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:30:02.209Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:30:02.214Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:30:02.219Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:30:02.228Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:30:02.230Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:30:02.239Z"}
+{"level":"info","message":"Received GET request to /v1/agency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:30:02.244Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:30:02.249Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:30:02.265Z"}
+{"level":"info","message":"Received GET request to /v1/agency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:30:02.272Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:30:02.274Z"}
+{"level":"info","message":"Received GET request to /v1/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:30:02.287Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:30:02.292Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:30:02.300Z"}
+{"level":"info","message":"Received GET request to /v1/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:30:02.399Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:30:02.399Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-04T09:31:14.984Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-04T09:31:14.985Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-04T09:31:15.689Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:31:16.032Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:31:16.033Z"}
+{"level":"info","message":"Response received from Agency service: 200","service":"api-gateway","timestamp":"2025-10-04T09:31:16.095Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:31:16.099Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:31:16.099Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-04T09:32:16.807Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:32:16.808Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-04T09:32:17.618Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-04T09:32:17.627Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:32:17.628Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:32:20.120Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:32:20.120Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:32:20.143Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:32:20.144Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-04T09:33:06.034Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:33:06.035Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-04T09:33:06.737Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:33:06.738Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:33:11.455Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:33:11.458Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:33:11.505Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:33:11.507Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-04T09:33:34.183Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:33:34.184Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-04T09:33:34.882Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:33:34.883Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-04T09:35:13.386Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-04T09:35:13.387Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-04T09:35:14.047Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:43:35.680Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:43:35.680Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:43:35.704Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:43:35.704Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-04T09:44:21.403Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-04T09:44:21.403Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-04T09:44:22.065Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:44:22.207Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:44:22.207Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:44:22.219Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:44:22.221Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:44:22.222Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:44:22.231Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:44:22.232Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:44:22.233Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:44:22.238Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:44:22.242Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:44:22.242Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:44:22.247Z"}
+{"level":"info","message":"Received GET request to /v1/agency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:44:22.248Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:44:22.248Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:44:22.253Z"}
+{"level":"info","message":"Received GET request to /v1/agency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:44:22.255Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:44:22.256Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T09:44:22.260Z"}
+{"level":"info","message":"Received GET request to /v1/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:44:22.262Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:44:22.263Z"}
+{"level":"info","message":"Received GET request to /v1/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:44:22.265Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:44:22.265Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-04T09:45:06.658Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-04T09:45:06.658Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-04T09:45:20.975Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:45:21.199Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:45:21.199Z"}
+{"level":"info","message":"Response received from Agency service: 200","service":"api-gateway","timestamp":"2025-10-04T09:45:21.212Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-04T09:45:21.215Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T09:45:21.216Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-04T17:40:05.281Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-04T17:40:05.284Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-04T17:40:06.492Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-04T17:52:06.406Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-04T17:52:06.408Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-04T17:52:07.277Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-04T17:57:58.004Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T17:57:58.005Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-04T17:57:58.747Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-04T17:57:58.764Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T17:57:58.766Z"}
+{"level":"info","message":"Received PUT request to /v1/agency/profile/update","service":"api-gateway","timestamp":"2025-10-04T17:58:32.711Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-04T17:58:32.711Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T17:58:32.800Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-04T17:59:59.916Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T17:59:59.916Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-04T18:00:00.713Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T18:00:00.713Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-04T18:00:04.899Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T18:00:04.899Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-04T18:00:05.135Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T18:00:05.136Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-04T18:00:11.093Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T18:00:11.094Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T18:00:11.122Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-04T18:00:11.125Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T18:00:11.126Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T18:00:11.134Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T18:00:11.140Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T18:00:11.140Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T18:00:11.148Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T18:00:11.151Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T18:00:11.151Z"}
+{"level":"info","message":"Received GET request to /v1/agency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T18:00:11.157Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T18:00:11.158Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T18:00:11.160Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T18:00:11.165Z"}
+{"level":"info","message":"Received GET request to /v1/agency/transactions/history","service":"api-gateway","timestamp":"2025-10-04T18:00:11.168Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T18:00:11.168Z"}
+{"level":"info","message":"Received GET request to /v1/transactions/history","service":"api-gateway","timestamp":"2025-10-04T18:00:11.173Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T18:00:11.175Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-04T18:00:11.177Z"}
+{"level":"info","message":"Received GET request to /v1/transactions/history","service":"api-gateway","timestamp":"2025-10-04T18:00:11.185Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T18:00:11.185Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-04T18:00:32.129Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T18:00:32.129Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-04T18:00:32.701Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T18:00:32.702Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-04T18:10:20.820Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-04T18:10:20.821Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-04T18:10:21.660Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-04T18:28:28.138Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T18:28:28.140Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-04T18:28:38.647Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-04T18:28:38.655Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-04T18:28:38.656Z"}
+{"level":"info","message":"API Gateway is running on port 4000","service":"api-gateway","timestamp":"2025-10-04T18:30:55.220Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:4004","service":"api-gateway","timestamp":"2025-10-04T18:30:55.225Z"}
+{"level":"info","message":"Account service is running on port http://localhost:4002","service":"api-gateway","timestamp":"2025-10-04T18:30:55.226Z"}
+{"level":"info","message":"Agency service is running on port http://localhost:4001","service":"api-gateway","timestamp":"2025-10-04T18:30:55.226Z"}
+{"level":"info","message":"Client service is running on port http://localhost:4012","service":"api-gateway","timestamp":"2025-10-04T18:30:55.227Z"}
+{"level":"info","message":"Test service is running on port http://localhost:40030","service":"api-gateway","timestamp":"2025-10-04T18:30:55.227Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"api-gateway","timestamp":"2025-10-04T18:30:55.227Z"}
+{"level":"info","message":"API Gateway is running on port 4000","service":"api-gateway","timestamp":"2025-10-05T06:50:29.569Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:4004","service":"api-gateway","timestamp":"2025-10-05T06:50:29.573Z"}
+{"level":"info","message":"Account service is running on port http://localhost:4002","service":"api-gateway","timestamp":"2025-10-05T06:50:29.573Z"}
+{"level":"info","message":"Agency service is running on port http://localhost:4001","service":"api-gateway","timestamp":"2025-10-05T06:50:29.574Z"}
+{"level":"info","message":"Client service is running on port http://localhost:4012","service":"api-gateway","timestamp":"2025-10-05T06:50:29.574Z"}
+{"level":"info","message":"Test service is running on port http://localhost:40030","service":"api-gateway","timestamp":"2025-10-05T06:50:29.574Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"api-gateway","timestamp":"2025-10-05T06:50:29.575Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-05T07:03:25.914Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T07:03:25.915Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-05T07:03:27.502Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T07:09:03.402Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T07:09:03.403Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T07:09:04.583Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T07:09:04.584Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-05T07:27:26.194Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T07:27:26.195Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-05T07:27:27.028Z"}
+{"level":"info","message":"Received POST request to /v1/agency/thirdpartyagency/services/validate/biller","service":"api-gateway","timestamp":"2025-10-05T07:33:18.315Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T07:33:18.317Z"}
+{"level":"info","message":"Response received from Agency service: 200","service":"api-gateway","timestamp":"2025-10-05T07:33:19.241Z"}
+{"level":"info","message":"Received POST request to /v1/agency/thirdpartyagency/services/execute/bill-payment","service":"api-gateway","timestamp":"2025-10-05T07:37:34.035Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T07:37:34.036Z"}
+{"level":"info","message":"Response received from Agency service: 401","service":"api-gateway","timestamp":"2025-10-05T07:37:34.063Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-05T07:37:56.728Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T07:37:56.729Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-05T07:37:57.475Z"}
+{"level":"info","message":"Received POST request to /v1/agency/thirdpartyagency/services/execute/bill-payment","service":"api-gateway","timestamp":"2025-10-05T07:38:17.738Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T07:38:17.738Z"}
+{"level":"info","message":"Response received from Agency service: 200","service":"api-gateway","timestamp":"2025-10-05T07:38:23.381Z"}
+{"level":"info","message":"Received POST request to /v1/agency/thirdpartyagency/services/validate/biller","service":"api-gateway","timestamp":"2025-10-05T07:50:52.483Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T07:50:52.484Z"}
+{"level":"info","message":"Response received from Agency service: 200","service":"api-gateway","timestamp":"2025-10-05T07:50:53.002Z"}
+{"level":"info","message":"Received POST request to /v1/agency/thirdpartyagency/services/validate/biller","service":"api-gateway","timestamp":"2025-10-05T07:56:05.645Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T07:56:05.646Z"}
+{"level":"info","message":"Response received from Agency service: 200","service":"api-gateway","timestamp":"2025-10-05T07:56:06.584Z"}
+{"level":"info","message":"Received POST request to /v1/agency/thirdpartyagency/services/execute/bill-payment","service":"api-gateway","timestamp":"2025-10-05T07:56:16.396Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T07:56:16.397Z"}
+{"level":"info","message":"Response received from Agency service: 200","service":"api-gateway","timestamp":"2025-10-05T07:56:26.847Z"}
+{"level":"info","message":"Received POST request to /v1/agency/thirdpartyagency/services/validate/biller","service":"api-gateway","timestamp":"2025-10-05T07:59:04.450Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T07:59:04.452Z"}
+{"level":"info","message":"Response received from Agency service: 200","service":"api-gateway","timestamp":"2025-10-05T07:59:05.022Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-05T08:31:18.803Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T08:31:18.804Z"}
+{"level":"info","message":"Response received from Identity service: 400","service":"api-gateway","timestamp":"2025-10-05T08:31:19.744Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-05T08:31:29.759Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T08:31:29.760Z"}
+{"level":"info","message":"Response received from Identity service: 400","service":"api-gateway","timestamp":"2025-10-05T08:31:30.473Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-05T08:32:00.628Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T08:32:00.629Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-05T08:32:01.350Z"}
+{"level":"info","message":"Received POST request to /v1/agency/thirdpartyagency/services/validate/biller","service":"api-gateway","timestamp":"2025-10-05T08:32:41.655Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T08:32:41.656Z"}
+{"level":"info","message":"Response received from Agency service: 200","service":"api-gateway","timestamp":"2025-10-05T08:33:11.030Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-05T09:52:49.166Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T09:52:49.169Z"}
+{"level":"info","message":"Response received from Identity service: 400","service":"api-gateway","timestamp":"2025-10-05T09:52:51.339Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-05T09:53:04.258Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T09:53:04.258Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-05T09:53:05.807Z"}
+{"level":"info","message":"API Gateway is running on port 4000","service":"api-gateway","timestamp":"2025-10-05T10:02:08.113Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:4004","service":"api-gateway","timestamp":"2025-10-05T10:02:08.117Z"}
+{"level":"info","message":"Account service is running on port http://localhost:4002","service":"api-gateway","timestamp":"2025-10-05T10:02:08.118Z"}
+{"level":"info","message":"Agency service is running on port http://localhost:4001","service":"api-gateway","timestamp":"2025-10-05T10:02:08.118Z"}
+{"level":"info","message":"Client service is running on port http://localhost:4012","service":"api-gateway","timestamp":"2025-10-05T10:02:08.119Z"}
+{"level":"info","message":"Test service is running on port http://localhost:40030","service":"api-gateway","timestamp":"2025-10-05T10:02:08.119Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"api-gateway","timestamp":"2025-10-05T10:02:08.119Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-05T10:03:04.821Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T10:03:04.821Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-05T10:03:05.647Z"}
+{"level":"info","message":"API Gateway is running on port 4000","service":"api-gateway","timestamp":"2025-10-05T11:38:23.526Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:4004","service":"api-gateway","timestamp":"2025-10-05T11:38:23.529Z"}
+{"level":"info","message":"Account service is running on port http://localhost:4002","service":"api-gateway","timestamp":"2025-10-05T11:38:23.530Z"}
+{"level":"info","message":"Agency service is running on port http://localhost:4001","service":"api-gateway","timestamp":"2025-10-05T11:38:23.531Z"}
+{"level":"info","message":"Client service is running on port http://localhost:4012","service":"api-gateway","timestamp":"2025-10-05T11:38:23.531Z"}
+{"level":"info","message":"Test service is running on port http://localhost:40030","service":"api-gateway","timestamp":"2025-10-05T11:38:23.531Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"api-gateway","timestamp":"2025-10-05T11:38:23.532Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-05T11:38:26.384Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T11:38:26.384Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-05T11:38:27.272Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T11:38:57.989Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T11:38:57.991Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-05T11:38:58.782Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-05T12:26:03.545Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T12:26:03.547Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-05T12:26:04.456Z"}
+{"level":"info","message":"Received POST request to /v1/agency/thirdpartyagency/services/validate/biller","service":"api-gateway","timestamp":"2025-10-05T12:31:29.260Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T12:31:29.261Z"}
+{"level":"info","message":"Response received from Agency service: 200","service":"api-gateway","timestamp":"2025-10-05T12:32:16.238Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T13:13:35.872Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T13:13:35.874Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-05T13:13:36.634Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T13:13:36.647Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T13:13:36.650Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-05T13:13:46.914Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T13:13:46.916Z"}
+{"level":"info","message":"Response received from Agency service: 200","service":"api-gateway","timestamp":"2025-10-05T13:13:47.059Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-05T13:13:47.068Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T13:13:47.069Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T13:13:54.478Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T13:13:54.479Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T13:13:55.074Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T13:13:55.075Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T13:13:58.171Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T13:13:58.172Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T13:13:58.403Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T13:13:58.403Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-05T13:14:02.002Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T13:14:02.002Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-05T13:14:02.022Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T13:14:02.022Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T13:14:07.095Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T13:14:07.096Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T13:14:07.702Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T13:14:07.703Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T13:24:14.035Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T13:24:14.035Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T13:24:14.802Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T13:24:14.806Z"}
+{"level":"info","message":"API Gateway is running on port 4000","service":"api-gateway","timestamp":"2025-10-05T14:38:08.797Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:4004","service":"api-gateway","timestamp":"2025-10-05T14:38:08.802Z"}
+{"level":"info","message":"Account service is running on port http://localhost:4002","service":"api-gateway","timestamp":"2025-10-05T14:38:08.803Z"}
+{"level":"info","message":"Agency service is running on port http://localhost:4001","service":"api-gateway","timestamp":"2025-10-05T14:38:08.803Z"}
+{"level":"info","message":"Client service is running on port http://localhost:4012","service":"api-gateway","timestamp":"2025-10-05T14:38:08.803Z"}
+{"level":"info","message":"Test service is running on port http://localhost:40030","service":"api-gateway","timestamp":"2025-10-05T14:38:08.804Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"api-gateway","timestamp":"2025-10-05T14:38:08.804Z"}
+{"level":"info","message":"API Gateway is running on port 4000","service":"api-gateway","timestamp":"2025-10-05T15:02:55.510Z"}
+{"level":"info","message":"Identity service is running on port http://localhost:4004","service":"api-gateway","timestamp":"2025-10-05T15:02:55.516Z"}
+{"level":"info","message":"Account service is running on port http://localhost:4002","service":"api-gateway","timestamp":"2025-10-05T15:02:55.516Z"}
+{"level":"info","message":"Agency service is running on port http://localhost:4001","service":"api-gateway","timestamp":"2025-10-05T15:02:55.517Z"}
+{"level":"info","message":"Client service is running on port http://localhost:4012","service":"api-gateway","timestamp":"2025-10-05T15:02:55.517Z"}
+{"level":"info","message":"Test service is running on port http://localhost:40030","service":"api-gateway","timestamp":"2025-10-05T15:02:55.518Z"}
+{"level":"info","message":"Redis Url redis://localhost:6379","service":"api-gateway","timestamp":"2025-10-05T15:02:55.518Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-05T15:09:13.341Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T15:09:13.342Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-05T15:09:14.703Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-05T15:14:55.730Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T15:14:55.732Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-05T15:14:56.836Z"}
+{"level":"info","message":"Received POST request to /v1/agency/thirdpartyagency/services/validate/biller","service":"api-gateway","timestamp":"2025-10-05T15:16:51.121Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T15:16:51.122Z"}
+{"level":"info","message":"Response received from Agency service: 200","service":"api-gateway","timestamp":"2025-10-05T15:16:52.091Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T15:20:07.423Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T15:20:07.424Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T15:20:15.588Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T15:20:15.589Z"}
+{"level":"info","message":"Received POST request to /v1/agency/thirdpartyagency/services/validate/biller","service":"api-gateway","timestamp":"2025-10-05T15:29:56.868Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T15:29:56.869Z"}
+{"level":"info","message":"Response received from Agency service: 400","service":"api-gateway","timestamp":"2025-10-05T15:29:58.999Z"}
+{"level":"info","message":"Received POST request to /v1/agency/thirdpartyagency/services/validate/biller","service":"api-gateway","timestamp":"2025-10-05T15:31:12.934Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T15:31:12.935Z"}
+{"level":"info","message":"Response received from Agency service: 400","service":"api-gateway","timestamp":"2025-10-05T15:31:15.149Z"}
+{"level":"info","message":"Received POST request to /v1/agency/thirdpartyagency/services/validate/biller","service":"api-gateway","timestamp":"2025-10-05T15:31:33.287Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T15:31:33.288Z"}
+{"level":"info","message":"Response received from Agency service: 400","service":"api-gateway","timestamp":"2025-10-05T15:31:35.414Z"}
+{"level":"info","message":"Received POST request to /v1/agency/thirdpartyagency/services/validate/biller","service":"api-gateway","timestamp":"2025-10-05T15:33:16.815Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T15:33:16.816Z"}
+{"level":"info","message":"Response received from Agency service: 400","service":"api-gateway","timestamp":"2025-10-05T15:33:18.841Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T15:37:25.583Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T15:37:25.584Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T15:37:26.300Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T15:37:26.300Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T15:37:29.544Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T15:37:29.545Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T15:37:29.813Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T15:37:29.814Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T15:38:32.912Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T15:38:32.912Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T15:38:33.550Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T15:38:33.551Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T15:42:00.783Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T15:42:00.785Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T15:42:01.557Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T15:42:01.559Z"}
+{"level":"info","message":"Received POST request to /v1/agency/thirdpartyagency/services/validate/biller","service":"api-gateway","timestamp":"2025-10-05T15:42:13.144Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T15:42:13.145Z"}
+{"level":"info","message":"Response received from Agency service: 400","service":"api-gateway","timestamp":"2025-10-05T15:42:15.618Z"}
+{"level":"info","message":"Received POST request to /v1/agency/thirdpartyagency/services/validate/biller","service":"api-gateway","timestamp":"2025-10-05T15:44:07.649Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T15:44:07.650Z"}
+{"level":"info","message":"Response received from Agency service: 200","service":"api-gateway","timestamp":"2025-10-05T15:44:12.554Z"}
+{"level":"info","message":"Received POST request to /v1/agency/thirdpartyagency/services/validate/biller","service":"api-gateway","timestamp":"2025-10-05T15:56:24.646Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T15:56:24.647Z"}
+{"level":"info","message":"Response received from Agency service: 404","service":"api-gateway","timestamp":"2025-10-05T15:56:24.663Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T16:00:41.569Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:00:41.570Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T16:00:42.605Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:00:42.607Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-05T16:00:55.005Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:00:55.006Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-05T16:00:55.102Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:00:55.103Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T16:03:04.011Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:03:04.012Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T16:03:04.896Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:03:04.897Z"}
+{"level":"info","message":"Received POST request to /v1/agency/thirdpartyagency/services/validate/biller","service":"api-gateway","timestamp":"2025-10-05T16:06:20.996Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T16:06:20.998Z"}
+{"level":"info","message":"Response received from Agency service: 400","service":"api-gateway","timestamp":"2025-10-05T16:06:24.210Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-05T16:13:38.010Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:13:38.011Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-05T16:13:38.083Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:13:38.084Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-05T16:32:20.523Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T16:32:20.523Z"}
+{"level":"info","message":"Response received from Identity service: 500","service":"api-gateway","timestamp":"2025-10-05T16:32:20.636Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-05T16:32:32.835Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T16:32:32.835Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-05T16:32:33.766Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-05T16:32:38.541Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:32:38.541Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-05T16:32:38.586Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:32:38.586Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-05T16:33:46.259Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:33:46.259Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-05T16:33:46.285Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:33:46.287Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T16:42:04.371Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:42:04.372Z"}
+{"level":"info","message":"Response received from Identity service: 500","service":"api-gateway","timestamp":"2025-10-05T16:42:16.527Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T16:42:16.534Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:42:16.536Z"}
+{"level":"info","message":"Response received from Identity service: 500","service":"api-gateway","timestamp":"2025-10-05T16:42:16.573Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T16:42:20.005Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:42:20.006Z"}
+{"level":"info","message":"Response received from Identity service: 500","service":"api-gateway","timestamp":"2025-10-05T16:42:20.036Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T16:42:21.727Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:42:21.728Z"}
+{"level":"info","message":"Response received from Identity service: 500","service":"api-gateway","timestamp":"2025-10-05T16:42:28.623Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T16:43:03.026Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:43:03.027Z"}
+{"level":"info","message":"Response received from Identity service: 500","service":"api-gateway","timestamp":"2025-10-05T16:43:03.052Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T16:43:14.803Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:43:14.803Z"}
+{"level":"info","message":"Response received from Identity service: 500","service":"api-gateway","timestamp":"2025-10-05T16:43:14.853Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T16:43:16.141Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:43:16.142Z"}
+{"level":"info","message":"Response received from Identity service: 500","service":"api-gateway","timestamp":"2025-10-05T16:43:16.172Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T16:44:29.468Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:44:29.469Z"}
+{"level":"info","message":"Response received from Identity service: 500","service":"api-gateway","timestamp":"2025-10-05T16:44:41.559Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T16:45:19.292Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:45:19.292Z"}
+{"level":"info","message":"Response received from Identity service: 500","service":"api-gateway","timestamp":"2025-10-05T16:45:31.391Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T16:46:37.284Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:46:37.285Z"}
+{"level":"info","message":"Response received from Identity service: 500","service":"api-gateway","timestamp":"2025-10-05T16:46:49.380Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T16:46:49.385Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:46:49.386Z"}
+{"level":"info","message":"Response received from Identity service: 500","service":"api-gateway","timestamp":"2025-10-05T16:46:49.425Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T16:46:49.431Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:46:49.431Z"}
+{"level":"info","message":"Response received from Identity service: 500","service":"api-gateway","timestamp":"2025-10-05T16:46:49.459Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T16:46:49.466Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:46:49.469Z"}
+{"level":"info","message":"Response received from Identity service: 500","service":"api-gateway","timestamp":"2025-10-05T16:46:49.499Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T16:46:52.100Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:46:52.101Z"}
+{"level":"info","message":"Response received from Identity service: 500","service":"api-gateway","timestamp":"2025-10-05T16:46:52.139Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T16:47:01.239Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:47:01.239Z"}
+{"level":"info","message":"Response received from Identity service: 500","service":"api-gateway","timestamp":"2025-10-05T16:47:01.484Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T16:47:01.488Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:47:01.489Z"}
+{"level":"info","message":"Response received from Identity service: 500","service":"api-gateway","timestamp":"2025-10-05T16:47:01.521Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T16:47:06.732Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:47:06.733Z"}
+{"level":"info","message":"Response received from Identity service: 500","service":"api-gateway","timestamp":"2025-10-05T16:47:13.554Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-05T16:48:25.416Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:48:25.417Z"}
+{"level":"info","message":"Received GET request to /v1/agency/thirdpartyagency/services/transactions/history","service":"api-gateway","timestamp":"2025-10-05T16:48:25.443Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:48:25.444Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T16:48:44.759Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:48:44.759Z"}
+{"level":"info","message":"Response received from Identity service: 500","service":"api-gateway","timestamp":"2025-10-05T16:48:56.822Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T16:48:56.829Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T16:48:56.830Z"}
+{"level":"info","message":"Response received from Identity service: 500","service":"api-gateway","timestamp":"2025-10-05T16:48:56.865Z"}
+{"level":"info","message":"Received POST request to /v1/agency/auth/login","service":"api-gateway","timestamp":"2025-10-05T18:42:23.049Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-10-05T18:42:23.050Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-05T18:42:23.759Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T18:42:24.268Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T18:42:24.269Z"}
+{"level":"info","message":"Response received from Identity service: 200","service":"api-gateway","timestamp":"2025-10-05T18:42:25.100Z"}
+{"level":"info","message":"Received GET request to /v1/agency/accounts/all/accounts/info/balance","service":"api-gateway","timestamp":"2025-10-05T18:42:25.104Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-10-05T18:42:25.104Z"}
