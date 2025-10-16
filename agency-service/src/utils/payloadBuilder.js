@@ -189,7 +189,6 @@ export const buildEcoCashOutPayload = ({
     sendername,
     senderphone,
     senderaccount,
-    narration,
     ccy,
     subagentcode
 }) => ({

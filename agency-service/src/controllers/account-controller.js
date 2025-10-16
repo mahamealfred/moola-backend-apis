@@ -1,31 +1,38 @@
 import axios from 'axios';
 import logger from '../utils/logger.js';
-import { generateRequestId, generateRequestToken } from '../utils/helper.js';
-import dotenv from 'dotenv';
-import CryptoJS from 'crypto-js';
+import { generateRequestId, generateRequestToken } from "../utils/helper.js";
+import dotenv from "dotenv";
+import CryptoJS from "crypto-js";
 
 dotenv.config();
 
-
-const AGENT_CODE = process.env.AGENT_CODE ;
-const PIN = process.env.AGENT_PIN ; 
-const AFFCODE = 'ERW';
-const SOURCE_CODE = 'DDIN';
-const sourceIp = "10.8.245.9"
-const ccy = "RWF";
-const CHANNEL="API"
-  const requestId = generateRequestId(); // or use uuid
+const AGENT_CODE = process.env.AGENT_CODE;
+const PIN = process.env.AGENT_PIN;
+const AFFCODE = "ERW";
+const SOURCE_CODE = "DDIN";
+const SOURCE_IP = "10.8.245.9"; // Consistent source IP for EcoCash
+const CHANNEL = "API"; // Changed from "MOBILE" to "API" for consistency
+const AGENT_ACCOUNT = process.env.AGENT_ACCOUNT_CASH_OUT;
+  const reqId = generateRequestId(); // or use uuid
 
 export const getEcoBankAccountBalance = async (req, res) => {
 
   logger.info(`Get Account Balance endpoint `);
 
-      //const amountFormatted = parseFloat(amount).toFixed(2);
+      const amountFormatted = parseFloat(amount).toFixed(2);
+      const requestToken = generateRequestToken(
+        AFFCODE,
+        reqId,
+        AGENT_CODE,
+        SOURCE_CODE,
+        SOURCE_IP
+      );
   
-      const requestTokenString = `${AFFCODE}${requestId}${AGENT_CODE}${SOURCE_CODE}${sourceIp}`;
-      const requestToken = CryptoJS.SHA512(requestTokenString).toString();
-      const tokenString = sourceIp + requestId + AGENT_CODE + PIN;
-      const transactionToken = CryptoJS.SHA512(tokenString).toString();
+      // Generate transaction token: SHA512(IP + Request ID + Agent Code + ccy + senderaccount + amount + PIN)
+    
+      const transactionTokenString =
+        SOURCE_IP + reqId + AGENT_CODE + ccy + "6775009514" + amountFormatted + PIN;
+      const transactionToken = CryptoJS.SHA512(transactionTokenString).toString();
 
   const data = {
     header: {
@@ -33,7 +40,7 @@ export const getEcoBankAccountBalance = async (req, res) => {
       requestId,
       requestToken,
       sourceCode:SOURCE_CODE,
-      sourceIp,
+      sourceIp:SOURCE_IP,
       channel: CHANNEL,
       requesttype: "VALIDATE",
       agentcode:AGENT_CODE
@@ -100,7 +107,7 @@ export const validateIdentity = async (req, res) => {
       agentcode: AGENT_CODE,
       requestToken,
       requesttype: 'ACCOUNT_OPENING',
-      sourceIp,
+      sourceIp:SOURCE_IP,
       channel: CHANNEL,
     },
     idNumber,
@@ -168,7 +175,7 @@ export const getCustomerDetails = async (req, res) => {
     agentcode: AGENT_CODE,
     requestToken: requestToken, // Use the already declared variable
     requesttype: 'VALIDATE',
-    sourceIp: sourceIp, // Make sure sourceIp is defined
+    sourceIp: SOURCE_IP, // Make sure sourceIp is defined
     channel: CHANNEL,
   };
 
@@ -215,6 +222,92 @@ export const getCustomerDetails = async (req, res) => {
       success: false,
       message: "Internal server error",
       error: error?.response?.data || error.message
+    });
+  }
+};
+export const validateExpressCashToken = async (req, res) => {
+  const { cashToken, amount } = req.body;
+
+  // Input validation
+  if (!cashToken || !amount) {
+    return res.status(400).json({
+      success: false,
+      message: "Missing required fields: cashToken and amount are required",
+    });
+  }
+
+  logger.info("Initiating customer detail validation", { cashToken, amount });
+
+  try {
+    const amountFormatted = parseFloat(amount).toFixed(2);
+
+    // Keep your existing request token and transaction token generation
+    const requestToken = generateRequestToken(
+      AFFCODE,
+      reqId,
+      AGENT_CODE,
+      SOURCE_CODE,
+      SOURCE_IP
+    );
+
+    const ccy = "RWF";
+    const transactionTokenString =
+      SOURCE_IP + reqId + AGENT_CODE + ccy + "6775009514" + amountFormatted + PIN;
+    const transactionToken = CryptoJS.SHA512(transactionTokenString).toString();
+
+    const header = {
+      sourceCode: SOURCE_CODE,
+      affcode: AFFCODE,
+      requestId: reqId,
+      agentcode: AGENT_CODE,
+      requestToken: requestToken,
+      requesttype: "VALIDATE",
+      sourceIp: SOURCE_IP,
+      channel: CHANNEL,
+    };
+
+    const payload = {
+      token: cashToken,
+      amount,
+      transactionToken,
+      header,
+    };
+
+    const config = {
+      method: "post",
+      url: "https://devtuat.ecobank.com/agencybanking/services/thirdpartyagencybanking/validatetoken",
+      maxBodyLength: Infinity,
+      headers: { "Content-Type": "application/json" },
+      data: payload,
+    };
+
+    logger.info("Sending request to Ecobank API", { requestId: header.requestId });
+
+    const response = await axios.request(config);
+    const responseData = response.data;
+
+    logger.info("Received response from Ecobank API", responseData);
+
+    if (responseData?.header?.responsecode === "000") {
+      return res.status(200).json({
+        success: true,
+        message: "Customer details retrieved successfully",
+        data: responseData,
+      });
+    } else {
+      logger.error("Validation failed", responseData?.header);
+      return res.status(400).json({
+        success: false,
+        message: responseData?.header?.responsemessage || "Validation failed",
+        code: responseData?.header?.responsecode,
+      });
+    }
+  } catch (error) {
+    logger.error("Request failed", error?.response?.data || error.message);
+    return res.status(500).json({
+      success: false,
+      message: "Internal server error",
+      error: error?.response?.data || error.message,
     });
   }
 };

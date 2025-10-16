@@ -57,7 +57,7 @@ export const validateBiller = async (req, res) => {
             });
         }
     } catch (error) {
-        logger.error('Validation routing failed', { error: error.message });
+        logger.error('Validation routing failed f', { error: error.message });
         return res.status(500).json({
             success: false,
             message: 'Internal server error during biller validation',
@@ -259,7 +259,7 @@ export const validateBillEcobank = async (req, res) => {
         logger.error('Bill payment validation failed', {
             error: error?.response?.data || error.message,
         });
-        if (error.response.status) {
+        if (error.response?.header?.responsecode) {
             return res.status(400).json({
                 success: false,
                 message: error.response?.header?.responsemessage,

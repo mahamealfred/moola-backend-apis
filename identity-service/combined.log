@@ -5118,3 +5118,24 @@
 {"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-10-05T18:42:23.055Z"}
 {"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-10-05T18:42:23.061Z"}
 {"agentCategory":"Agent","level":"warn","message":"Successfully logged in","name":"Live Agent UAT","phoneNumber":null,"service":"identity-service","timestamp":"2025-10-05T18:42:23.756Z","userId":4}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-10-08T19:10:42.939Z"}
+{"level":"info","message":"Received POST request to /api/agency/auth/login","service":"identity-service","timestamp":"2025-10-08T19:13:29.466Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-10-08T19:13:29.468Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-10-08T19:13:29.723Z"}
+{"agentCategory":"Agent","level":"warn","message":"Successfully logged in","name":"Alfred Mahame","phoneNumber":"0789595309","service":"identity-service","timestamp":"2025-10-08T19:13:32.188Z","userId":58}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-10-08T19:37:40.105Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-10-09T09:16:28.501Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-10-09T21:18:23.273Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-10-15T17:49:05.845Z"}
+{"level":"info","message":"Received POST request to /api/agency/auth/login","service":"identity-service","timestamp":"2025-10-15T17:51:41.836Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-10-15T17:51:41.838Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-10-15T17:51:42.101Z"}
+{"agentCategory":"Agent","level":"warn","message":"Successfully logged in","name":"Alfred Mahame","phoneNumber":"0789595309","service":"identity-service","timestamp":"2025-10-15T17:51:44.012Z","userId":58}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-10-15T18:32:40.885Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-10-16T07:46:19.527Z"}
+{"level":"info","message":"Received POST request to /api/agency/auth/login","service":"identity-service","timestamp":"2025-10-16T08:10:13.878Z"}
+{"level":"info","message":"Request body, [object Object]","service":"identity-service","timestamp":"2025-10-16T08:10:13.880Z"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2025-10-16T08:10:13.889Z"}
+{"agentCategory":"Agent","level":"warn","message":"Successfully logged in","name":"Alfred Mahame","phoneNumber":"0789595309","service":"identity-service","timestamp":"2025-10-16T08:10:15.079Z","userId":58}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-10-16T09:33:25.934Z"}
+{"level":"info","message":"Identity service running on port 4004","service":"identity-service","timestamp":"2025-10-16T10:29:22.388Z"}

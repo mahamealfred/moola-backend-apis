@@ -1,8 +1,8 @@
 import express from "express";
-import { getCustomerDetails, getEcoBankAccountBalance, validateIdentity } from "../controllers/account-controller.js";
+import { getCustomerDetails, getEcoBankAccountBalance, validateExpressCashToken, validateIdentity } from "../controllers/account-controller.js";
 import { executeBillerPayment, executeBillPaymentEcoBank, getAllAgentTransactions, getBillerDetails, getBillerList, getBillers, getBillPaymentFee, getTransactionsById,  validateBillEcobank, validateBiller } from "../controllers/payment-controller.js";
-import { executeEcoCashIn, executeEcoCashOut, openAccount } from "../controllers/banking-controller.js";
-import tariffs from "../utils/tariffs.json" assert { type: "json" };
+import { executeEcoCashIn, executeEcoCashOut, executeEcoCashOutExpressCashToken, openAccount } from "../controllers/banking-controller.js";
+import { loadTariffs } from "../utils/loadTariffs.js";
 
 
 
@@ -12,10 +12,13 @@ const router = express.Router();
 router.get("/thirdpartyagency/services/getbalance",getEcoBankAccountBalance);
 router.post("/thirdpartyagency/services/validateidentity",validateIdentity);
 router.post("/thirdpartyagency/services/getcustomerdetails",getCustomerDetails);
+
+router.post("/thirdpartyagency/services/validate/cash-token",validateExpressCashToken);
 //banking
 router.post("/thirdpartyagency/services/account-openning",openAccount);
 router.post("/thirdpartyagency/services/execute/cash-in",executeEcoCashIn);
 router.post("/thirdpartyagency/services/execute/withdraw",executeEcoCashOut);
+router.post("/thirdpartyagency/services/execute/redeemtoken",executeEcoCashOutExpressCashToken);
 
 //Bill validation and pyment routes
 router.post("/thirdpartyagency/services/validate/biller",validateBiller);
@@ -45,8 +48,9 @@ router.get("/thirdpartyagency/services/tariffs", (req, res) => {
 });
 
 // Specific endpoint
-router.get("/thirdpartyagency/services/tariffs/bill", (req, res) => {
+router.get("/thirdpartyagency/services/tariffs/bill",async (req, res) => {
   const { type } = req.query;
+   const tariffs = await loadTariffs();
 
   if (!type) {
     return res.status(400).json({

@@ -121,6 +121,7 @@ export const ecoCashDepositService = async (
         message:
           responseData?.header?.responsemessage || "Cash deposit failed",
         code: responseData?.header?.responsecode,
+        payload
       });
     }
   } catch (error) {

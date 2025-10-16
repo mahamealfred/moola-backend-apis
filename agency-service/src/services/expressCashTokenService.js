@@ -15,7 +15,7 @@ const CHANNEL = "API"; // Changed from "MOBILE" to "API" for consistency
 const AGENT_ACCOUNT = process.env.AGENT_ACCOUNT_CASH_OUT;
 
 // EcoCash Withdraw Service
-export const ecoCashWithdrawService = async (
+export const expressCashTokenService = async (
   req,
   res,
   responseCyclos,
@@ -28,14 +28,14 @@ export const ecoCashWithdrawService = async (
     return;
   }
 
-  const { sendername, senderphone, senderaccount, ccy, narration, amount } =
+  const { receivername, thirdpartyphonenumber, cashToken, ccy, amount } =
     req.body;
 
   // Validate required fields
   const requiredFields = [
-    "sendername",
-    "senderphone",
-    "senderaccount",
+    "receivername",
+    "thirdpartyphonenumber",
+    "cashToken",
     "ccy",
     "amount",
   ];
@@ -64,14 +64,14 @@ export const ecoCashWithdrawService = async (
     // Generate transaction token: SHA512(IP + Request ID + Agent Code + ccy + senderaccount + amount + PIN)
  
     const transactionTokenString =
-      SOURCE_IP + reqId + AGENT_CODE + ccy + "6775009514" + amountFormatted + PIN;
+      SOURCE_IP + reqId + AGENT_CODE + ccy  + amountFormatted + PIN;
     const transactionToken = CryptoJS.SHA512(transactionTokenString).toString();
 
     const header = {
       affcode: AFFCODE,
       requestId: reqId,
       agentcode: AGENT_CODE,
-      requesttype: "GETCARDS", // Changed from "GETCARDS" to appropriate withdrawal type
+      requesttype: "TOKEN_CASH_OUT", // Changed from "GETCARDS" to appropriate withdrawal type
       sourceIp: SOURCE_IP,
       sourceCode: SOURCE_CODE,
       channel: CHANNEL,
@@ -79,12 +79,10 @@ export const ecoCashWithdrawService = async (
     };
 
     const payload = {
-      sendername,
-      senderphone,
-      senderaccount,
-      thirdpartyphonenumber: senderphone,
-      ccy,
-      narration: narration || "Cash out",
+      receivername,
+      token:cashToken,
+      thirdpartyphonenumber,
+      currency:ccy,
       subagent: agent_id || AGENT_CODE,
       amount: amountFormatted,
       transactiontoken: transactionToken,
@@ -93,7 +91,7 @@ export const ecoCashWithdrawService = async (
 
     const config = {
       method: "post",
-      url: "https://mule.ecobank.com/agencybanking/services/thirdpartyagencybanking/withdrawal",
+      url: "https://devtuat.ecobank.com/agencybanking/services/thirdpartyagencybanking/redeemtoken",
       headers: { "Content-Type": "application/json" },
       data: payload,
     };
@@ -126,8 +124,7 @@ export const ecoCashWithdrawService = async (
     }
   } catch (error) {
     logger.error("EcoCash withdrawal failed", {
-      error: error?.response?.data || error.message,
-      payload
+      error: error?.response?.data || error.message
     });
 
     if (!res.headersSent) {

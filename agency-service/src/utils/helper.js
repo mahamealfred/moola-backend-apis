@@ -3,11 +3,12 @@ import CryptoJS from 'crypto-js';
 import axios from "axios";
 import dotenv from "dotenv";
 
-import tariffs from "./tariffs.json" assert { type: "json" }; 
+import { loadTariffs } from "../utils/loadTariffs.js";
 
 dotenv.config()
 
-export const  getBillerCharge=(amount,billerCode)=> {
+export const  getBillerCharge=async(amount,billerCode)=> {
+   const tariffs = await loadTariffs();
   const taxTariffs = tariffs.billPayment.filter(
     (t) => t.transaction_type.toLowerCase() === billerCode.toString()
   );
