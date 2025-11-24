@@ -1281,3 +1281,5 @@
 {"level":"info","message":"Account service running on port 4002","service":"account-service","timestamp":"2025-11-13T12:13:20.793Z"}
 {"level":"info","message":"Get Account Balance endpoint hit...","service":"account-service","timestamp":"2025-11-21T20:17:35.604Z"}
 {"level":"warn","message":"Successfully get Account Balance","service":"account-service","timestamp":"2025-11-21T20:17:36.318Z"}
+{"level":"info","message":"Get Account Balance endpoint hit...","service":"account-service","timestamp":"2025-11-24T21:04:57.140Z"}
+{"level":"info","message":"Successfully retrieved Account Balance","service":"account-service","timestamp":"2025-11-24T21:04:57.818Z"}
