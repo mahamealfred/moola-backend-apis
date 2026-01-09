@@ -1,55 +1,133 @@
 //Airtime
-export const buildAirtimePayload = ({ amount,
+export const buildAirtimePayload = ({
+  amount,
   requestId,
   ccy,
   customerId,
-  clientPhone
-}) => ({
-  amount,
-  toMemberId: '18',
-  transferTypeId: '66',
-  currencySymbol: ccy,
-  description: 'Airtime Purchase',
-  customValues: [
-    {
-      internalName: "trans_id",
-      fieldId: "85",
-      value: requestId
-    },
-    {
-      internalName: "net_amount",
-      fieldId: "87",
-      value: amount
-    },
-    {
-      internalName: "clientphone",
-      fieldId: "90",
-      value: customerId
-    },
+  clientPhone,
+  agentCategory
+}) => {
 
-  ],
-});
+  let transferTypeId = "66";
+  let toMemberId = '18';
+  if (agentCategory === 'Corporate') {
+    transferTypeId = "67";
+    toMemberId = '18';
+  } else if (agentCategory === 'TCP') {
+    transferTypeId = "114";
+    toMemberId = '18';
+  } else if (agentCategory === 'Client') {
+    transferTypeId = "116";
+    toMemberId = '18';
+  }
+  return {
+    amount,
+    toMemberId: toMemberId,
+    transferTypeId: transferTypeId,
+    currencySymbol: ccy,
+    description: 'Airtime Purchase',
+    customValues: [
+      {
+        internalName: "trans_id",
+        fieldId: "85",
+        value: requestId
+      },
+      {
+        internalName: "net_amount",
+        fieldId: "87",
+        value: amount
+      },
+      {
+        internalName: "clientphone",
+        fieldId: "90",
+        value: customerId
+      },
+
+    ],
+  }
+};
 //Electricity
 export const buildElecticityPayload = ({
   amount,
   requestId,
   ccy,
   customerId,
-  clientPhone
-}) => ({
+  clientPhone,
+  agentCategory
+}) => {
+  let transferTypeId = "70";
+  let toMemberId = '18';
+  if (agentCategory === 'Corporate') {
+    transferTypeId = "71";
+    toMemberId = '18';
+  } else if (agentCategory === 'TCP') {
+    transferTypeId = "70";
+    toMemberId = '18';
+  } else if (agentCategory === 'Client') {
+    transferTypeId = "116";
+    toMemberId = '18';
+  }
+  return {
 
-  toMemberId: "18",
-  amount: amount,
-  transferTypeId: "70",
-  currencySymbol: ccy,
-  description: "Electricity Payment",
-  customValues: [
-    {
-      internalName: "meterNumber",
-      fieldId: "86",
-      value: customerId
-    },
-    {
+    toMemberId: toMemberId,
+    amount: amount,
+    transferTypeId: transferTypeId,
+    currencySymbol: ccy,
+    description: "Electricity Payment",
+    customValues: [
+      {
+        internalName: "meterNumber",
+        fieldId: "86",
+        value: customerId
+      },
+      {
+        internalName: "trans_id",
+        fieldId: "85",
+        value: requestId
+      },
+      {
+        internalName: "net_amount",
+        fieldId: "87",
+        value: amount
+      },
+      {
+        internalName: "clientphone",
+        fieldId: "90",
+        value: clientPhone
+      }
+
+    ]
+  }
+};
+
+//Startime
+export const buildStartimePayload = ({
+  amount,
+  requestId,
+  ccy,
+  customerId,
+  clientPhone,
+  agentCategory
+}) => {
+  let transferTypeId = "74";
+  let toMemberId = '18';
+  if (agentCategory === 'Corporate') {
+    transferTypeId = "75";
+    toMemberId = '18';
+  } else if (agentCategory === 'TCP') {
+    transferTypeId = "74";
+    toMemberId = '18';
+  } else if (agentCategory === 'Client') {
+    transferTypeId = "116";
+    toMemberId = '18';
+  }
+  return {
+    toMemberId: toMemberId,
+    amount: amount,
+    transferTypeId: transferTypeId,
+    currencySymbol: "Rwf",
+    description: "Startimes Subscription",
+    customValues: [{
       internalName: "trans_id",
       fieldId: "85",
       value: requestId
@@ -65,42 +143,10 @@ export const buildElecticityPayload = ({
       value: clientPhone
     }
 
-  ]
-});
+    ]
 
-//Startime
-export const buildStartimePayload = ({
-  amount,
-  requestId,
-  ccy,
-  customerId,
-  clientPhone
-}) => ({
-
-  toMemberId: "18",
-  amount: amount,
-  transferTypeId: "74",
-  currencySymbol: "Rwf",
-  description: "Startimes Subscription",
-  customValues: [{
-    internalName: "trans_id",
-    fieldId: "85",
-    value: requestId
-  },
-  {
-    internalName: "net_amount",
-    fieldId: "87",
-    value: amount
-  },
-  {
-    internalName: "clientphone",
-    fieldId: "90",
-    value: clientPhone
   }
-
-  ]
-
-});
+};
 
 //Startime
 export const buildBulkSMSPindoPayload = ({
@@ -108,16 +154,30 @@ export const buildBulkSMSPindoPayload = ({
   requestId,
   ccy,
   customerId,
-  clientPhone
-}) => ({
+  clientPhone,
+  agentCategory
+}) =>{
+   let transferTypeId = "31";
+  let toMemberId = '3';
+  if (agentCategory === 'Corporate') {
+    transferTypeId = "38";
+    toMemberId = '3';
+  } else if (agentCategory === 'TCP') {
+    transferTypeId = "31";
+    toMemberId = '3';
+  }else if (agentCategory === 'Client') {
+    transferTypeId = "116";
+    toMemberId = '3';
+  } 
+  return {
 
-  toMemberId: "3",
+  toMemberId: toMemberId,
   amount: amount,
-  transferTypeId: "31",
+  transferTypeId:transferTypeId,
   currencySymbol: "Rwf",
   description: "Bulk SMS"
-
-});
+  }
+};
 
 
 //RRA
@@ -129,11 +189,25 @@ export const buildRRABillerPayload = ({
   clientPhone,
   billerCode,
   netAmount
-}) => ({
+}) => {
+   let transferTypeId = "82";
+  let toMemberId = '18';
+  if (agentCategory === 'Corporate') {
+    transferTypeId = "83";
+    toMemberId = '18';
+  } else if (agentCategory === 'TCP') {
+    transferTypeId = "82";
+    toMemberId = '18';
+  }else if (agentCategory === 'Client') {
+    transferTypeId = "116";
+    toMemberId = '18';
+  }
+  
+  return{
 
-  toMemberId: "18",
+  toMemberId: toMemberId,
   amount: amount,
-  transferTypeId: "82",
+  transferTypeId: transferTypeId,
   currencySymbol: ccy,
   description: "RRA Payment",
   customValues: [
@@ -163,17 +237,18 @@ export const buildRRABillerPayload = ({
       value: netAmount
     }
   ]
-});
+}
+};
 
 //Ecobank Cash In
 export const buildEcoCashInPayload = ({
- amount,
-    sendername,
-    senderphone,
-    senderaccount,
-    narration,
-    ccy,
-    description
+  amount,
+  sendername,
+  senderphone,
+  senderaccount,
+  narration,
+  ccy,
+  description
 }) => ({
   toMemberId: "142",
   amount: amount,
@@ -185,12 +260,12 @@ export const buildEcoCashInPayload = ({
 //Ecobank Cash Out
 
 export const buildEcoCashOutPayload = ({
-   amount,
-    sendername,
-    senderphone,
-    senderaccount,
-    ccy,
-    subagentcode
+  amount,
+  sendername,
+  senderphone,
+  senderaccount,
+  ccy,
+  subagentcode
 }) => ({
   toMemberId: subagentcode,
   amount: amount,
@@ -242,46 +317,46 @@ export const buildBulkSmsBillerPayload = ({
   billerCode,
   description
 }) => ({
- toMemberId: "35",
+  toMemberId: "35",
   amount: amount,
-transferTypeId: "51",
+  transferTypeId: "51",
   currencySymbol: ccy,
-description: description
+  description: description
 });
 //Agency Banking Ecobank
-export const agencyBankingDepositPayLoad =({
- amount,
+export const agencyBankingDepositPayLoad = ({
+  amount,
   requestId,
   ccy,
   customerId,
   clientPhone,
   billerCode,
   description
-})=>(
+}) => (
   {
     toMemberId: "142",
     amount: amount,
     transferTypeId: "121",
     currencySymbol: ccy,
     description: description
-}
+  }
 )
-export const agencyBankingWithdrawPayLoad =({
- amount,
+export const agencyBankingWithdrawPayLoad = ({
+  amount,
   requestId,
   ccy,
   customerId,
   clientPhone,
   billerCode,
   description
-})=>(
+}) => (
   {
     toMemberId: "142",
     amount: amount,
     transferTypeId: "121",
     currencySymbol: ccy,
     description: description
-}
+  }
 )
 
 //RRA Ecobank
@@ -293,76 +368,76 @@ export const buildRRAEcobankBillerPayload = ({
   clientPhone,
   netAmount
 }) => ({
-    toMemberId: "34",
-    amount: amount,
-    transferTypeId: "85",
-    currencySymbol: "Rwf",
-    description: "RRA Tax Payment",
-    customValues: [
+  toMemberId: "34",
+  amount: amount,
+  transferTypeId: "85",
+  currencySymbol: "Rwf",
+  description: "RRA Tax Payment",
+  customValues: [
     {
-    internalName : "tax_identification_number",
-    fieldId : "82",
-    value : "11986801789765"
+      internalName: "tax_identification_number",
+      fieldId: "82",
+      value: "11986801789765"
     },
-        {
-    internalName : "validation_id",
-    fieldId : "83",
-    value : "12345"
-        },
-        {
-    internalName : "tax_document_id",
-    fieldId : "84",
-    value: customerId
-        },
-        {
-    internalName : "tax_center",
-    fieldId : "85",
-    value : "Kigali"
-        },
-        {
-    internalName : "declaration_date",
-    fieldId : "86",
-    value : "2024-02-09"
-        },
-        {
-    internalName : "full_payment_status",
-    fieldId : "87",
-    value : "Successful"
-        },
-        {
-    internalName : "tax_type",
-    fieldId : "88",
-    value : "Cleaning Fee"
-        },
-        {
-    internalName : "taxpayer",
-    fieldId : "89",
-    value : "Remy KWIZERA"
-        },
-        {
-    internalName : "createdat",
-    fieldId : "90",
-    value : "2024-02-09"
-        },
-        {
-    internalName : "updatedat",
-    fieldId : "91",
-    value : "2024-02-09"
-        },
-        {
-    internalName : "receiptNo",
-    fieldId : "92",
-    value : "DDIN123456789"
-        },
-         {
-    internalName : "clientphone",
-    fieldId : "121",
-    value : "0785644568"
-        }
-    ]
+    {
+      internalName: "validation_id",
+      fieldId: "83",
+      value: "12345"
+    },
+    {
+      internalName: "tax_document_id",
+      fieldId: "84",
+      value: customerId
+    },
+    {
+      internalName: "tax_center",
+      fieldId: "85",
+      value: "Kigali"
+    },
+    {
+      internalName: "declaration_date",
+      fieldId: "86",
+      value: "2024-02-09"
+    },
+    {
+      internalName: "full_payment_status",
+      fieldId: "87",
+      value: "Successful"
+    },
+    {
+      internalName: "tax_type",
+      fieldId: "88",
+      value: "Cleaning Fee"
+    },
+    {
+      internalName: "taxpayer",
+      fieldId: "89",
+      value: "Remy KWIZERA"
+    },
+    {
+      internalName: "createdat",
+      fieldId: "90",
+      value: "2024-02-09"
+    },
+    {
+      internalName: "updatedat",
+      fieldId: "91",
+      value: "2024-02-09"
+    },
+    {
+      internalName: "receiptNo",
+      fieldId: "92",
+      value: "DDIN123456789"
+    },
+    {
+      internalName: "clientphone",
+      fieldId: "121",
+      value: "0785644568"
+    }
+  ]
 });
 
-  //Electricity
+//Electricity
 export const buildEcobankElecticityPayload = ({
   amount,
   requestId,
@@ -370,31 +445,31 @@ export const buildEcobankElecticityPayload = ({
   customerId,
   clientPhone
 }) => ({
-    toMemberId: "142",
-    amount: amount,
-    transferTypeId: "125",
-    currencySymbol: "Rwf",
-    description: "Agency Banking Electricity Payment",
-    customValues: [
+  toMemberId: "142",
+  amount: amount,
+  transferTypeId: "125",
+  currencySymbol: "Rwf",
+  description: "Agency Banking Electricity Payment",
+  customValues: [
     {
-    internalName : "meterNumber",
-    fieldId : "117",
-    value : customerId
+      internalName: "meterNumber",
+      fieldId: "117",
+      value: customerId
     },
-     {
-    internalName : "trans_id",
-    fieldId : "118",
-    value : requestId
+    {
+      internalName: "trans_id",
+      fieldId: "118",
+      value: requestId
     },
-             {
-    internalName : "net_amount",
-    fieldId : "119",
-    value : amount
+    {
+      internalName: "net_amount",
+      fieldId: "119",
+      value: amount
     }
-    ]
+  ]
 });
 
-  //Wasac
+//Wasac
 export const buildEcobankWasacPayload = ({
   amount,
   requestId,
@@ -402,29 +477,29 @@ export const buildEcobankWasacPayload = ({
   customerId,
   clientPhone
 }) => ({
-    toMemberId: "142",
-    amount: amount,
-    transferTypeId: "129",
-    currencySymbol: "Rwf",
-    description: "Agency Banking Water Payment",
-    customValues: [
+  toMemberId: "142",
+  amount: amount,
+  transferTypeId: "129",
+  currencySymbol: "Rwf",
+  description: "Agency Banking Water Payment",
+  customValues: [
     {
-    internalName : "meterNumber",
-    fieldId : "117",
-    value : customerId
+      internalName: "meterNumber",
+      fieldId: "117",
+      value: customerId
     },
 
-        {
-    internalName : "trans_id",
-    fieldId : "118",
-    value : requestId
-        },
-             {
-    internalName : "net_amount",
-    fieldId : "119",
-    value : amount
-             }
-    ]
+    {
+      internalName: "trans_id",
+      fieldId: "118",
+      value: requestId
+    },
+    {
+      internalName: "net_amount",
+      fieldId: "119",
+      value: amount
+    }
+  ]
 });
 
 //Startime
@@ -435,23 +510,23 @@ export const buildEcobankStartimePayload = ({
   customerId,
   clientPhone
 }) => ({
-    toMemberId: "142",
-    amount: amount,
-    transferTypeId: "127",
-    currencySymbol: "Rwf",
-    description: "Agency Banking Startimes Subcription",
-    customValues: [
-     {
-    internalName : "trans_id",
-    fieldId : "118",
-    value : requestId
+  toMemberId: "142",
+  amount: amount,
+  transferTypeId: "127",
+  currencySymbol: "Rwf",
+  description: "Agency Banking Startimes Subcription",
+  customValues: [
+    {
+      internalName: "trans_id",
+      fieldId: "118",
+      value: requestId
     },
-             {
-    internalName : "net_amount",
-    fieldId : "119",
-    value : amount
+    {
+      internalName: "net_amount",
+      fieldId: "119",
+      value: amount
     }
-    ]
+  ]
 });
 
 
@@ -463,29 +538,29 @@ export const buildEcobankIremboPayPayload = ({
   customerId,
   clientPhone
 }) => ({
-    toMemberId: "142",
-    amount: amount,
-    transferTypeId: "130",
-    currencySymbol: "Rwf",
-    description: "Agency Banking IREMBO Payment",
-    customValues: [
+  toMemberId: "142",
+  amount: amount,
+  transferTypeId: "130",
+  currencySymbol: "Rwf",
+  description: "Agency Banking IREMBO Payment",
+  customValues: [
     {
-    internalName : "bill_id",
-    fieldId : "117",
-    value : customerId
+      internalName: "bill_id",
+      fieldId: "117",
+      value: customerId
     },
 
-        {
-    internalName : "trans_id",
-    fieldId : "118",
-    value :requestId
-        },
-             {
-    internalName : "net_amount",
-    fieldId : "119",
-    value : amount
-             }
-    ]
+    {
+      internalName: "trans_id",
+      fieldId: "118",
+      value: requestId
+    },
+    {
+      internalName: "net_amount",
+      fieldId: "119",
+      value: amount
+    }
+  ]
 });
 
 //ECOBANK RNIT PAY
@@ -496,43 +571,43 @@ export const buildEcobankRNITPayPayload = ({
   customerId,
   clientPhone
 }) => ({
-    toMemberId: "142",
-    amount: amount,
-    transferTypeId: "127",
-    currencySymbol: "Rwf",
-    description: "Agency Banking RNIT Payment",
-    customValues: [
-{
-    internalName : "client_firstname",
-    fieldId : "104",
-    value : "Kwizera"
+  toMemberId: "142",
+  amount: amount,
+  transferTypeId: "127",
+  currencySymbol: "Rwf",
+  description: "Agency Banking RNIT Payment",
+  customValues: [
+    {
+      internalName: "client_firstname",
+      fieldId: "104",
+      value: "Kwizera"
     },
-        {
-    internalName : "client_lastname",
-    fieldId : "105",
-    value : "Remy"
-        },
-        {
-    internalName : "phone_number",
-    fieldId : "107",
-    value : "0785253102"
-        },
-        {
-    internalName : "national_id_number",
-    fieldId : "108",
-    value : customerId
-        },
-        {
-    internalName : "trans_id",
-    fieldId : "118",
-    value : requestId
+    {
+      internalName: "client_lastname",
+      fieldId: "105",
+      value: "Remy"
     },
-             {
-    internalName : "net_amount",
-    fieldId : "119",
-    value : amount
+    {
+      internalName: "phone_number",
+      fieldId: "107",
+      value: "0785253102"
+    },
+    {
+      internalName: "national_id_number",
+      fieldId: "108",
+      value: customerId
+    },
+    {
+      internalName: "trans_id",
+      fieldId: "118",
+      value: requestId
+    },
+    {
+      internalName: "net_amount",
+      fieldId: "119",
+      value: amount
     }
-    ]
+  ]
 });
 
 

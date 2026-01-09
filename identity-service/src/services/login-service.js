@@ -7,6 +7,7 @@ dotenv.config()
 
 const loginService = async (req, res, username, password) => {
     const token = Buffer.from(`${username}:${password}`).toString('base64');
+    const language = req.language || 'en';
 
     try {
         const response = await axios.get(process.env.CYCLOS_URL+'/rest/members/me', {
@@ -33,7 +34,7 @@ const loginService = async (req, res, username, password) => {
             }
         });
 
-        const { accessToken, refreshToken } = await generateTokens(token, id, name,username);
+        const { accessToken, refreshToken } = await generateTokens(token, id, name,username,agentCategory);
 
         logger.warn("Successfully logged in", { 
             userId: id, 
@@ -50,7 +51,7 @@ const loginService = async (req, res, username, password) => {
             phoneNumber,
             accessToken,
             refreshToken
-        }, req.language));
+        }, language));
     } catch (error) {
         logger.error("Error during login:", {
             error: error.response?.data || error.message,
@@ -58,14 +59,14 @@ const loginService = async (req, res, username, password) => {
         });
         
         if (error.response?.status === 400) {
-            return res.status(400).json(createErrorResponse('authentication.invalid_credentials', req.language, 400));
+            return res.status(400).json(createErrorResponse('authentication.invalid_credentials', language, 400));
         }
 
         if (error.response?.status === 401) {
-            return res.status(401).json(createErrorResponse('authentication.invalid_credentials', req.language, 401));
+            return res.status(401).json(createErrorResponse('authentication.invalid_credentials', language, 401));
         }
 
-        return res.status(500).json(createErrorResponse('common.server_error', req.language, 500));
+        return res.status(500).json(createErrorResponse('common.server_error', language, 500));
     }
 };
 

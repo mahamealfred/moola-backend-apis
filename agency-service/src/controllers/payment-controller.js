@@ -3,7 +3,7 @@ import crypto from 'crypto';
 import logger from '../utils/logger.js';
 import dotenv from 'dotenv';
 import CryptoJS from 'crypto-js';
-import { billercategories, findNetAmount, generateRequestId } from '../utils/helper.js';
+import { billercategories, decodeToken, findNetAmount, generateRequestId } from '../utils/helper.js';
 import { generateFDIAccessToken } from '../utils/helper.js';
 import { insertLogs, selectAllLogs, selectTransactionById } from '../utils/logsData.js';
 import { getBillerCharge } from '../utils/helper.js';
@@ -139,7 +139,7 @@ export const ValidateBillerFdi = async (req, res) => {
         }
 
         if (status === 400 || status === 422) {
-            return res.status(status).json(createErrorResponse('validation.invalid_request', req.language, status, {
+            return res.status(status).json(createErrorResponse('validation.invalid_customer_details', req.language, status, {
                 apiMessage: errorMessage
             }));
         }
@@ -327,32 +327,33 @@ export const executeBillPaymentEcoBank = async (req, res) => {
 
     const authHeader = req.headers["authorization"];
     const token = authHeader && authHeader.split(" ")[1];
-
-    let agent_name = "UnknownAgent";
-    let userAuth = null;
-    let agent_id = 0
+    
+    if (!token) {
+        logger.warn("Missing authorization token");
+        return res.status(401).json({
+            success: false,
+            message: "Missing authorization token. Please log in again.",
+        });
+    }
+    
+    let decodedToken = decodeToken(token);
+    
+    if (!decodedToken) {
+        logger.warn("Invalid or malformed token");
+        return res.status(401).json({
+            success: false,
+            message: "Invalid or malformed token. Please log in again.",
+        });
+    }
+    
+    const agentCategory = decodedToken.agentCategory;
+    let agent_name = decodedToken.name || "UnknownAgent";
+    let userAuth = decodedToken.userAuth || null;
+    let agent_id = decodedToken.id || 0;
     let customer_charge = 0;
     let netAmount = findNetAmount(amount)
     if (billerCode.toLowerCase() === "RRA") {
         customer_charge = getBillerCharge(amount, billerCode);
-    }
-
-    try {
-        const decodedToken = await new Promise((resolve, reject) =>
-            jwt.verify(token, process.env.JWT_SECRET, (err, user) =>
-                err ? reject(err) : resolve(user)
-            )
-        );
-
-        agent_name = decodedToken.name;
-        agent_id = decodedToken.id;
-        userAuth = decodedToken.userAuth;
-    } catch (err) {
-        logger.warn("Invalid token", { error: err.message });
-        return res.status(401).json({
-            success: false,
-            message: "Invalid or expired token. Please log in again.",
-        });
     }
 
     if (!process.env.CYCLOS_URL) {
@@ -364,19 +365,19 @@ export const executeBillPaymentEcoBank = async (req, res) => {
     }
 
     const payload = billerCode === "ELEC"
-        ? buildEcobankElecticityPayload({ amount, requestId, ccy, customerId, clientPhone })
+        ? buildEcobankElecticityPayload({ amount, requestId, ccy, customerId, clientPhone, agentCategory })
         : billerCode === "EUCL_ERW"
-            ? buildEcobankElecticityPayload({ amount, requestId, ccy, customerId, clientPhone })
+            ? buildEcobankElecticityPayload({ amount, requestId, ccy, customerId, clientPhone, agentCategory })
             : billerCode === "STTV"
                 ? buildEcobankStartimePayload({ amount, requestId, ccy, customerId, clientPhone })
                 : billerCode === "RWANDA_WASAC"
-                    ? buildEcobankWasacPayload({ amount, requestId, ccy, customerId, clientPhone })
+                    ? buildEcobankWasacPayload({ amount, requestId, ccy, customerId, clientPhone , agentCategory})
                     : billerCode === "IREMBOPAY"
-                        ? buildEcobankIremboPayPayload({ amount, requestId, ccy, customerId, clientPhone })
+                        ? buildEcobankIremboPayPayload({ amount, requestId, ccy, customerId, clientPhone , agentCategory})
                         : billerCode === "RNIT"
-                            ? buildEcobankRNITPayPayload({ amount, requestId, ccy, customerId, clientPhone })
+                            ? buildEcobankRNITPayPayload({ amount, requestId, ccy, customerId, clientPhone,agentCategory })
                             : billerCode === "RRA"
-                                ? buildRRAEcobankBillerPayload({ amount, requestId, ccy, customerId, clientPhone, netAmount })
+                                ? buildRRAEcobankBillerPayload({ amount, requestId, ccy, customerId, clientPhone, netAmount,agentCategory })
                                 : buildGenericBillerPayload({
                                     amount,
                                     requestId,
@@ -384,6 +385,7 @@ export const executeBillPaymentEcoBank = async (req, res) => {
                                     customerId,
                                     clientPhone,
                                     billerCode,
+                                    agentCategory
                                 });
 
     const config = {
@@ -396,7 +398,6 @@ export const executeBillPaymentEcoBank = async (req, res) => {
         },
         data: JSON.stringify(payload),
     };
-
 
     try {
         const cyclosResp = await axios.request(config);
@@ -457,15 +458,15 @@ export const executeBillPaymentEcoBank = async (req, res) => {
         });
 
         if (status === 400) {
-            let message = "Unable to process payment due to invalid request.";
-
             if (errorDetails === "INVALID_TRANSACTION_PASSWORD") {
-                message = "Your transaction password is incorrect. Please try again.";
+                return res.status(400).json(createErrorResponse('banking.invalid_transaction_password', req.language, 400));
             } else if (errorDetails === "BLOCKED_TRANSACTION_PASSWORD") {
-                message = "Your transaction password has been blocked. Please contact support.";
+                return res.status(400).json(createErrorResponse('banking.blocked_transaction_password', req.language, 400));
             }
 
-            return res.status(400).json({ success: false, message });
+            return res.status(400).json(createErrorResponse('validation.invalid_payment_data', req.language, 400, {
+                details: errorDetails
+            }));
         }
 
         if (status === 401) {
@@ -511,32 +512,33 @@ export const executeBillerPaymentFDI = async (req, res) => {
 
     const authHeader = req.headers["authorization"];
     const token = authHeader && authHeader.split(" ")[1];
-
-    let agent_name = "UnknownAgent";
-    let userAuth = null;
-    let agent_id = 0
+    
+    if (!token) {
+        logger.warn("Missing authorization token");
+        return res.status(401).json({
+            success: false,
+            message: "Missing authorization token. Please log in again.",
+        });
+    }
+    
+    let decodedToken = decodeToken(token);
+    
+    if (!decodedToken) {
+        logger.warn("Invalid or malformed token");
+        return res.status(401).json({
+            success: false,
+            message: "Invalid or malformed token. Please log in again.",
+        });
+    }
+    
+    const agentCategory = decodedToken.agentCategory;
+    let agent_name = decodedToken.name || "UnknownAgent";
+    let userAuth = decodedToken.userAuth || null;
+    let agent_id = decodedToken.id || 0;
     let customer_charge = 0;
     let netAmount = findNetAmount(amount)
     if (billerCode.toLowerCase() === "tax") {
         customer_charge = getBillerCharge(amount, billerCode);
-    }
-
-    try {
-        const decodedToken = await new Promise((resolve, reject) =>
-            jwt.verify(token, process.env.JWT_SECRET, (err, user) =>
-                err ? reject(err) : resolve(user)
-            )
-        );
-
-        agent_name = decodedToken.name;
-        agent_id = decodedToken.id;
-        userAuth = decodedToken.userAuth;
-    } catch (err) {
-        logger.warn("Invalid token", { error: err.message });
-        return res.status(401).json({
-            success: false,
-            message: "Invalid or expired token. Please log in again. h",
-        });
     }
 
     if (!process.env.CYCLOS_URL) {
@@ -548,16 +550,15 @@ export const executeBillerPaymentFDI = async (req, res) => {
         });
     }
 
-
     const payload =
         billerCode.toLowerCase() === "airtime"
-            ? buildAirtimePayload({ amount, requestId, ccy, customerId, clientPhone })
+            ? buildAirtimePayload({ amount, requestId, ccy, customerId, clientPhone, agentCategory })
             : billerCode.toLowerCase() === "electricity"
-                ? buildElecticityPayload({ amount, requestId, ccy, customerId, clientPhone })
+                ? buildElecticityPayload({ amount, requestId, ccy, customerId, clientPhone, agentCategory })
                 : billerCode.toLowerCase() === "paytv"
-                    ? buildStartimePayload({ amount, requestId, ccy, customerId, clientPhone })
+                    ? buildStartimePayload({ amount, requestId, ccy, customerId, clientPhone, agentCategory })
                     : billerCode.toLowerCase() === "tax"
-                        ? buildRRABillerPayload({ amount, requestId, ccy, customerId, clientPhone, netAmount })
+                        ? buildRRABillerPayload({ amount, requestId, ccy, customerId, clientPhone, netAmount, agentCategory})
                         : buildGenericBillerPayload({
                             amount,
                             requestId,
@@ -565,6 +566,7 @@ export const executeBillerPaymentFDI = async (req, res) => {
                             customerId,
                             clientPhone,
                             billerCode,
+                            agentCategory
                         });
 
     const config = {
@@ -580,7 +582,7 @@ export const executeBillerPaymentFDI = async (req, res) => {
 
 
     try {
-        const response = await axios.request(config);
+          const response = await axios.request(config);
 
         logger.info("Biller payment response from core system", {
             status: response.status,
@@ -644,16 +646,15 @@ export const executeBillerPaymentFDI = async (req, res) => {
 
 
         if (status === 400) {
-            let message = "Unable to process payment due to invalid request.";
-
             if (errorDetails === "INVALID_TRANSACTION_PASSWORD") {
-                message = "Your transaction password is incorrect. Please try again.";
+                return res.status(400).json(createErrorResponse('banking.invalid_transaction_password', req.language, 400));
             } else if (errorDetails === "BLOCKED_TRANSACTION_PASSWORD") {
-                message =
-                    "Your transaction password has been blocked. Please contact support.";
+                return res.status(400).json(createErrorResponse('banking.blocked_transaction_password', req.language, 400));
             }
 
-            return res.status(400).json({ success: false, message });
+            return res.status(400).json(createErrorResponse('validation.invalid_payment_data', req.language, 400, {
+                details: errorDetails
+            }));
         }
 
         if (status === 401) {

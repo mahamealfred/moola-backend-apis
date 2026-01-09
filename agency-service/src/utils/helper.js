@@ -2,6 +2,7 @@
 import CryptoJS from 'crypto-js';
 import axios from "axios";
 import dotenv from "dotenv";
+import jwt from "jsonwebtoken";
 
 import { loadTariffs } from "../utils/loadTariffs.js";
 
@@ -243,4 +244,19 @@ export const billercategories = {
             "serialNo": 2
         }
     ]
+};
+
+/**
+ * Decode JWT token
+ * @param {string} token - JWT token to decode
+ * @returns {object|null} - Decoded token payload or null if invalid
+ */
+export const decodeToken = (token) => {
+  try {
+    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    return decoded;
+  } catch (error) {
+    console.error("Token decode error:", error.message);
+    return null;
+  }
 };

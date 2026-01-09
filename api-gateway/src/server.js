@@ -85,6 +85,10 @@ app.use(
     ...proxyOptions,
     proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
       proxyReqOpts.headers["Content-Type"] = "application/json";
+      // Ensure language header is forwarded
+      if (srcReq.language) {
+        proxyReqOpts.headers["x-language"] = srcReq.language;
+      }
       return proxyReqOpts;
     },
     userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
@@ -111,6 +115,11 @@ app.use(
         proxyReqOpts.headers["Authorization"] = bearerToken;
       }
 
+      // Ensure language header is forwarded
+      if (srcReq.language) {
+        proxyReqOpts.headers["x-language"] = srcReq.language;
+      }
+
       return proxyReqOpts;
     },
 
@@ -135,6 +144,11 @@ app.use(
       const bearerToken = srcReq.headers["authorization"];
       if (bearerToken) {
         proxyReqOpts.headers["Authorization"] = bearerToken;
+      }
+
+      // Ensure language header is forwarded
+      if (srcReq.language) {
+        proxyReqOpts.headers["x-language"] = srcReq.language;
       }
 
       return proxyReqOpts;
@@ -164,8 +178,10 @@ app.use(
     ...proxyOptions,
     proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
       proxyReqOpts.headers["Content-Type"] = "application/json";
-    //  proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
-
+      // Ensure language header is forwarded
+      if (srcReq.language) {
+        proxyReqOpts.headers["x-language"] = srcReq.language;
+      }
       return proxyReqOpts;
     },
     userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
@@ -185,8 +201,10 @@ app.use(
     ...proxyOptions,
     proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
       proxyReqOpts.headers["Content-Type"] = "application/json";
-    //  proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
-
+      // Ensure language header is forwarded
+      if (srcReq.language) {
+        proxyReqOpts.headers["x-language"] = srcReq.language;
+      }
       return proxyReqOpts;
     },
     userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
@@ -208,8 +226,10 @@ app.use(
     ...proxyOptions,
     proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
       proxyReqOpts.headers["Content-Type"] = "application/json";
-    //  proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
-
+      // Ensure language header is forwarded
+      if (srcReq.language) {
+        proxyReqOpts.headers["x-language"] = srcReq.language;
+      }
       return proxyReqOpts;
     },
     userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
@@ -234,8 +254,10 @@ app.use(
     ...proxyOptions,
     proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
       proxyReqOpts.headers["Content-Type"] = "application/json";
-    //  proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
-
+      // Ensure language header is forwarded
+      if (srcReq.language) {
+        proxyReqOpts.headers["x-language"] = srcReq.language;
+      }
       return proxyReqOpts;
     },
     userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {
@@ -257,8 +279,10 @@ app.use(
     ...proxyOptions,
     proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
       proxyReqOpts.headers["Content-Type"] = "application/json";
-    //  proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
-
+      // Ensure language header is forwarded
+      if (srcReq.language) {
+        proxyReqOpts.headers["x-language"] = srcReq.language;
+      }
       return proxyReqOpts;
     },
     userResDecorator: (proxyRes, proxyResData, userReq, userRes) => {

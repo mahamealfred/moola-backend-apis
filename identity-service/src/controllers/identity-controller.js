@@ -72,14 +72,14 @@ const loginUser = async (req, res) => {
         const { error } = validatelogin(req.body);
         if (error) {
             logger.warn("Validation error", error.details[0].message);
-            return res.status(400).json(createErrorResponse('validation.required_fields_missing', req.language, 400));
+            return res.status(400).json(createErrorResponse('validation.required_fields_missing', req.language || 'en', 400));
         }
         const { username, password } = req.body;
         await loginService(req, res, username, password)
 
     } catch (e) {
         logger.error("Login error occured", e);
-        res.status(500).json(createErrorResponse('common.server_error', req.language, 500));
+        res.status(500).json(createErrorResponse('common.server_error', req.language || 'en', 500));
     }
 };
 
@@ -210,8 +210,11 @@ const refreshTokenUser = async (req, res) => {
             accessToken: newAccessToken,
             refreshToken: newRefreshToken,
         } = await generateTokens(
-         token,id
-        
+         token,
+         id,
+         storedToken.name,
+         storedToken.username,
+         storedToken.agentCategory
         );
 
         // Delete the old refresh token
