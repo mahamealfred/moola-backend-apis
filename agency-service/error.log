@@ -590,3 +590,5 @@
 {"error":"decodedToken is not defined","level":"error","message":"Execute routing failed","service":"agency-service","timestamp":"2026-01-09T12:30:39.564Z"}
 {"coreError":{"errorCode":"NOT_FOUND","errorDetails":"TRANSFER_TYPE"},"errorDetails":"TRANSFER_TYPE","level":"error","message":"Biller payment failed","service":"agency-service","status":404,"timestamp":"2026-01-09T12:35:46.365Z"}
 {"error":"Cannot read properties of null (reading 'agentCategory')","level":"error","message":"Execute routing failed","service":"agency-service","timestamp":"2026-01-09T13:22:26.625Z"}
+{"error":"agentCategory is not defined","level":"error","message":"Execute routing failed","service":"agency-service","timestamp":"2026-01-11T19:31:53.186Z"}
+{"error":{"msg":"Failed to validate/invalid payment reference"},"level":"error","message":"Phone number validation failed","service":"agency-service","status":400,"timestamp":"2026-01-11T19:47:24.646Z"}

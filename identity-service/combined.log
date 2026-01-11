@@ -5728,3 +5728,11 @@
 {"agentCategory":"TCP","level":"warn","message":"Successfully logged in","name":"Mahame Alfred","phoneNumber":null,"service":"identity-service","timestamp":"2026-01-09T13:21:17.789Z","userId":1035}
 {"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2026-01-09T13:30:11.404Z"}
 {"agentCategory":"TCP","level":"warn","message":"Successfully logged in","name":"Mahame Alfred","phoneNumber":null,"service":"identity-service","timestamp":"2026-01-09T13:30:12.453Z","userId":1035}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2026-01-11T17:34:35.994Z"}
+{"error":{"errorCode":"INVALID_CREDENTIALS","errorDetails":"Invalid username / password"},"level":"error","message":"Error during login:","service":"identity-service","timestamp":"2026-01-11T17:34:36.581Z","username":"liveagent"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2026-01-11T17:35:12.310Z"}
+{"error":{"errorCode":"INVALID_CREDENTIALS","errorDetails":"Invalid username / password"},"level":"error","message":"Error during login:","service":"identity-service","timestamp":"2026-01-11T17:35:12.630Z","username":"liveagent"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2026-01-11T17:35:13.593Z"}
+{"error":{"errorCode":"BLOCKED_CREDENTIALS","errorDetails":"Credentials blocked"},"level":"error","message":"Error during login:","service":"identity-service","timestamp":"2026-01-11T17:35:13.974Z","username":"liveagent"}
+{"level":"info","message":"Login endpoint hit...","service":"identity-service","timestamp":"2026-01-11T19:31:25.244Z"}
+{"agentCategory":"TCP","level":"warn","message":"Successfully logged in","name":"Mahame Alfred","phoneNumber":null,"service":"identity-service","timestamp":"2026-01-11T19:31:25.806Z","userId":1035}

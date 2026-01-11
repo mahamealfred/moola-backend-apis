@@ -345,3 +345,6 @@
 {"error":"connect ETIMEDOUT 13.244.151.8:443","level":"error","message":"Error during login:","service":"identity-service","timestamp":"2025-12-18T06:40:23.981Z","username":"liveagent"}
 {"error":"connect ETIMEDOUT 13.244.151.8:443","level":"error","message":"Error during login:","service":"identity-service","timestamp":"2025-12-18T06:40:50.841Z","username":"liveagent"}
 {"error":"connect ETIMEDOUT 13.244.151.8:443","level":"error","message":"Error during login:","service":"identity-service","timestamp":"2025-12-18T06:42:22.017Z","username":"Liveagent"}
+{"error":{"errorCode":"INVALID_CREDENTIALS","errorDetails":"Invalid username / password"},"level":"error","message":"Error during login:","service":"identity-service","timestamp":"2026-01-11T17:34:36.581Z","username":"liveagent"}
+{"error":{"errorCode":"INVALID_CREDENTIALS","errorDetails":"Invalid username / password"},"level":"error","message":"Error during login:","service":"identity-service","timestamp":"2026-01-11T17:35:12.630Z","username":"liveagent"}
+{"error":{"errorCode":"BLOCKED_CREDENTIALS","errorDetails":"Credentials blocked"},"level":"error","message":"Error during login:","service":"identity-service","timestamp":"2026-01-11T17:35:13.974Z","username":"liveagent"}

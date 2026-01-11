@@ -188,7 +188,8 @@ export const buildRRABillerPayload = ({
   customerId,
   clientPhone,
   billerCode,
-  netAmount
+  netAmount,
+  agentCategory
 }) => {
    let transferTypeId = "82";
   let toMemberId = '18';
