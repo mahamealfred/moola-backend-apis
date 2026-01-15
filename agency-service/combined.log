@@ -6477,3 +6477,624 @@
 {"level":"warn","message":"WhatsApp credentials not configured. Message not sent.","service":"agency-service","timestamp":"2026-01-11T20:00:00.052Z"}
 {"level":"info","message":"📊 *Hourly Transaction Report*\n⏰ 2026-01-11 21:00:00 - 2026-01-11 22:00:00\n\n📈 *Overall Statistics*\n• Total Transactions: 3\n• ✅ Successful: 1\n• ❌ Failed: 0\n• Success Rate: 33.33%\n\n💰 *Financial Summary*\n• Total Amount: 500 RWF\n• Success Amount: 100 RWF\n• Failed Amount: 0 RWF\n\n🔧 *By Service*\n\n*tax*\n  Total: 3 | ✅ 1 | ❌ 0\n  Amount: 500 RWF","phoneNumber":"250788123456","service":"agency-service","timestamp":"2026-01-11T20:00:00.052Z"}
 {"failed":0,"level":"info","message":"Hourly transaction report sent successfully","service":"agency-service","successful":1,"timestamp":"2026-01-11T20:00:00.053Z","total":3}
+{"level":"info","message":"Hourly report cron job triggered","service":"agency-service","timestamp":"2026-01-11T21:00:00.107Z"}
+{"level":"info","message":"Starting hourly transaction report generation","service":"agency-service","timestamp":"2026-01-11T21:00:00.112Z"}
+{"level":"warn","message":"WhatsApp credentials not configured. Message not sent.","service":"agency-service","timestamp":"2026-01-11T21:00:00.128Z"}
+{"level":"info","message":"📊 *Hourly Transaction Report*\n⏰ 2026-01-11 22:00:00 - 2026-01-11 23:00:00\n\n📈 *Overall Statistics*\n• Total Transactions: 0\n• ✅ Successful: 0\n• ❌ Failed: 0\n• Success Rate: 0%\n\n💰 *Financial Summary*\n• Total Amount: 0 RWF\n• Success Amount: 0 RWF\n• Failed Amount: 0 RWF","phoneNumber":"250788123456","service":"agency-service","timestamp":"2026-01-11T21:00:00.129Z"}
+{"failed":0,"level":"info","message":"Hourly transaction report sent successfully","service":"agency-service","successful":0,"timestamp":"2026-01-11T21:00:00.129Z","total":0}
+{"level":"info","message":"Hourly report cron job triggered","service":"agency-service","timestamp":"2026-01-11T22:00:00.967Z"}
+{"level":"info","message":"Starting hourly transaction report generation","service":"agency-service","timestamp":"2026-01-11T22:00:00.974Z"}
+{"level":"warn","message":"WhatsApp credentials not configured. Message not sent.","service":"agency-service","timestamp":"2026-01-11T22:00:01.000Z"}
+{"level":"info","message":"📊 *Hourly Transaction Report*\n⏰ 2026-01-11 23:00:00 - 2026-01-12 00:00:00\n\n📈 *Overall Statistics*\n• Total Transactions: 0\n• ✅ Successful: 0\n• ❌ Failed: 0\n• Success Rate: 0%\n\n💰 *Financial Summary*\n• Total Amount: 0 RWF\n• Success Amount: 0 RWF\n• Failed Amount: 0 RWF","phoneNumber":"250788123456","service":"agency-service","timestamp":"2026-01-11T22:00:01.001Z"}
+{"failed":0,"level":"info","message":"Hourly transaction report sent successfully","service":"agency-service","successful":0,"timestamp":"2026-01-11T22:00:01.002Z","total":0}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-12T08:04:55.109Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-12T08:04:55.112Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-12T08:25:15.471Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-12T08:25:15.477Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T08:26:00.834Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T08:26:01.836Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T08:26:01.887Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T08:26:02.190Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T08:26:34.350Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T08:26:35.059Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T08:26:35.077Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T08:26:35.333Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T08:27:45.794Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T08:27:46.585Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T08:27:46.606Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T08:27:46.891Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T08:28:42.959Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T08:28:43.766Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T08:28:43.782Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T08:28:44.072Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T08:32:34.619Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T08:32:35.582Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T08:32:35.601Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T08:32:35.879Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T08:36:56.464Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T08:36:57.237Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T08:36:57.247Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T08:36:57.548Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T08:42:07.665Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T08:42:08.541Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T08:42:08.570Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T08:42:08.847Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T08:42:59.293Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T08:43:00.047Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T08:43:00.076Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T08:43:00.351Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T08:44:35.681Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T08:44:36.466Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T08:44:36.483Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T08:44:36.776Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T09:45:48.090Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T09:45:48.889Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T09:45:48.907Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T09:45:49.143Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T09:46:43.323Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T09:46:44.317Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T09:46:44.340Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T09:46:44.698Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T09:47:51.728Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T09:47:52.539Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T09:47:52.547Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T09:47:52.896Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T09:48:43.422Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T09:48:44.303Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T09:48:44.325Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T09:48:44.608Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T09:49:06.567Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T09:49:07.342Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T09:49:07.359Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T09:49:07.647Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T09:56:52.473Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T09:56:53.473Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T09:56:53.499Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T09:56:53.783Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T09:57:11.829Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T09:57:12.676Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T09:57:12.941Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T09:57:13.239Z"}
+{"level":"info","message":"Hourly report cron job triggered","service":"agency-service","timestamp":"2026-01-12T10:00:00.556Z"}
+{"level":"info","message":"Starting hourly transaction report generation","service":"agency-service","timestamp":"2026-01-12T10:00:00.563Z"}
+{"level":"warn","message":"WhatsApp credentials not configured. Message not sent.","service":"agency-service","timestamp":"2026-01-12T10:00:00.866Z"}
+{"level":"info","message":"📊 *Hourly Transaction Report*\n⏰ 2026-01-12 11:00:00 - 2026-01-12 12:00:00\n\n📈 *Overall Statistics*\n• Total Transactions: 0\n• ✅ Successful: 0\n• ❌ Failed: 0\n• Success Rate: 0%\n\n💰 *Financial Summary*\n• Total Amount: 0 RWF\n• Success Amount: 0 RWF\n• Failed Amount: 0 RWF","phoneNumber":"250788123456","service":"agency-service","timestamp":"2026-01-12T10:00:00.868Z"}
+{"failed":0,"level":"info","message":"Hourly transaction report sent successfully","service":"agency-service","successful":0,"timestamp":"2026-01-12T10:00:00.870Z","total":0}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T10:03:19.595Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T10:03:20.766Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T10:03:20.797Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T10:03:21.077Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T10:04:44.651Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T10:04:45.552Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T10:04:45.567Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T10:04:45.859Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T10:08:46.420Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T10:08:47.261Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T10:08:47.276Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T10:08:47.570Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T10:09:27.545Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T10:09:28.329Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T10:09:28.341Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T10:09:28.623Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T10:14:50.401Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T10:14:51.245Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T10:14:51.266Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T10:14:51.505Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T10:15:05.532Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T10:15:06.344Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T10:15:06.361Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T10:15:06.652Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T10:17:27.780Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T10:17:28.738Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T10:17:28.753Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T10:17:29.045Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T10:18:34.353Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T10:18:35.198Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T10:18:35.265Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T10:18:35.607Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T10:18:52.350Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T10:18:53.322Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T10:18:53.353Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T10:18:53.656Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T10:19:46.752Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T10:19:47.697Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T10:19:47.714Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T10:19:48.011Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T10:20:10.076Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T10:20:11.045Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T10:20:11.063Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T10:20:11.353Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T10:20:19.779Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T10:20:20.574Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T10:20:20.597Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T10:20:20.875Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T10:21:11.041Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T10:21:11.973Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T10:21:11.990Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T10:21:12.287Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T10:23:38.916Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T10:23:39.844Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T10:23:39.862Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T10:23:40.152Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T11:06:04.754Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T11:06:05.842Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T11:06:05.859Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T11:06:06.164Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T11:09:23.571Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T11:09:24.389Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T11:09:24.410Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T11:09:24.697Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-12T11:14:48.412Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-12T11:14:49.407Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-12T13:55:55.779Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-12T13:55:55.784Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-12T13:56:01.456Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-12T13:56:01.459Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-12T13:58:08.207Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-12T13:58:08.210Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-12T13:58:32.509Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-12T13:58:32.513Z"}
+{"level":"info","message":"Hourly report cron job triggered","service":"agency-service","timestamp":"2026-01-12T14:00:00.107Z"}
+{"level":"info","message":"Starting hourly transaction report generation","service":"agency-service","timestamp":"2026-01-12T14:00:00.108Z"}
+{"level":"warn","message":"WhatsApp credentials not configured. Message not sent.","service":"agency-service","timestamp":"2026-01-12T14:00:00.135Z"}
+{"level":"info","message":"📊 *Hourly Transaction Report*\n⏰ 2026-01-12 15:00:00 - 2026-01-12 16:00:00\n\n📈 *Overall Statistics*\n• Total Transactions: 0\n• ✅ Successful: 0\n• ❌ Failed: 0\n• Success Rate: 0%\n\n💰 *Financial Summary*\n• Total Amount: 0 RWF\n• Success Amount: 0 RWF\n• Failed Amount: 0 RWF","phoneNumber":"250788123456","service":"agency-service","timestamp":"2026-01-12T14:00:00.136Z"}
+{"failed":0,"level":"info","message":"Hourly transaction report sent successfully","service":"agency-service","successful":0,"timestamp":"2026-01-12T14:00:00.137Z","total":0}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-12T14:13:03.040Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-12T14:13:03.045Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-12T14:16:34.303Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-12T14:16:34.306Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-12T14:17:15.353Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-12T14:17:15.359Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T12:25:00.841Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T12:25:00.846Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T12:44:28.553Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T12:44:29.747Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T12:44:29.781Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T12:44:30.075Z"}
+{"formId":"69412502d80f0c1e7af075dd","ip":"::1","language":"en","level":"info","message":"Submitting form data","service":"agency-service","timestamp":"2026-01-14T12:44:46.543Z"}
+{"formId":"69412502d80f0c1e7af075dd","language":"en","level":"info","message":"Form submitted successfully","service":"agency-service","timestamp":"2026-01-14T12:44:47.338Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T12:44:47.392Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T12:44:47.656Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T12:54:23.545Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T12:54:24.314Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T12:54:24.344Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T12:54:24.610Z"}
+{"formId":"69412502d80f0c1e7af075dd","ip":"::1","language":"en","level":"info","message":"Submitting form data","service":"agency-service","timestamp":"2026-01-14T12:54:42.473Z"}
+{"formId":"69412502d80f0c1e7af075dd","language":"en","level":"info","message":"Form submitted successfully","service":"agency-service","timestamp":"2026-01-14T12:54:43.230Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T12:54:43.271Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T12:54:43.529Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T12:57:43.994Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T12:57:44.761Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T12:57:44.786Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T12:57:45.047Z"}
+{"formId":"69412502d80f0c1e7af075dd","ip":"::1","language":"en","level":"info","message":"Submitting form data","service":"agency-service","timestamp":"2026-01-14T12:57:57.202Z"}
+{"formId":"69412502d80f0c1e7af075dd","language":"en","level":"info","message":"Form submitted successfully","service":"agency-service","timestamp":"2026-01-14T12:57:58.066Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T12:57:58.102Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T12:57:58.370Z"}
+{"level":"info","message":"Hourly report cron job triggered","service":"agency-service","timestamp":"2026-01-14T13:00:00.182Z"}
+{"level":"info","message":"Starting hourly transaction report generation","service":"agency-service","timestamp":"2026-01-14T13:00:00.184Z"}
+{"level":"warn","message":"WhatsApp credentials not configured. Message not sent.","service":"agency-service","timestamp":"2026-01-14T13:00:00.276Z"}
+{"level":"info","message":"📊 *Hourly Transaction Report*\n⏰ 2026-01-14 14:00:00 - 2026-01-14 15:00:00\n\n📈 *Overall Statistics*\n• Total Transactions: 0\n• ✅ Successful: 0\n• ❌ Failed: 0\n• Success Rate: 0%\n\n💰 *Financial Summary*\n• Total Amount: 0 RWF\n• Success Amount: 0 RWF\n• Failed Amount: 0 RWF","phoneNumber":"250788123456","service":"agency-service","timestamp":"2026-01-14T13:00:00.277Z"}
+{"failed":0,"level":"info","message":"Hourly transaction report sent successfully","service":"agency-service","successful":0,"timestamp":"2026-01-14T13:00:00.278Z","total":0}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T13:00:21.400Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T13:00:22.211Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T13:00:22.240Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T13:00:22.524Z"}
+{"formId":"69412502d80f0c1e7af075dd","ip":"::1","language":"en","level":"info","message":"Submitting form data","service":"agency-service","timestamp":"2026-01-14T13:00:40.853Z"}
+{"formId":"69412502d80f0c1e7af075dd","language":"en","level":"info","message":"Form submitted successfully","service":"agency-service","timestamp":"2026-01-14T13:00:41.548Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T13:00:41.594Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T13:00:41.832Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T13:01:50.216Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T13:01:51.067Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T13:01:51.088Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T13:01:51.362Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T13:02:20.465Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T13:02:21.285Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T13:02:21.313Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T13:02:21.601Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T13:04:23.847Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T13:04:23.861Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T13:06:47.632Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T13:06:47.635Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T13:13:51.921Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T13:13:52.868Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T13:13:52.902Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T13:13:53.170Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T13:14:01.382Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T13:14:02.142Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T13:14:02.161Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T13:14:02.424Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T13:47:57.658Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T13:47:58.450Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T13:47:58.474Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T13:47:58.719Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T13:55:24.608Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T13:55:24.612Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T13:59:24.675Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T13:59:25.622Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T13:59:25.652Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T13:59:25.903Z"}
+{"level":"info","message":"Hourly report cron job triggered","service":"agency-service","timestamp":"2026-01-14T14:00:00.406Z"}
+{"level":"info","message":"Starting hourly transaction report generation","service":"agency-service","timestamp":"2026-01-14T14:00:00.407Z"}
+{"level":"warn","message":"WhatsApp credentials not configured. Message not sent.","service":"agency-service","timestamp":"2026-01-14T14:00:00.497Z"}
+{"level":"info","message":"📊 *Hourly Transaction Report*\n⏰ 2026-01-14 15:00:00 - 2026-01-14 16:00:00\n\n📈 *Overall Statistics*\n• Total Transactions: 0\n• ✅ Successful: 0\n• ❌ Failed: 0\n• Success Rate: 0%\n\n💰 *Financial Summary*\n• Total Amount: 0 RWF\n• Success Amount: 0 RWF\n• Failed Amount: 0 RWF","phoneNumber":"250788123456","service":"agency-service","timestamp":"2026-01-14T14:00:00.498Z"}
+{"failed":0,"level":"info","message":"Hourly transaction report sent successfully","service":"agency-service","successful":0,"timestamp":"2026-01-14T14:00:00.500Z","total":0}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T14:04:17.002Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T14:04:17.271Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T14:04:40.241Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T14:04:40.255Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T14:05:11.994Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T14:05:12.004Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T14:09:30.372Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T14:09:30.379Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T14:09:56.235Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T14:09:56.238Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T14:10:04.587Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T14:10:04.591Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T14:11:34.859Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T14:11:34.866Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T14:11:36.149Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T14:11:37.130Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T14:11:37.154Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T14:11:37.440Z"}
+{"formId":"69412502d80f0c1e7af075dd","ip":"::1","language":"en","level":"info","message":"Submitting form data","service":"agency-service","timestamp":"2026-01-14T14:11:53.897Z"}
+{"formId":"69412502d80f0c1e7af075dd","language":"en","level":"info","message":"Form submitted successfully","service":"agency-service","timestamp":"2026-01-14T14:11:54.697Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T14:11:54.744Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T14:11:55.001Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T14:49:32.579Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T14:49:33.410Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T14:49:33.451Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T14:49:33.704Z"}
+{"level":"info","message":"Hourly report cron job triggered","service":"agency-service","timestamp":"2026-01-14T15:00:00.609Z"}
+{"level":"info","message":"Starting hourly transaction report generation","service":"agency-service","timestamp":"2026-01-14T15:00:00.614Z"}
+{"level":"warn","message":"WhatsApp credentials not configured. Message not sent.","service":"agency-service","timestamp":"2026-01-14T15:00:00.762Z"}
+{"level":"info","message":"📊 *Hourly Transaction Report*\n⏰ 2026-01-14 16:00:00 - 2026-01-14 17:00:00\n\n📈 *Overall Statistics*\n• Total Transactions: 0\n• ✅ Successful: 0\n• ❌ Failed: 0\n• Success Rate: 0%\n\n💰 *Financial Summary*\n• Total Amount: 0 RWF\n• Success Amount: 0 RWF\n• Failed Amount: 0 RWF","phoneNumber":"250788123456","service":"agency-service","timestamp":"2026-01-14T15:00:00.763Z"}
+{"failed":0,"level":"info","message":"Hourly transaction report sent successfully","service":"agency-service","successful":0,"timestamp":"2026-01-14T15:00:00.765Z","total":0}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T15:05:39.504Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T15:05:40.324Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T15:05:40.356Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T15:05:40.620Z"}
+{"level":"info","message":"Hourly report cron job triggered","service":"agency-service","timestamp":"2026-01-14T16:00:00.661Z"}
+{"level":"info","message":"Starting hourly transaction report generation","service":"agency-service","timestamp":"2026-01-14T16:00:00.667Z"}
+{"level":"warn","message":"WhatsApp credentials not configured. Message not sent.","service":"agency-service","timestamp":"2026-01-14T16:00:00.690Z"}
+{"level":"info","message":"📊 *Hourly Transaction Report*\n⏰ 2026-01-14 17:00:00 - 2026-01-14 18:00:00\n\n📈 *Overall Statistics*\n• Total Transactions: 0\n• ✅ Successful: 0\n• ❌ Failed: 0\n• Success Rate: 0%\n\n💰 *Financial Summary*\n• Total Amount: 0 RWF\n• Success Amount: 0 RWF\n• Failed Amount: 0 RWF","phoneNumber":"250788123456","service":"agency-service","timestamp":"2026-01-14T16:00:00.690Z"}
+{"failed":0,"level":"info","message":"Hourly transaction report sent successfully","service":"agency-service","successful":0,"timestamp":"2026-01-14T16:00:00.690Z","total":0}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T16:13:55.427Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T16:13:55.433Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T16:14:15.641Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T16:14:15.653Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T16:16:51.294Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T16:16:51.303Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T16:20:15.408Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T16:20:15.459Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T16:21:08.495Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T16:21:09.570Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T16:21:09.624Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T16:21:09.941Z"}
+{"agentId":58,"customerId":58,"formId":"69412502d80f0c1e7af075dd","ip":"::1","language":"en","level":"info","message":"Submitting form data","service":"agency-service","timestamp":"2026-01-14T16:21:23.327Z"}
+{"dbId":1,"formId":"69412502d80f0c1e7af075dd","level":"info","message":"Form submission saved to database","service":"agency-service","status":"submitted","timestamp":"2026-01-14T16:21:23.348Z"}
+{"dbId":1,"error":"Positional replacement (?) 0 has no entry in the replacement map (replacements[0] is undefined).","level":"error","message":"Error updating form submission in database","service":"agency-service","timestamp":"2026-01-14T16:21:24.137Z"}
+{"dbId":1,"formId":"69412502d80f0c1e7af075dd","language":"en","level":"info","message":"Form submitted successfully","service":"agency-service","timestamp":"2026-01-14T16:21:24.140Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T16:21:24.190Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T16:21:24.449Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T16:25:32.500Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T16:25:32.508Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T16:25:45.474Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T16:25:45.480Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T16:28:08.384Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T16:28:09.400Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T16:28:09.435Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T16:28:09.723Z"}
+{"agentId":58,"customerId":58,"formId":"69412502d80f0c1e7af075dd","ip":"::1","language":"en","level":"info","message":"Submitting form data","service":"agency-service","timestamp":"2026-01-14T16:32:40.137Z"}
+{"dbId":1,"formId":"69412502d80f0c1e7af075dd","level":"info","message":"Form submission saved to database","service":"agency-service","status":"submitted","timestamp":"2026-01-14T16:32:40.153Z"}
+{"dbId":1,"externalStatus":"submitted","formTitle":"Test","level":"info","message":"Form submission updated with API response","organizationName":"DDDIN","service":"agency-service","status":"processing","submissionId":"6967c529e2679d17d5aaa1d3","timestamp":"2026-01-14T16:32:40.950Z"}
+{"dbId":1,"formId":"69412502d80f0c1e7af075dd","language":"en","level":"info","message":"Form submitted successfully","service":"agency-service","submissionId":"6967c529e2679d17d5aaa1d3","timestamp":"2026-01-14T16:32:40.952Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T16:32:40.989Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T16:32:41.254Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T16:34:33.054Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T16:34:33.061Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T16:34:54.573Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T16:34:54.580Z"}
+{"agentId":58,"customerId":58,"formId":"69412502d80f0c1e7af075dd","ip":"::1","language":"en","level":"info","message":"Submitting form data","service":"agency-service","timestamp":"2026-01-14T16:38:08.976Z"}
+{"dbId":1,"formId":"69412502d80f0c1e7af075dd","level":"info","message":"Form submission saved to database","service":"agency-service","status":"submitted","timestamp":"2026-01-14T16:38:08.995Z"}
+{"dbId":1,"externalStatus":"submitted","formTitle":"Test","level":"info","message":"Form submission updated with API response","organizationName":"DDDIN","service":"agency-service","status":"processing","submissionId":"6967c672e2679d17d5aaa1e7","timestamp":"2026-01-14T16:38:09.989Z"}
+{"dbId":1,"formId":"69412502d80f0c1e7af075dd","language":"en","level":"info","message":"Form submitted successfully","service":"agency-service","submissionId":"6967c672e2679d17d5aaa1e7","timestamp":"2026-01-14T16:38:09.990Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T16:38:10.089Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T16:38:10.365Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T16:44:24.691Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T16:44:24.697Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T16:44:30.638Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T16:44:30.642Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T16:45:11.627Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T16:45:11.631Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T16:45:41.804Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T16:45:41.807Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T16:46:40.635Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T16:46:40.638Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T16:47:07.157Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T16:47:07.163Z"}
+{"level":"warn","message":"Unable to extract agent ID from token","service":"agency-service","timestamp":"2026-01-14T16:47:23.526Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T16:48:00.139Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T16:48:01.040Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T16:48:01.064Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T16:48:01.318Z"}
+{"level":"warn","message":"Unable to extract agent ID from token","service":"agency-service","timestamp":"2026-01-14T16:48:12.607Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T16:48:40.225Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T16:48:40.230Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T16:48:44.769Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T16:48:44.775Z"}
+{"agentId":58,"currentSubmissions":1,"formId":"69412502d80f0c1e7af075dd","level":"info","limit":5,"message":"Form submission limit check","service":"agency-service","timestamp":"2026-01-14T16:48:52.985Z"}
+{"agentId":58,"customerId":58,"formId":"69412502d80f0c1e7af075dd","ip":"::1","language":"en","level":"info","message":"Submitting form data","service":"agency-service","timestamp":"2026-01-14T16:48:52.991Z"}
+{"dbId":2,"formId":"69412502d80f0c1e7af075dd","level":"info","message":"Form submission saved to database","service":"agency-service","status":"submitted","timestamp":"2026-01-14T16:48:53.007Z"}
+{"dbId":2,"externalStatus":"submitted","formTitle":"Test","level":"info","message":"Form submission updated with API response","organizationName":"DDDIN","service":"agency-service","status":"processing","submissionId":"6967c8f6e2679d17d5aaa209","timestamp":"2026-01-14T16:48:54.036Z"}
+{"dbId":2,"formId":"69412502d80f0c1e7af075dd","language":"en","level":"info","message":"Form submitted successfully","service":"agency-service","submissionId":"6967c8f6e2679d17d5aaa209","timestamp":"2026-01-14T16:48:54.039Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T16:48:54.102Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T16:48:54.384Z"}
+{"agentId":58,"currentSubmissions":2,"formId":"69412502d80f0c1e7af075dd","level":"info","limit":5,"message":"Form submission limit check","service":"agency-service","timestamp":"2026-01-14T16:49:12.897Z"}
+{"agentId":58,"currentSubmissions":2,"formId":"69412502d80f0c1e7af075dd","level":"warn","message":"Form submission limit exceeded","service":"agency-service","timestamp":"2026-01-14T16:49:12.899Z"}
+{"agentId":58,"currentSubmissions":2,"formId":"69412502d80f0c1e7af075dd","level":"info","limit":5,"message":"Form submission limit check","service":"agency-service","timestamp":"2026-01-14T16:49:20.006Z"}
+{"agentId":58,"currentSubmissions":2,"formId":"69412502d80f0c1e7af075dd","level":"warn","message":"Form submission limit exceeded","service":"agency-service","timestamp":"2026-01-14T16:49:20.007Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T16:51:45.895Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T16:51:45.901Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-14T16:53:07.199Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-14T16:53:07.206Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-14T16:53:34.698Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-14T16:53:35.657Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T06:47:29.493Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T06:47:29.498Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-15T06:49:19.554Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-15T06:49:20.463Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-15T06:49:20.506Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-15T06:49:20.788Z"}
+{"agentId":58,"currentSubmissions":2,"formId":"69412502d80f0c1e7af075dd","level":"info","limit":5,"message":"Form submission limit check","service":"agency-service","timestamp":"2026-01-15T06:53:53.203Z"}
+{"agentId":58,"currentSubmissions":2,"formId":"69412502d80f0c1e7af075dd","level":"warn","message":"Form submission limit exceeded","service":"agency-service","timestamp":"2026-01-15T06:53:53.205Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-15T06:54:36.069Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-15T06:54:36.952Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-15T06:54:37.000Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-15T06:54:37.246Z"}
+{"level":"info","message":"Hourly report cron job triggered","service":"agency-service","timestamp":"2026-01-15T07:00:00.447Z"}
+{"level":"info","message":"Starting hourly transaction report generation","service":"agency-service","timestamp":"2026-01-15T07:00:00.449Z"}
+{"level":"warn","message":"WhatsApp credentials not configured. Message not sent.","service":"agency-service","timestamp":"2026-01-15T07:00:00.727Z"}
+{"level":"info","message":"📊 *Hourly Transaction Report*\n⏰ 2026-01-15 08:00:00 - 2026-01-15 09:00:00\n\n📈 *Overall Statistics*\n• Total Transactions: 0\n• ✅ Successful: 0\n• ❌ Failed: 0\n• Success Rate: 0%\n\n💰 *Financial Summary*\n• Total Amount: 0 RWF\n• Success Amount: 0 RWF\n• Failed Amount: 0 RWF","phoneNumber":"250788123456","service":"agency-service","timestamp":"2026-01-15T07:00:00.729Z"}
+{"failed":0,"level":"info","message":"Hourly transaction report sent successfully","service":"agency-service","successful":0,"timestamp":"2026-01-15T07:00:00.730Z","total":0}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T08:26:02.405Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T08:26:02.409Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T08:26:06.990Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T08:26:06.996Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T08:26:50.800Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T08:26:50.805Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T08:29:27.932Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T08:29:27.936Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T08:30:34.409Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T08:30:34.413Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T08:36:57.544Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T08:36:57.552Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T08:37:04.147Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T08:37:04.161Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T08:38:49.666Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T08:38:49.679Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-15T08:38:58.641Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-15T08:38:59.535Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-15T08:38:59.574Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-15T08:38:59.815Z"}
+{"balance":22000,"level":"info","message":"Account balance check","minimumBalance":22500,"service":"agency-service","sufficient":false,"timestamp":"2026-01-15T08:39:15.651Z"}
+{"balance":22000,"deficit":500,"level":"warn","message":"Insufficient account balance","minimumBalance":22500,"service":"agency-service","timestamp":"2026-01-15T08:39:15.652Z"}
+{"level":"info","message":"Hourly report cron job triggered","service":"agency-service","timestamp":"2026-01-15T10:00:00.498Z"}
+{"level":"info","message":"Starting hourly transaction report generation","service":"agency-service","timestamp":"2026-01-15T10:00:00.502Z"}
+{"level":"warn","message":"WhatsApp credentials not configured. Message not sent.","service":"agency-service","timestamp":"2026-01-15T10:00:00.634Z"}
+{"level":"info","message":"📊 *Hourly Transaction Report*\n⏰ 2026-01-15 11:00:00 - 2026-01-15 12:00:00\n\n📈 *Overall Statistics*\n• Total Transactions: 0\n• ✅ Successful: 0\n• ❌ Failed: 0\n• Success Rate: 0%\n\n💰 *Financial Summary*\n• Total Amount: 0 RWF\n• Success Amount: 0 RWF\n• Failed Amount: 0 RWF","phoneNumber":"250788123456","service":"agency-service","timestamp":"2026-01-15T10:00:00.635Z"}
+{"failed":0,"level":"info","message":"Hourly transaction report sent successfully","service":"agency-service","successful":0,"timestamp":"2026-01-15T10:00:00.636Z","total":0}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T10:57:26.552Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T10:57:26.557Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T10:57:32.131Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T10:57:32.142Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T10:57:49.684Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T10:57:49.687Z"}
+{"level":"info","message":"Hourly report cron job triggered","service":"agency-service","timestamp":"2026-01-15T11:00:00.897Z"}
+{"level":"info","message":"Starting hourly transaction report generation","service":"agency-service","timestamp":"2026-01-15T11:00:00.899Z"}
+{"level":"warn","message":"WhatsApp credentials not configured. Message not sent.","service":"agency-service","timestamp":"2026-01-15T11:00:00.953Z"}
+{"level":"info","message":"📊 *Hourly Transaction Report*\n⏰ 2026-01-15 12:00:00 - 2026-01-15 13:00:00\n\n📈 *Overall Statistics*\n• Total Transactions: 0\n• ✅ Successful: 0\n• ❌ Failed: 0\n• Success Rate: 0%\n\n💰 *Financial Summary*\n• Total Amount: 0 RWF\n• Success Amount: 0 RWF\n• Failed Amount: 0 RWF","phoneNumber":"250788123456","service":"agency-service","timestamp":"2026-01-15T11:00:00.954Z"}
+{"failed":0,"level":"info","message":"Hourly transaction report sent successfully","service":"agency-service","successful":0,"timestamp":"2026-01-15T11:00:00.955Z","total":0}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T11:01:23.551Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T11:01:23.555Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-15T11:01:47.045Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-15T11:01:47.969Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-15T11:01:48.001Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-15T11:01:48.264Z"}
+{"balance":22000,"level":"info","message":"Account balance check","minimumBalance":500,"service":"agency-service","sufficient":true,"timestamp":"2026-01-15T11:02:00.409Z"}
+{"agentId":58,"currentSubmissions":2,"formId":"69412502d80f0c1e7af075dd","level":"info","limit":5,"message":"Form submission limit check","service":"agency-service","timestamp":"2026-01-15T11:02:00.435Z"}
+{"agentId":58,"currentSubmissions":2,"formId":"69412502d80f0c1e7af075dd","level":"warn","message":"Form submission limit exceeded","service":"agency-service","timestamp":"2026-01-15T11:02:00.436Z"}
+{"level":"info","message":"Hourly report cron job triggered","service":"agency-service","timestamp":"2026-01-15T12:00:00.394Z"}
+{"level":"info","message":"Starting hourly transaction report generation","service":"agency-service","timestamp":"2026-01-15T12:00:00.395Z"}
+{"level":"warn","message":"WhatsApp credentials not configured. Message not sent.","service":"agency-service","timestamp":"2026-01-15T12:00:00.459Z"}
+{"level":"info","message":"📊 *Hourly Transaction Report*\n⏰ 2026-01-15 13:00:00 - 2026-01-15 14:00:00\n\n📈 *Overall Statistics*\n• Total Transactions: 0\n• ✅ Successful: 0\n• ❌ Failed: 0\n• Success Rate: 0%\n\n💰 *Financial Summary*\n• Total Amount: 0 RWF\n• Success Amount: 0 RWF\n• Failed Amount: 0 RWF","phoneNumber":"250788123456","service":"agency-service","timestamp":"2026-01-15T12:00:00.460Z"}
+{"failed":0,"level":"info","message":"Hourly transaction report sent successfully","service":"agency-service","successful":0,"timestamp":"2026-01-15T12:00:00.461Z","total":0}
+{"level":"info","message":"Hourly report cron job triggered","service":"agency-service","timestamp":"2026-01-15T13:00:00.832Z"}
+{"level":"info","message":"Starting hourly transaction report generation","service":"agency-service","timestamp":"2026-01-15T13:00:00.834Z"}
+{"level":"warn","message":"WhatsApp credentials not configured. Message not sent.","service":"agency-service","timestamp":"2026-01-15T13:00:00.841Z"}
+{"level":"info","message":"📊 *Hourly Transaction Report*\n⏰ 2026-01-15 14:00:00 - 2026-01-15 15:00:00\n\n📈 *Overall Statistics*\n• Total Transactions: 0\n• ✅ Successful: 0\n• ❌ Failed: 0\n• Success Rate: 0%\n\n💰 *Financial Summary*\n• Total Amount: 0 RWF\n• Success Amount: 0 RWF\n• Failed Amount: 0 RWF","phoneNumber":"250788123456","service":"agency-service","timestamp":"2026-01-15T13:00:00.842Z"}
+{"failed":0,"level":"info","message":"Hourly transaction report sent successfully","service":"agency-service","successful":0,"timestamp":"2026-01-15T13:00:00.843Z","total":0}
+{"level":"info","message":"Hourly report cron job triggered","service":"agency-service","timestamp":"2026-01-15T14:00:00.253Z"}
+{"level":"info","message":"Starting hourly transaction report generation","service":"agency-service","timestamp":"2026-01-15T14:00:00.262Z"}
+{"level":"warn","message":"WhatsApp credentials not configured. Message not sent.","service":"agency-service","timestamp":"2026-01-15T14:00:00.286Z"}
+{"level":"info","message":"📊 *Hourly Transaction Report*\n⏰ 2026-01-15 15:00:00 - 2026-01-15 16:00:00\n\n📈 *Overall Statistics*\n• Total Transactions: 0\n• ✅ Successful: 0\n• ❌ Failed: 0\n• Success Rate: 0%\n\n💰 *Financial Summary*\n• Total Amount: 0 RWF\n• Success Amount: 0 RWF\n• Failed Amount: 0 RWF","phoneNumber":"250788123456","service":"agency-service","timestamp":"2026-01-15T14:00:00.287Z"}
+{"failed":0,"level":"info","message":"Hourly transaction report sent successfully","service":"agency-service","successful":0,"timestamp":"2026-01-15T14:00:00.287Z","total":0}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T14:05:18.318Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T14:05:18.322Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T14:06:59.353Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T14:06:59.359Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T14:07:04.074Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T14:07:04.078Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T14:07:57.171Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T14:07:57.176Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T14:07:59.574Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T14:07:59.578Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T14:08:08.992Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T14:08:08.999Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T14:08:14.434Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T14:08:14.438Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T14:09:23.692Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T14:09:23.697Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-15T14:24:11.156Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-15T14:24:12.221Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-15T14:24:12.254Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-15T14:24:12.525Z"}
+{"balance":22000,"level":"info","message":"Account balance check","minimumBalance":500,"service":"agency-service","sufficient":true,"timestamp":"2026-01-15T14:24:25.159Z"}
+{"agentId":58,"currentSubmissions":2,"formId":"69412502d80f0c1e7af075dd","level":"info","limit":5,"message":"Form submission limit check","service":"agency-service","timestamp":"2026-01-15T14:24:25.183Z"}
+{"agentId":58,"currentSubmissions":2,"formId":"69412502d80f0c1e7af075dd","level":"warn","message":"Form submission limit exceeded","service":"agency-service","timestamp":"2026-01-15T14:24:25.184Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T14:26:29.474Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T14:26:29.478Z"}
+{"balance":22000,"level":"info","message":"Account balance check","minimumBalance":500,"service":"agency-service","sufficient":true,"timestamp":"2026-01-15T14:26:34.191Z"}
+{"agentId":58,"currentSubmissions":2,"formId":"69412502d80f0c1e7af075dd","level":"info","limit":5,"message":"Form submission limit check","service":"agency-service","timestamp":"2026-01-15T14:26:34.202Z"}
+{"agentId":58,"customerId":58,"formId":"69412502d80f0c1e7af075dd","ip":"::1","language":"en","level":"info","message":"Submitting form data","service":"agency-service","timestamp":"2026-01-15T14:26:34.208Z"}
+{"dbId":3,"formId":"69412502d80f0c1e7af075dd","level":"info","message":"Form submission saved to database","service":"agency-service","status":"submitted","timestamp":"2026-01-15T14:26:34.216Z"}
+{"dbId":3,"externalStatus":"submitted","formTitle":"Test","level":"info","message":"Form submission updated with API response","organizationName":"DDDIN","service":"agency-service","status":"processing","submissionId":"6968f91ae2679d17d5aaa314","timestamp":"2026-01-15T14:26:35.041Z"}
+{"dbId":3,"formId":"69412502d80f0c1e7af075dd","language":"en","level":"info","message":"Form submitted successfully","service":"agency-service","submissionId":"6968f91ae2679d17d5aaa314","timestamp":"2026-01-15T14:26:35.043Z"}
+{"agentId":58,"amount":"500","level":"info","message":"Generating agent commission","service":"agency-service","timestamp":"2026-01-15T14:26:35.071Z","transactionId":"TRXMKFJM4YVKG8KV3","transferTypeId":"178"}
+{"agentId":58,"commissionId":2940,"level":"info","message":"Agent commission generated successfully","pending":false,"service":"agency-service","timestamp":"2026-01-15T14:26:35.419Z","transactionId":"TRXMKFJM4YVKG8KV3"}
+{"agentId":58,"level":"info","message":"Commission generated successfully","service":"agency-service","success":true,"timestamp":"2026-01-15T14:26:35.431Z","transactionId":"TRXMKFJM4YVKG8KV3"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-15T14:26:35.468Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-15T14:26:35.734Z"}
+{"error":{"msg":"Failed to validate/invalid payment reference"},"level":"error","message":"Phone number validation failed","service":"agency-service","status":400,"timestamp":"2026-01-15T14:41:24.566Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-15T14:41:43.342Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-15T14:41:44.203Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-15T14:41:44.239Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-15T14:41:44.520Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-15T14:47:06.823Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-15T14:47:07.729Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-15T14:47:07.752Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-15T14:47:08.030Z"}
+{"level":"info","message":"Hourly report cron job triggered","service":"agency-service","timestamp":"2026-01-15T15:00:00.715Z"}
+{"level":"info","message":"Starting hourly transaction report generation","service":"agency-service","timestamp":"2026-01-15T15:00:00.717Z"}
+{"level":"warn","message":"WhatsApp credentials not configured. Message not sent.","service":"agency-service","timestamp":"2026-01-15T15:00:00.757Z"}
+{"level":"info","message":"📊 *Hourly Transaction Report*\n⏰ 2026-01-15 16:00:00 - 2026-01-15 17:00:00\n\n📈 *Overall Statistics*\n• Total Transactions: 1\n• ✅ Successful: 0\n• ❌ Failed: 0\n• Success Rate: 0.00%\n\n💰 *Financial Summary*\n• Total Amount: 500 RWF\n• Success Amount: 0 RWF\n• Failed Amount: 0 RWF\n\n🔧 *By Service*\n\n*Commission*\n  Total: 1 | ✅ 0 | ❌ 0\n  Amount: 500 RWF","phoneNumber":"250788123456","service":"agency-service","timestamp":"2026-01-15T15:00:00.759Z"}
+{"failed":0,"level":"info","message":"Hourly transaction report sent successfully","service":"agency-service","successful":0,"timestamp":"2026-01-15T15:00:00.760Z","total":1}
+{"level":"info","message":"Hourly report cron job triggered","service":"agency-service","timestamp":"2026-01-15T16:00:00.210Z"}
+{"level":"info","message":"Starting hourly transaction report generation","service":"agency-service","timestamp":"2026-01-15T16:00:00.211Z"}
+{"level":"warn","message":"WhatsApp credentials not configured. Message not sent.","service":"agency-service","timestamp":"2026-01-15T16:00:00.217Z"}
+{"level":"info","message":"📊 *Hourly Transaction Report*\n⏰ 2026-01-15 17:00:00 - 2026-01-15 18:00:00\n\n📈 *Overall Statistics*\n• Total Transactions: 0\n• ✅ Successful: 0\n• ❌ Failed: 0\n• Success Rate: 0%\n\n💰 *Financial Summary*\n• Total Amount: 0 RWF\n• Success Amount: 0 RWF\n• Failed Amount: 0 RWF","phoneNumber":"250788123456","service":"agency-service","timestamp":"2026-01-15T16:00:00.217Z"}
+{"failed":0,"level":"info","message":"Hourly transaction report sent successfully","service":"agency-service","successful":0,"timestamp":"2026-01-15T16:00:00.218Z","total":0}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T16:41:19.150Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T16:41:19.155Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T16:41:27.054Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T16:41:27.058Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T16:41:39.812Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T16:41:39.818Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T16:44:01.334Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T16:44:01.339Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T16:44:08.311Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T16:44:08.315Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T16:44:21.683Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T16:44:21.688Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-15T16:47:07.739Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-15T16:47:08.737Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-15T16:47:08.795Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-15T16:47:09.179Z"}
+{"balance":22000,"level":"info","message":"Account balance check","minimumBalance":500,"service":"agency-service","sufficient":true,"timestamp":"2026-01-15T16:47:31.878Z"}
+{"agentId":58,"currentSubmissions":3,"formId":"69412502d80f0c1e7af075dd","level":"info","limit":5,"message":"Form submission limit check","service":"agency-service","timestamp":"2026-01-15T16:47:31.904Z"}
+{"agentId":58,"customerId":58,"formId":"69412502d80f0c1e7af075dd","ip":"::1","language":"en","level":"info","message":"Submitting form data","service":"agency-service","timestamp":"2026-01-15T16:47:31.911Z"}
+{"dbId":4,"formId":"69412502d80f0c1e7af075dd","level":"info","message":"Form submission saved to database","service":"agency-service","status":"submitted","timestamp":"2026-01-15T16:47:31.922Z"}
+{"dbId":4,"externalStatus":"submitted","formTitle":"Test","level":"info","message":"Form submission updated with API response","organizationName":"DDDIN","service":"agency-service","status":"processing","submissionId":"69691a24e2679d17d5aaa352","timestamp":"2026-01-15T16:47:32.743Z"}
+{"dbId":4,"formId":"69412502d80f0c1e7af075dd","language":"en","level":"info","message":"Form submitted successfully","service":"agency-service","submissionId":"69691a24e2679d17d5aaa352","timestamp":"2026-01-15T16:47:32.761Z"}
+{"agentId":58,"amount":"500","level":"info","message":"Generating agent commission","service":"agency-service","timestamp":"2026-01-15T16:47:32.889Z","transactionId":"TRXMKFONF079YCVD2","transferTypeId":"178"}
+{"agentId":58,"commissionId":2941,"level":"info","message":"Agent commission generated successfully","pending":false,"service":"agency-service","timestamp":"2026-01-15T16:47:33.205Z","transactionId":"TRXMKFONF079YCVD2"}
+{"agentId":58,"level":"info","message":"Commission generated successfully","service":"agency-service","success":true,"timestamp":"2026-01-15T16:47:33.273Z","transactionId":"TRXMKFONF079YCVD2"}
+{"agentId":58,"level":"info","message":"AQS form submission logged and updated successfully","service":"agency-service","submissionId":"69691a24e2679d17d5aaa352","timestamp":"2026-01-15T16:47:33.393Z","transactionId":"TRXMKFONF079YCVD2"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-15T16:47:33.499Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-15T16:47:33.785Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T16:53:07.575Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T16:53:07.584Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T16:53:17.557Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T16:53:17.564Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T16:53:25.988Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T16:53:25.993Z"}
+{"balance":22000,"level":"info","message":"Account balance check","minimumBalance":500,"service":"agency-service","sufficient":true,"timestamp":"2026-01-15T16:55:02.034Z"}
+{"agentId":58,"currentSubmissions":4,"formId":"69412502d80f0c1e7af075dd","level":"info","limit":5,"message":"Form submission limit check","service":"agency-service","timestamp":"2026-01-15T16:55:02.061Z"}
+{"agentId":58,"customerId":58,"formId":"69412502d80f0c1e7af075dd","ip":"::1","language":"en","level":"info","message":"Submitting form data","service":"agency-service","timestamp":"2026-01-15T16:55:02.065Z"}
+{"agentId":58,"formId":"69412502d80f0c1e7af075dd","level":"info","logTransactionId":"69412502d80f0c1e7af075dd_1768496102129","message":"Initial AQS form submission log created","service":"agency-service","timestamp":"2026-01-15T16:55:02.129Z"}
+{"dbId":5,"formId":"69412502d80f0c1e7af075dd","level":"info","message":"Form submission saved to database","service":"agency-service","status":"submitted","timestamp":"2026-01-15T16:55:02.137Z"}
+{"dbId":5,"externalStatus":"submitted","formTitle":"Test","level":"info","message":"Form submission updated with API response","organizationName":"DDDIN","service":"agency-service","status":"processing","submissionId":"69691be6e2679d17d5aaa366","timestamp":"2026-01-15T16:55:03.067Z"}
+{"dbId":5,"formId":"69412502d80f0c1e7af075dd","language":"en","level":"info","message":"Form submitted successfully","service":"agency-service","submissionId":"69691be6e2679d17d5aaa366","timestamp":"2026-01-15T16:55:03.069Z"}
+{"agentId":58,"amount":"500","level":"info","message":"Generating agent commission","service":"agency-service","timestamp":"2026-01-15T16:55:03.097Z","transactionId":"TRXMKFOX2G775JHJB","transferTypeId":"178"}
+{"agentId":58,"commissionId":2942,"level":"info","message":"Agent commission generated successfully","pending":false,"service":"agency-service","timestamp":"2026-01-15T16:55:03.255Z","transactionId":"TRXMKFOX2G775JHJB"}
+{"agentId":58,"level":"info","message":"Commission generated successfully","service":"agency-service","success":true,"timestamp":"2026-01-15T16:55:03.276Z","transactionId":"TRXMKFOX2G775JHJB"}
+{"agentId":58,"level":"info","logTransactionId":"69412502d80f0c1e7af075dd_1768496102129","message":"AQS form submission log updated to success","service":"agency-service","submissionId":"69691be6e2679d17d5aaa366","timestamp":"2026-01-15T16:55:03.289Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-15T16:55:03.337Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-15T16:55:03.620Z"}
+{"level":"info","message":"Hourly report cron job triggered","service":"agency-service","timestamp":"2026-01-15T17:00:00.951Z"}
+{"level":"info","message":"Starting hourly transaction report generation","service":"agency-service","timestamp":"2026-01-15T17:00:00.954Z"}
+{"level":"warn","message":"WhatsApp credentials not configured. Message not sent.","service":"agency-service","timestamp":"2026-01-15T17:00:01.069Z"}
+{"level":"info","message":"📊 *Hourly Transaction Report*\n⏰ 2026-01-15 18:00:00 - 2026-01-15 19:00:00\n\n📈 *Overall Statistics*\n• Total Transactions: 4\n• ✅ Successful: 1\n• ❌ Failed: 0\n• Success Rate: 25.00%\n\n💰 *Financial Summary*\n• Total Amount: 1,000 RWF\n• Success Amount: 0 RWF\n• Failed Amount: 0 RWF\n\n🔧 *By Service*\n\n*Commission*\n  Total: 2 | ✅ 0 | ❌ 0\n  Amount: 1,000 RWF\n\n*AQS*\n  Total: 2 | ✅ 1 | ❌ 0\n  Amount: 0 RWF","phoneNumber":"250788123456","service":"agency-service","timestamp":"2026-01-15T17:00:01.071Z"}
+{"failed":0,"level":"info","message":"Hourly transaction report sent successfully","service":"agency-service","successful":1,"timestamp":"2026-01-15T17:00:01.074Z","total":4}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T17:05:05.439Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T17:05:05.447Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T17:05:08.892Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T17:05:08.897Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T17:05:16.090Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T17:05:16.094Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T17:08:41.540Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T17:08:41.546Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T17:08:53.979Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T17:08:53.985Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T17:09:16.281Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T17:09:16.288Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T17:09:26.566Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T17:09:26.571Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T17:09:32.535Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T17:09:32.540Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T17:12:30.625Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T17:12:30.642Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-15T17:12:41.118Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-15T17:12:42.091Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-15T17:12:42.124Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-15T17:12:42.395Z"}
+{"balance":22000,"level":"info","message":"Account balance check","minimumBalance":500,"service":"agency-service","sufficient":true,"timestamp":"2026-01-15T17:12:55.113Z"}
+{"agentId":58,"currentSubmissions":5,"formId":"69412502d80f0c1e7af075dd","level":"info","limit":5,"message":"Form submission limit check","service":"agency-service","timestamp":"2026-01-15T17:12:55.150Z"}
+{"agentId":58,"customerId":58,"formId":"69412502d80f0c1e7af075dd","ip":"::1","language":"en","level":"info","message":"Submitting form data","service":"agency-service","timestamp":"2026-01-15T17:12:55.156Z"}
+{"agentId":58,"formId":"69412502d80f0c1e7af075dd","level":"info","message":"Initial AQS form submission log created","service":"agency-service","timestamp":"2026-01-15T17:12:55.217Z"}
+{"dbId":6,"formId":"69412502d80f0c1e7af075dd","level":"info","message":"Form submission saved to database","service":"agency-service","status":"submitted","timestamp":"2026-01-15T17:12:55.225Z"}
+{"dbId":6,"externalStatus":"submitted","formTitle":"Test","level":"info","message":"Form submission updated with API response","organizationName":"DDDIN","service":"agency-service","status":"processing","submissionId":"69692018e2679d17d5aaa388","timestamp":"2026-01-15T17:12:56.121Z"}
+{"dbId":6,"formId":"69412502d80f0c1e7af075dd","language":"en","level":"info","message":"Form submitted successfully","service":"agency-service","submissionId":"69692018e2679d17d5aaa388","timestamp":"2026-01-15T17:12:56.123Z"}
+{"agentId":58,"amount":"500","level":"info","message":"Generating agent commission","service":"agency-service","timestamp":"2026-01-15T17:12:56.145Z","transactionId":"TRXMKFPK2F9JGB3HU","transferTypeId":"178"}
+{"agentId":58,"commissionId":2943,"level":"info","message":"Agent commission generated successfully","pending":false,"service":"agency-service","timestamp":"2026-01-15T17:12:56.312Z","transactionId":"TRXMKFPK2F9JGB3HU"}
+{"agentId":58,"level":"info","message":"Commission generated successfully","service":"agency-service","success":true,"timestamp":"2026-01-15T17:12:56.331Z","transactionId":"TRXMKFPK2F9JGB3HU"}
+{"agentId":58,"level":"info","message":"AQS form submission log updated to success","service":"agency-service","submissionId":"69692018e2679d17d5aaa388","timestamp":"2026-01-15T17:12:56.352Z","transactionId":"TRXMKFPK2F9JGB3HU"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-15T17:12:56.409Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-15T17:12:56.670Z"}
+{"level":"info","message":" validation response","responseData":{"data":{"availTrxBalance":2185937.86,"customerAccountName":"KANAMUGIRE LEO EUSTACHE","deliveryMethods":[{"id":"sms","name":"SMS"}],"extraInfo":{"dec_date":"27/11/2025 10:52:05","is_full_pay":"No","pay_ref":"1328639408","tax_center":"GASABO TC","tax_type":"Identity Certificate","tin":"1197470087720123","validate_id":"20260115191617267"},"localStockMgt":null,"pdtId":"tax-rra-rw","pdtName":"RRA Tax","pdtStatusId":"active","selectAmount":null,"stock":null,"stockedPdts":null,"svcProviderName":"RRA","trxId":"6a92403f-2d41-416e-94e6-29970227569d","trxResult":"voucher","vendMax":300,"vendMin":300,"vendUnitId":"flexible","verticalId":"tax"}},"service":"agency-service","timestamp":"2026-01-15T17:16:19.966Z"}
+{"level":"info","message":" validation response","responseData":{"data":{"availTrxBalance":2185937.86,"customerAccountName":"KANAMUGIRE LEO EUSTACHE","deliveryMethods":[{"id":"sms","name":"SMS"}],"extraInfo":{"dec_date":"27/11/2025 10:52:05","is_full_pay":"No","pay_ref":"1328639408","tax_center":"GASABO TC","tax_type":"Identity Certificate","tin":"1197470087720123","validate_id":"20260115192011246"},"localStockMgt":null,"pdtId":"tax-rra-rw","pdtName":"RRA Tax","pdtStatusId":"active","selectAmount":null,"stock":null,"stockedPdts":null,"svcProviderName":"RRA","trxId":"d6c47fa9-7b79-49d1-ae36-9402437919d4","trxResult":"voucher","vendMax":300,"vendMin":300,"vendUnitId":"flexible","verticalId":"tax"}},"service":"agency-service","timestamp":"2026-01-15T17:20:18.571Z"}
+{"level":"info","message":" validation response","responseData":{"data":{"availTrxBalance":2185937.86,"customerAccountName":"KANAMUGIRE LEO EUSTACHE","deliveryMethods":[{"id":"sms","name":"SMS"}],"extraInfo":{"dec_date":"27/11/2025 10:52:05","is_full_pay":"No","pay_ref":"1328639408","tax_center":"GASABO TC","tax_type":"Identity Certificate","tin":"1197470087720123","validate_id":"20260115192210963"},"localStockMgt":null,"pdtId":"tax-rra-rw","pdtName":"RRA Tax","pdtStatusId":"active","selectAmount":null,"stock":null,"stockedPdts":null,"svcProviderName":"RRA","trxId":"1a2eab8f-3742-4e8d-ad29-7a015dd8a68e","trxResult":"voucher","vendMax":300,"vendMin":300,"vendUnitId":"flexible","verticalId":"tax"}},"service":"agency-service","timestamp":"2026-01-15T17:22:13.668Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-15T17:22:49.470Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-15T17:22:50.289Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-15T17:22:50.321Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-15T17:22:51.863Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-15T17:27:00.130Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-15T17:27:00.902Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-15T17:27:00.952Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-15T17:27:01.290Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-15T17:47:31.957Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-15T17:47:32.952Z"}
+{"ip":"::1","language":"en","level":"info","message":"Fetching external forms","service":"agency-service","timestamp":"2026-01-15T17:47:32.983Z"}
+{"formsCount":2,"language":"en","level":"info","message":"Forms retrieved successfully","service":"agency-service","timestamp":"2026-01-15T17:47:33.262Z"}
+{"level":"info","message":" validation response","responseData":{"data":{"availTrxBalance":2169837.86,"customerAccountName":"KANAMUGIRE LEO EUSTACHE","deliveryMethods":[{"id":"sms","name":"SMS"}],"extraInfo":{"dec_date":"27/11/2025 10:52:05","is_full_pay":"No","pay_ref":"1328639408","tax_center":"GASABO TC","tax_type":"Identity Certificate","tin":"1197470087720123","validate_id":"20260115194807957"},"localStockMgt":null,"pdtId":"tax-rra-rw","pdtName":"RRA Tax","pdtStatusId":"active","selectAmount":null,"stock":null,"stockedPdts":null,"svcProviderName":"RRA","trxId":"de3d7503-648d-44d0-a349-76cfb74a7512","trxResult":"voucher","vendMax":300,"vendMin":300,"vendUnitId":"flexible","verticalId":"tax"}},"service":"agency-service","timestamp":"2026-01-15T17:48:10.579Z"}
+{"level":"info","message":" validation response","responseData":{"data":{"availTrxBalance":2089385.8599999999,"customerAccountName":"KANAMUGIRE LEO EUSTACHE","deliveryMethods":[{"id":"sms","name":"SMS"}],"extraInfo":{"dec_date":"27/11/2025 10:52:05","is_full_pay":"No","pay_ref":"1328639408","tax_center":"GASABO TC","tax_type":"Identity Certificate","tin":"1197470087720123","validate_id":"20260115195912290"},"localStockMgt":null,"pdtId":"tax-rra-rw","pdtName":"RRA Tax","pdtStatusId":"active","selectAmount":null,"stock":null,"stockedPdts":null,"svcProviderName":"RRA","trxId":"987fd174-7d89-4669-a3ac-b35ea065cbb1","trxResult":"voucher","vendMax":300,"vendMin":300,"vendUnitId":"flexible","verticalId":"tax"}},"service":"agency-service","timestamp":"2026-01-15T17:59:14.957Z"}
+{"level":"info","message":"Hourly report cron job triggered","service":"agency-service","timestamp":"2026-01-15T18:00:00.784Z"}
+{"level":"info","message":"Starting hourly transaction report generation","service":"agency-service","timestamp":"2026-01-15T18:00:00.785Z"}
+{"level":"info","message":"Daily evening report cron job triggered","service":"agency-service","timestamp":"2026-01-15T18:00:00.799Z"}
+{"level":"info","message":"Starting daily transaction report generation","service":"agency-service","timestamp":"2026-01-15T18:00:00.799Z"}
+{"level":"warn","message":"WhatsApp credentials not configured. Message not sent.","service":"agency-service","timestamp":"2026-01-15T18:00:00.900Z"}
+{"level":"info","message":"📊 *Hourly Transaction Report*\n⏰ 2026-01-15 19:00:00 - 2026-01-15 20:00:00\n\n📈 *Overall Statistics*\n• Total Transactions: 2\n• ✅ Successful: 0\n• ❌ Failed: 0\n• Success Rate: 0.00%\n\n💰 *Financial Summary*\n• Total Amount: 500 RWF\n• Success Amount: 0 RWF\n• Failed Amount: 0 RWF\n\n🔧 *By Service*\n\n*AQS*\n  Total: 1 | ✅ 0 | ❌ 0\n  Amount: 0 RWF\n\n*Commission*\n  Total: 1 | ✅ 0 | ❌ 0\n  Amount: 500 RWF","phoneNumber":"250788123456","service":"agency-service","timestamp":"2026-01-15T18:00:00.901Z"}
+{"failed":0,"level":"info","message":"Hourly transaction report sent successfully","service":"agency-service","successful":0,"timestamp":"2026-01-15T18:00:00.901Z","total":2}
+{"level":"warn","message":"WhatsApp credentials not configured. Message not sent.","service":"agency-service","timestamp":"2026-01-15T18:00:00.902Z"}
+{"level":"info","message":"📊 *Daily Transaction Report*\n⏰ 2026-01-15 00:00:00 - 2026-01-15 23:59:59\n\n📈 *Overall Statistics*\n• Total Transactions: 7\n• ✅ Successful: 1\n• ❌ Failed: 0\n• Success Rate: 14.29%\n\n💰 *Financial Summary*\n• Total Amount: 2,000 RWF\n• Success Amount: 0 RWF\n• Failed Amount: 0 RWF\n\n🔧 *By Service*\n\n*Commission*\n  Total: 4 | ✅ 0 | ❌ 0\n  Amount: 2,000 RWF\n\n*AQS*\n  Total: 3 | ✅ 1 | ❌ 0\n  Amount: 0 RWF","phoneNumber":"250788123456","service":"agency-service","timestamp":"2026-01-15T18:00:00.903Z"}
+{"failed":0,"level":"info","message":"Daily transaction report sent successfully","service":"agency-service","successful":1,"timestamp":"2026-01-15T18:00:00.903Z","total":7}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T18:23:33.388Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T18:23:33.394Z"}
+{"level":"info","message":" validation response","responseData":{"data":{"availTrxBalance":1638885.8599999999,"customerAccountName":"KANAMUGIRE LEO EUSTACHE","deliveryMethods":[{"id":"sms","name":"SMS"}],"extraInfo":{"dec_date":"27/11/2025 10:52:05","is_full_pay":"No","pay_ref":"1328639408","tax_center":"GASABO TC","tax_type":"Identity Certificate","tin":"1197470087720123","validate_id":"20260115202449596"},"localStockMgt":null,"pdtId":"tax-rra-rw","pdtName":"RRA Tax","pdtStatusId":"active","selectAmount":null,"stock":null,"stockedPdts":null,"svcProviderName":"RRA","trxId":"0cbe8ae4-29a1-4fea-9c9f-e85246182b2e","trxResult":"voucher","vendMax":300,"vendMin":300,"vendUnitId":"flexible","verticalId":"tax"}},"service":"agency-service","timestamp":"2026-01-15T18:24:55.003Z"}
+{"coreError":{"errorCode":"INVALID_ARGUMENT","errorDetails":"NO_POSSIBLE_TRANSFER_TYPES"},"errorDetails":"NO_POSSIBLE_TRANSFER_TYPES","level":"error","message":"Biller payment failed","service":"agency-service","status":400,"timestamp":"2026-01-15T18:25:08.954Z"}
+{"level":"info","message":"Initializing scheduled transaction reports","service":"agency-service","timestamp":"2026-01-15T18:28:46.167Z"}
+{"dailyEvening":"Every day at 8:00 PM","dailyMorning":"Every day at 8:00 AM","hourly":"Every hour at :00","level":"info","message":"Scheduled jobs initialized successfully","service":"agency-service","timestamp":"2026-01-15T18:28:46.173Z"}
+{"level":"info","message":" validation response","responseData":{"data":{"availTrxBalance":1638885.8599999999,"customerAccountName":"KANAMUGIRE LEO EUSTACHE","deliveryMethods":[{"id":"sms","name":"SMS"}],"extraInfo":{"dec_date":"27/11/2025 10:52:05","is_full_pay":"No","pay_ref":"1328639408","tax_center":"GASABO TC","tax_type":"Identity Certificate","tin":"1197470087720123","validate_id":"20260115203007053"},"localStockMgt":null,"pdtId":"tax-rra-rw","pdtName":"RRA Tax","pdtStatusId":"active","selectAmount":null,"stock":null,"stockedPdts":null,"svcProviderName":"RRA","trxId":"0b5a8b2f-47ef-45d3-bfe4-1907ee129c6a","trxResult":"voucher","vendMax":300,"vendMin":300,"vendUnitId":"flexible","verticalId":"tax"}},"service":"agency-service","timestamp":"2026-01-15T18:30:10.143Z"}
+{"data":{"id":269569,"pending":false},"level":"info","message":"Biller payment response from core system","service":"agency-service","status":200,"timestamp":"2026-01-15T18:30:16.861Z"}
+{"level":"info","message":" validation response","responseData":{"data":{"availTrxBalance":1638425.8599999999,"customerAccountName":"","deliveryMethods":[{"id":"direct_topup","name":"Direct Topup"}],"extraInfo":null,"localStockMgt":null,"pdtId":"airtime-mtn-rw","pdtName":"MTN Rwanda Airtime","pdtStatusId":"active","selectAmount":null,"stock":null,"stockedPdts":null,"svcProviderName":"MTN Rwanda","trxId":"dab08af9-8050-4fcd-bc3f-920811ca146a","trxResult":"direct_topup","vendMax":250000,"vendMin":100,"vendUnitId":"flexible","verticalId":"airtime"}},"service":"agency-service","timestamp":"2026-01-15T18:57:46.022Z"}
+{"data":{"id":269578,"pending":false},"level":"info","message":"Biller payment response from core system","service":"agency-service","status":200,"timestamp":"2026-01-15T18:57:55.329Z"}

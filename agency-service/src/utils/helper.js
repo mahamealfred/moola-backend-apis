@@ -28,6 +28,12 @@ export const generateRequestId=() =>{
     return id;
 }
 
+export const generateUniqueId=() =>{
+    const timestamp = Date.now().toString(36);
+    const randomStr = Math.random().toString(36).substring(2, 8);
+    return `TRX${timestamp}${randomStr}`.toUpperCase();
+}
+
 export const generateRequestToken=(AFFCODE,requestId,AGENT_CODE,SOURCE_CODE,sourceIp)=> {
      const requestTokenString = `${AFFCODE}${requestId}${AGENT_CODE}${SOURCE_CODE}${sourceIp}`;
      const requestToken = CryptoJS.SHA512(requestTokenString).toString();

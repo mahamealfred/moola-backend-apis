@@ -1441,3 +1441,31 @@
 {"level":"info","message":"Successfully retrieved Account Balance","service":"account-service","timestamp":"2025-12-08T14:16:36.105Z"}
 {"level":"info","message":"Get Account Balance endpoint hit...","service":"account-service","timestamp":"2025-12-08T14:17:14.184Z"}
 {"level":"info","message":"Successfully retrieved Account Balance","service":"account-service","timestamp":"2025-12-08T14:17:14.879Z"}
+{"level":"info","message":"Get Account Balance endpoint hit...","service":"account-service","timestamp":"2026-01-14T13:14:26.264Z"}
+{"level":"info","message":"Successfully retrieved Account Balance","service":"account-service","timestamp":"2026-01-14T13:14:26.742Z"}
+{"level":"info","message":"Get Account Balance endpoint hit...","service":"account-service","timestamp":"2026-01-14T13:14:26.759Z"}
+{"level":"info","message":"Successfully retrieved Account Balance","service":"account-service","timestamp":"2026-01-14T13:14:26.893Z"}
+{"level":"info","message":"Get Account Balance endpoint hit...","service":"account-service","timestamp":"2026-01-14T14:49:26.243Z"}
+{"level":"info","message":"Successfully retrieved Account Balance","service":"account-service","timestamp":"2026-01-14T14:49:26.639Z"}
+{"level":"info","message":"Get Account Balance endpoint hit...","service":"account-service","timestamp":"2026-01-14T14:49:26.654Z"}
+{"level":"info","message":"Successfully retrieved Account Balance","service":"account-service","timestamp":"2026-01-14T14:49:26.779Z"}
+{"level":"info","message":"Get Account Balance endpoint hit...","service":"account-service","timestamp":"2026-01-14T14:50:13.290Z"}
+{"level":"info","message":"Successfully retrieved Account Balance","service":"account-service","timestamp":"2026-01-14T14:50:13.653Z"}
+{"level":"info","message":"Get Account Balance endpoint hit...","service":"account-service","timestamp":"2026-01-14T14:50:13.668Z"}
+{"level":"info","message":"Successfully retrieved Account Balance","service":"account-service","timestamp":"2026-01-14T14:50:13.803Z"}
+{"level":"info","message":"Get Account Balance endpoint hit...","service":"account-service","timestamp":"2026-01-14T14:52:23.387Z"}
+{"level":"info","message":"Successfully retrieved Account Balance","service":"account-service","timestamp":"2026-01-14T14:52:23.720Z"}
+{"level":"info","message":"Get Account Balance endpoint hit...","service":"account-service","timestamp":"2026-01-14T14:52:23.739Z"}
+{"level":"info","message":"Successfully retrieved Account Balance","service":"account-service","timestamp":"2026-01-14T14:52:23.860Z"}
+{"level":"info","message":"Get Account Balance endpoint hit...","service":"account-service","timestamp":"2026-01-14T14:52:38.761Z"}
+{"level":"info","message":"Successfully retrieved Account Balance","service":"account-service","timestamp":"2026-01-14T14:52:39.084Z"}
+{"level":"info","message":"Get Account Balance endpoint hit...","service":"account-service","timestamp":"2026-01-14T14:52:39.160Z"}
+{"level":"info","message":"Successfully retrieved Account Balance","service":"account-service","timestamp":"2026-01-14T14:52:39.281Z"}
+{"level":"info","message":"Get Account Balance endpoint hit...","service":"account-service","timestamp":"2026-01-14T14:53:22.401Z"}
+{"level":"info","message":"Successfully retrieved Account Balance","service":"account-service","timestamp":"2026-01-14T14:53:22.750Z"}
+{"level":"info","message":"Get Account Balance endpoint hit...","service":"account-service","timestamp":"2026-01-14T14:53:22.760Z"}
+{"level":"info","message":"Successfully retrieved Account Balance","service":"account-service","timestamp":"2026-01-14T14:53:22.888Z"}
+{"level":"info","message":"Get Account Balance endpoint hit...","service":"account-service","timestamp":"2026-01-14T14:53:37.679Z"}
+{"level":"info","message":"Successfully retrieved Account Balance","service":"account-service","timestamp":"2026-01-14T14:53:38.101Z"}
+{"level":"info","message":"Get Account Balance endpoint hit...","service":"account-service","timestamp":"2026-01-14T14:53:38.233Z"}
+{"level":"info","message":"Successfully retrieved Account Balance","service":"account-service","timestamp":"2026-01-14T14:53:38.365Z"}

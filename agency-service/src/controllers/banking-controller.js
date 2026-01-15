@@ -253,28 +253,8 @@ export const executeEcoCashOut = async (req, res) => {
     return res.status(400).json(createErrorResponse('validation.missing_withdraw_fields', req.language, 400));
   }
 
-   const authHeader = req.headers['authorization'];
-  const token = authHeader && authHeader.split(' ')[1];
-   const username = process.env.AGENCY_BANKING_USERNAME;
-   const password = process.env.AGENCY_BANKING_USERPASS
-   const agencyBankingUserAuth = Buffer.from(`${username}:${password}`).toString('base64');
 
-  let agent_name = 'UnknownAgent';
-  let userAuth = null;
- let userId=null;
-  try {
-    const decodedToken = await new Promise((resolve, reject) =>
-      jwt.verify(token, process.env.JWT_SECRET, (err, user) =>
-        err ? reject(err) : resolve(user)
-      )
-    );
-
-    userId = decodedToken.id;
-    userAuth = decodedToken.userAuth;
-  } catch (err) {
-    logger.warn('Invalid token', { error: err.message });
-    return res.status(401).json(createErrorResponse('authentication.invalid_token', req.language, 401));
-  }
+  
   let description= `EcoCash withdraw - Amount: ${amount}, Sender: ${sendername}, Phone: ${senderphone}, Account: ${senderaccount}, Narration: ${narration}, Currency: ${ccy}`
   const payload = buildEcoCashOutPayload({
     amount,

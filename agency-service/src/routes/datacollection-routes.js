@@ -1,5 +1,7 @@
 import express from 'express';
 import { getExternalForms, submitFormData } from '../controllers/datacollection-controller.js';
+import checkFormSubmissionLimit from '../middleware/formSubmissionLimiter.js';
+import { checkAccountBalance } from '../middleware/accountBalanceChecker.js';
 
 const router = express.Router();
 
@@ -12,6 +14,7 @@ const router = express.Router();
 router.get('/external/forms', getExternalForms);
 
 // POST endpoint - Submit form data
-router.post('/external/forms', submitFormData);
+// POST /external/forms/:formId/submit
+router.post('/external/forms/:formId/submit', checkAccountBalance, checkFormSubmissionLimit, submitFormData);
 
 export default router;

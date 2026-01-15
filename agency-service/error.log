@@ -592,3 +592,6 @@
 {"error":"Cannot read properties of null (reading 'agentCategory')","level":"error","message":"Execute routing failed","service":"agency-service","timestamp":"2026-01-09T13:22:26.625Z"}
 {"error":"agentCategory is not defined","level":"error","message":"Execute routing failed","service":"agency-service","timestamp":"2026-01-11T19:31:53.186Z"}
 {"error":{"msg":"Failed to validate/invalid payment reference"},"level":"error","message":"Phone number validation failed","service":"agency-service","status":400,"timestamp":"2026-01-11T19:47:24.646Z"}
+{"dbId":1,"error":"Positional replacement (?) 0 has no entry in the replacement map (replacements[0] is undefined).","level":"error","message":"Error updating form submission in database","service":"agency-service","timestamp":"2026-01-14T16:21:24.137Z"}
+{"error":{"msg":"Failed to validate/invalid payment reference"},"level":"error","message":"Phone number validation failed","service":"agency-service","status":400,"timestamp":"2026-01-15T14:41:24.566Z"}
+{"coreError":{"errorCode":"INVALID_ARGUMENT","errorDetails":"NO_POSSIBLE_TRANSFER_TYPES"},"errorDetails":"NO_POSSIBLE_TRANSFER_TYPES","level":"error","message":"Biller payment failed","service":"agency-service","status":400,"timestamp":"2026-01-15T18:25:08.954Z"}
